@@ -126,7 +126,7 @@
         "servicefabricsvcswcf-2.6.204",
         "servicefabricsvcswcf-2.7.0-preview5718"
       ],
-      "open_to_public_contributors": false,
+      "open_to_public_contributors": true,
       "type_mapping": {
         "APIConnector": "Content",
         "RestApi": "Content",
@@ -141,6 +141,8 @@
   ],
   "notification_subscribers": [],
   "branches_to_filter": [],
+  "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/azure-docs-sdk-dotnet.de-DE",
+  "git_repository_branch_open_to_public_contributors": "live",
   "continue_with_document_error": true,
   "skip_source_output_uploading": false,
   "need_preview_pull_request": true,
