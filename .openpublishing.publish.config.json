@@ -140,7 +140,9 @@
     }
   ],
   "notification_subscribers": [],
-  "branches_to_filter": [],
+  "branches_to_filter": [
+    "live-sxs"
+  ],
   "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/azure-docs-sdk-dotnet.pt-BR",
   "git_repository_branch_open_to_public_contributors": "live",
   "continue_with_document_error": true,
