@@ -182,7 +182,6 @@
       "branch": "master", 
       "path_to_root": "_themes"
     },
-  "dependent_repositories": [
     {
       "path_to_root": "_repo.en-us",
       "url": "https://github.com/azure/azure-docs-sdk-dotnet",
