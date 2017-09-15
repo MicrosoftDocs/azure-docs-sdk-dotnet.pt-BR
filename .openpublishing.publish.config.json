@@ -39,7 +39,7 @@
         "_dependentPackages/memberpage.plugins/content"
       ], 
       "build_output_subfolder": ".", 
-      "locale": "en-us", 
+      "locale": "pt-br", 
       "docset_name": "azuredotnet", 
       "open_to_public_contributors": true, 
       "monikers": [
