@@ -175,9 +175,11 @@
       }
     }
   ], 
+  "git_repository_branch_open_to_public_contributors": "live",
+  "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/azure-docs-sdk-dotnet.pt-BR",
   "dependent_repositories": [
     {
-      "url": "https://github.com/Microsoft/templates.docs.msft", 
+      "url": "https://github.com/Microsoft/templates.docs.msft.pt-br", 
       "branch_mapping": {}, 
       "branch": "master", 
       "path_to_root": "_themes"
