@@ -42,7 +42,7 @@ sections:
             html: <p>Ferramentas de desenvolvedor</p>
             image:
               src: 'https://docs.microsoft.com/en-us/media/common/i_download-install.svg'
-            title: Ferramentas &amp; SDK
+            title: Ferramentas &amp; do SDK
           - href: 'https://docs.microsoft.com/en-us/dotnet/api/overview/azure/?view=azure-dotnet'
             html: <p>Pacotes NuGet do .NET</p>
             image:
@@ -72,7 +72,7 @@ sections:
           - image:
               src: 'https://docs.microsoft.com/en-us/azure/media/index/cosmosdb.svg'
             title: Compilar um aplicativo .NET com o Cosmos DB
-            href: 'https://docs.microsoft.com/azure/cosmos-db/documentdb-dotnet-application'
+            href: 'https://docs.microsoft.com/en-us/azure/cosmos-db/create-documentdb-dotnet'
           - image:
               src: 'https://docs.microsoft.com/en-us/azure/media/index/fabric.svg'
             title: Criar um aplicativo de microsserviço .NET com o Service Fabric
@@ -115,4 +115,4 @@ sections:
           - html: '<a href="https://docs.microsoft.com/azure/container-service/container-service-kubernetes-windows-walkthrough">Introdução ao Kubernetes e aos contêineres do Windows</a>'
           - html: '<a href="https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-dotnet">Conectar e consultar o Banco de Dados SQL do Azure</a>'
           - html: '<a href="https://docs.microsoft.com/azure/postgresql/connect-csharp">Conectar e consultar o Banco de Dados do Azure para PostgreSQL</a>'
-          - html: '<a href="https://docs.microsoft.com/azure/cosmos-db/documentdb-dotnetcore-get-started">Introdução à API DocumentDB do CosmosDB</a>'
+          - html: '<a href="https://docs.microsoft.com/azure/cosmos-db/documentdb-dotnetcore-get-started">Introdução à API DocumentDB do CosmosDB em .NET Core</a>'
