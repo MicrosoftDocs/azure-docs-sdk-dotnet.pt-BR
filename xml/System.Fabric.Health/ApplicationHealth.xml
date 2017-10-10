@@ -5,6 +5,7 @@
   <AssemblyInfo>
     <AssemblyName>System.Fabric</AssemblyName>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
     <AssemblyVersion>255.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -26,6 +27,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
       </AssemblyInfo>
@@ -49,6 +51,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
       </AssemblyInfo>
@@ -76,6 +79,12 @@
             If the input filter is not specified, all deployed applications are returned.</para>
         <para>Only deployed applications that respect the <see cref="P:System.Fabric.Description.ApplicationHealthQueryDescription.DeployedApplicationsFilter" /> (if specified) are returned. 
             If the input filter is not specified, all deployed applications are returned.</para>
+        <para>Only deployed applications that respect the <see cref="P:System.Fabric.Description.ApplicationHealthQueryDescription.DeployedApplicationsFilter" /> (if specified) are returned. 
+            If the input filter is not specified, all deployed applications are returned.</para>
+        <para>Only deployed applications that respect the <see cref="P:System.Fabric.Description.ApplicationHealthQueryDescription.DeployedApplicationsFilter" /> (if specified) are returned. 
+            If the input filter is not specified, all deployed applications are returned.</para>
+        <para>Only deployed applications that respect the <see cref="P:System.Fabric.Description.ApplicationHealthQueryDescription.DeployedApplicationsFilter" /> (if specified) are returned. 
+            If the input filter is not specified, all deployed applications are returned.</para>
       </Docs>
     </Member>
     <Member MemberName="HealthStatistics">
@@ -86,6 +95,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Fabric</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Fabric.Health.HealthStatistics</ReturnType>
@@ -113,6 +123,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
         <AssemblyVersion>255.0.0.0</AssemblyVersion>
         <AssemblyName>System.Fabric</AssemblyName>
       </AssemblyInfo>
@@ -140,6 +151,12 @@
             If the input filter is not specified, all services are returned.</para>
         <para>Only services that respect the <see cref="P:System.Fabric.Description.ApplicationHealthQueryDescription.ServicesFilter" /> (if specified) are returned. 
             If the input filter is not specified, all services are returned.</para>
+        <para>Only services that respect the <see cref="P:System.Fabric.Description.ApplicationHealthQueryDescription.ServicesFilter" /> (if specified) are returned. 
+            If the input filter is not specified, all services are returned.</para>
+        <para>Only services that respect the <see cref="P:System.Fabric.Description.ApplicationHealthQueryDescription.ServicesFilter" /> (if specified) are returned. 
+            If the input filter is not specified, all services are returned.</para>
+        <para>Only services that respect the <see cref="P:System.Fabric.Description.ApplicationHealthQueryDescription.ServicesFilter" /> (if specified) are returned. 
+            If the input filter is not specified, all services are returned.</para>
       </Docs>
     </Member>
     <Member MemberName="ToString">
@@ -150,6 +167,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Fabric</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
