@@ -2,7 +2,7 @@
   "need_generate_pdf": false, 
   "need_preview_pull_request": false, 
   "branches_to_filter": [
-    "live-sxs"
+    "live"
   ], 
   "enable_incremental_build": true, 
   "SplitTOC": "api/toc.yml", 
