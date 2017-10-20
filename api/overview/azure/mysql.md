@@ -27,7 +27,7 @@ Trabalhar com dados e recursos armazenados no [Banco de Dados do Azure para MySQ
 
 A biblioteca de cliente recomendada para acessar o Banco de Dados do Azure para MySQL é o [Connector/Net](https://dev.mysql.com/doc/connector-net/en) do MySQL. Use o pacote para se conectar ao banco de dados e executar instruções SQL diretamente. 
 
-Instale o [pacote NuGet](https://www.nuget.org/packages/MySql.Data) diretamente do [console do Gerenciador de Pacotes] [ PackageManager] do Visual Studio ou com a [CLI do .NET Core] [DotNetCLI].
+Instale o [pacote NuGet](https://www.nuget.org/packages/MySql.Data) diretamente do [console do Gerenciador de Pacotes][PackageManager] do Visual Studio ou com a [CLI do .NET Core][DotNetCLI].
 
 #### <a name="visual-studio-package-manager"></a>Gerenciador de Pacotes do Visual Studio
 

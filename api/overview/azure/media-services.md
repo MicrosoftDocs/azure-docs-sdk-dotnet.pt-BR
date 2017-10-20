@@ -31,7 +31,7 @@ A biblioteca do SDK do .NET dos Serviços de Mídia do Azure permite que você p
 
 Para saber mais, confira [Introdução ao fornecimento de conteúdo sob demanda usando o SDK do .NET](/azure/media-services/media-services-dotnet-get-started).
 
-Instale o [pacote NuGet](https://www.nuget.org/packages/windowsazure.mediaservices) diretamente do [console do Gerenciador de Pacotes] [ PackageManager] do Visual Studio ou com a [CLI do .NET Core] [DotNetCLI].
+Instale o [pacote NuGet](https://www.nuget.org/packages/windowsazure.mediaservices) diretamente do [console do Gerenciador de Pacotes][PackageManager] do Visual Studio ou com a [CLI do .NET Core][DotNetCLI].
 
 #### <a name="visual-studio-package-manager"></a>Gerenciador de Pacotes do Visual Studio
 

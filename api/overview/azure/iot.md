@@ -36,7 +36,7 @@ O SDK de serviço para .NET facilita a criação de aplicativos de back-end com 
 
 Use o cliente de dispositivos IoT .NET para se conectar e enviar mensagens para o Hub IoT.
 
-Instale o [pacote NuGet]( https://www.nuget.org/packages/Microsoft.Azure.Devices.Client) diretamente do [console do Gerenciador de Pacotes] [ PackageManager] do Visual Studio ou com a [CLI do .NET Core] [DotNetCLI].
+Instale o [pacote NuGet]( https://www.nuget.org/packages/Microsoft.Azure.Devices.Client) diretamente do [console do Gerenciador de Pacotes][PackageManager] do Visual Studio ou com a [CLI do .NET Core][DotNetCLI].
 
 #### <a name="visual-studio-package-manager"></a>Gerenciador de Pacotes do Visual Studio
 

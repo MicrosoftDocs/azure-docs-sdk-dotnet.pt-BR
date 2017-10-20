@@ -29,7 +29,7 @@ Saiba mais sobre o Backup do Azure lendo [O que é o Backup do Azure?](/azure/ba
 
 Use a biblioteca de gerenciamento de backups para gerenciar backups e configurar cofres dos Serviços de Recuperação.
 
-Instale o [pacote NuGet](https://www.nuget.org/packages/Microsoft.Azure.Management.RecoveryServices.Backup) diretamente do [console do Gerenciador de Pacotes] [ PackageManager] do Visual Studio ou com a [CLI do .NET Core] [DotNetCLI].
+Instale o [pacote NuGet](https://www.nuget.org/packages/Microsoft.Azure.Management.RecoveryServices.Backup) diretamente do [console do Gerenciador de Pacotes][PackageManager] do Visual Studio ou com a [CLI do .NET Core][DotNetCLI].
 
 #### <a name="visual-studio-package-manager"></a>Gerenciador de Pacotes do Visual Studio
 

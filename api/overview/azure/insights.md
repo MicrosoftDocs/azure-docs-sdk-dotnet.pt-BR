@@ -27,7 +27,7 @@ O Application Insights é um serviço de monitoramento e diagnóstico extensíve
 
 O SDK cliente do Application Insights para .NET permite que você registre eventos, dados agregados, exceções, dependências e métricas em log para o Azure para análise futura.
 
-Instale o [pacote NuGet](https://www.nuget.org/packages/Microsoft.ApplicationInsights ) diretamente do [console do Gerenciador de Pacotes] [ PackageManager] do Visual Studio ou com a [CLI do .NET Core] [DotNetCLI].
+Instale o [pacote NuGet](https://www.nuget.org/packages/Microsoft.ApplicationInsights ) diretamente do [console do Gerenciador de Pacotes][PackageManager] do Visual Studio ou com a [CLI do .NET Core][DotNetCLI].
 
 #### <a name="visual-studio-package-manager"></a>Gerenciador de Pacotes do Visual Studio
 
