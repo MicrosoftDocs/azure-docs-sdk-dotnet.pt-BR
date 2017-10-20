@@ -27,7 +27,7 @@ O [Azure Search](https://docs.microsoft.com/azure/search/search-what-is-azure-se
 
 Use a biblioteca de cliente do Azure Search para acessar e executar operações de indexação e pesquisa em um serviço de pesquisa, índice, documentos ou outro objeto. Para obter uma introdução passo a passo, confira [Como usar o Azure Search em um aplicativo .NET](https://docs.microsoft.com/azure/search/search-howto-dotnet-sdk).
 
-Instale o [pacote NuGet](https://www.nuget.org/packages/Microsoft.Azure.Search) diretamente do [console do Gerenciador de Pacotes] [ PackageManager] do Visual Studio ou com a [CLI do .NET Core] [DotNetCLI].
+Instale o [pacote NuGet](https://www.nuget.org/packages/Microsoft.Azure.Search) diretamente do [console do Gerenciador de Pacotes][PackageManager] do Visual Studio ou com a [CLI do .NET Core][DotNetCLI].
 
 #### <a name="visual-studio-package-manager"></a>Gerenciador de Pacotes do Visual Studio
 
@@ -67,7 +67,7 @@ ISearchIndexClient indexClient = serviceClient.Indexes.GetClient("hotels");
 
 Use a biblioteca de gerenciamento do Azure Search para provisionar um serviço, gerenciar chaves de API e ajustar os recursos. O gerenciamento de serviço tem uma dependência no Azure Resource Manager para identificação de locatário e assinante. Normalmente, a autenticação e o registro de aplicativo com o Azure Active Directory também são necessários para dar suporte ao fluxo de trabalho. Para obter uma introdução sobre o provisionamento do serviço Azure Search, confira [Como usar a API REST de gerenciamento](https://docs.microsoft.com/rest/api/searchmanagement/search-howto-management-rest-api).
 
-Instale o [pacote NuGet](https://www.nuget.org/packages/Microsoft.Azure.Management.Search) diretamente do [console do Gerenciador de Pacotes] [ PackageManager] do Visual Studio ou com a [CLI do .NET Core] [DotNetCLI].
+Instale o [pacote NuGet](https://www.nuget.org/packages/Microsoft.Azure.Management.Search) diretamente do [console do Gerenciador de Pacotes][PackageManager] do Visual Studio ou com a [CLI do .NET Core][DotNetCLI].
 
 #### <a name="visual-studio-package-manager"></a>Gerenciador de Pacotes do Visual Studio
 
