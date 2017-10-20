@@ -17,19 +17,19 @@ ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 08/30/2017
 ---
-# <a name="azure-application-insights-libraries-for-net"></a><span data-ttu-id="8b436-104">Bibliotecas do Azure Application Insights para .NET</span><span class="sxs-lookup"><span data-stu-id="8b436-104">Azure Application Insights libraries for .NET</span></span>
+# <a name="azure-application-insights-libraries-for-net"></a><span data-ttu-id="50c11-104">Bibliotecas do Azure Application Insights para .NET</span><span class="sxs-lookup"><span data-stu-id="50c11-104">Azure Application Insights libraries for .NET</span></span>
 
-## <a name="overview"></a><span data-ttu-id="8b436-105">Visão geral</span><span class="sxs-lookup"><span data-stu-id="8b436-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="50c11-105">Visão geral</span><span class="sxs-lookup"><span data-stu-id="50c11-105">Overview</span></span>
 
-<span data-ttu-id="8b436-106">O Application Insights é um serviço de monitoramento e diagnóstico extensível para desenvolvedores Web com recursos de análise avançada ad hoc.</span><span class="sxs-lookup"><span data-stu-id="8b436-106">Application Insights is an extensible monitoring & diagnostics service for web developers with powerful ad-hoc analytics capabilities.</span></span> <span data-ttu-id="8b436-107">Você pode usar as classes no namespace do ApplicationInsights para configurar a coleta de telemetria e enviar telemetria personalizada de qualquer aplicativo seu que deseja monitorar.</span><span class="sxs-lookup"><span data-stu-id="8b436-107">You can use the classes in the ApplicationInsights namespace to configure telemetry collection and send any custom telemetry from your applications that you want to monitor.</span></span>
+<span data-ttu-id="50c11-106">O Application Insights é um serviço de monitoramento e diagnóstico extensível para desenvolvedores Web com recursos de análise avançada ad hoc.</span><span class="sxs-lookup"><span data-stu-id="50c11-106">Application Insights is an extensible monitoring & diagnostics service for web developers with powerful ad-hoc analytics capabilities.</span></span> <span data-ttu-id="50c11-107">Você pode usar as classes no namespace do ApplicationInsights para configurar a coleta de telemetria e enviar telemetria personalizada de qualquer aplicativo seu que deseja monitorar.</span><span class="sxs-lookup"><span data-stu-id="50c11-107">You can use the classes in the ApplicationInsights namespace to configure telemetry collection and send any custom telemetry from your applications that you want to monitor.</span></span>
 
-## <a name="client-library"></a><span data-ttu-id="8b436-108">Biblioteca do cliente</span><span class="sxs-lookup"><span data-stu-id="8b436-108">Client library</span></span>
+## <a name="client-library"></a><span data-ttu-id="50c11-108">Biblioteca do cliente</span><span class="sxs-lookup"><span data-stu-id="50c11-108">Client library</span></span>
 
-<span data-ttu-id="8b436-109">O SDK cliente do Application Insights para .NET permite que você registre eventos, dados agregados, exceções, dependências e métricas em log para o Azure para análise futura.</span><span class="sxs-lookup"><span data-stu-id="8b436-109">The Application Insights client SDK for .NET allows you to log event, aggregated data, exceptions, dependency, and metrics to Azure for future analysis.</span></span>
+<span data-ttu-id="50c11-109">O SDK cliente do Application Insights para .NET permite que você registre eventos, dados agregados, exceções, dependências e métricas em log para o Azure para análise futura.</span><span class="sxs-lookup"><span data-stu-id="50c11-109">The Application Insights client SDK for .NET allows you to log event, aggregated data, exceptions, dependency, and metrics to Azure for future analysis.</span></span>
 
-<span data-ttu-id="8b436-110">Instale o [pacote NuGet](https://www.nuget.org/packages/Microsoft.ApplicationInsights ) diretamente do [console do Gerenciador de Pacotes] [ PackageManager] do Visual Studio ou com a [CLI do .NET Core] [DotNetCLI].</span><span class="sxs-lookup"><span data-stu-id="8b436-110">Install the [NuGet package](https://www.nuget.org/packages/Microsoft.ApplicationInsights ) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
+<span data-ttu-id="50c11-110">Instale o [pacote NuGet](https://www.nuget.org/packages/Microsoft.ApplicationInsights ) diretamente do [console do Gerenciador de Pacotes][PackageManager] do Visual Studio ou com a [CLI do .NET Core][DotNetCLI].</span><span class="sxs-lookup"><span data-stu-id="50c11-110">Install the [NuGet package](https://www.nuget.org/packages/Microsoft.ApplicationInsights ) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
 
-#### <a name="visual-studio-package-manager"></a><span data-ttu-id="8b436-111">Gerenciador de Pacotes do Visual Studio</span><span class="sxs-lookup"><span data-stu-id="8b436-111">Visual Studio Package Manager</span></span>
+#### <a name="visual-studio-package-manager"></a><span data-ttu-id="50c11-111">Gerenciador de Pacotes do Visual Studio</span><span class="sxs-lookup"><span data-stu-id="50c11-111">Visual Studio Package Manager</span></span>
 
 ```powershell
 Install-Package Microsoft.ApplicationInsights 
@@ -39,9 +39,9 @@ Install-Package Microsoft.ApplicationInsights
 dotnet add package Microsoft.ApplicationInsights 
 ```
 
-### <a name="example"></a><span data-ttu-id="8b436-112">Exemplo</span><span class="sxs-lookup"><span data-stu-id="8b436-112">Example</span></span>
+### <a name="example"></a><span data-ttu-id="50c11-112">Exemplo</span><span class="sxs-lookup"><span data-stu-id="50c11-112">Example</span></span>
 
-<span data-ttu-id="8b436-113">Este exemplo rastreia um evento personalizado até o Application Insights.</span><span class="sxs-lookup"><span data-stu-id="8b436-113">This example tracks a custom event to Application Insights.</span></span>
+<span data-ttu-id="50c11-113">Este exemplo rastreia um evento personalizado até o Application Insights.</span><span class="sxs-lookup"><span data-stu-id="50c11-113">This example tracks a custom event to Application Insights.</span></span>
 
 ```csharp
 TelemetryClient client = new TelemetryClient();
@@ -49,15 +49,15 @@ client.TrackEvent("MyCustomEvent");
 ```
 
 > [!div class="nextstepaction"]
-> [<span data-ttu-id="8b436-114">Explorar as APIs de cliente</span><span class="sxs-lookup"><span data-stu-id="8b436-114">Explore the client APIs</span></span>](/dotnet/api/overview/azure/insights/client)
+> [<span data-ttu-id="50c11-114">Explorar as APIs de cliente</span><span class="sxs-lookup"><span data-stu-id="50c11-114">Explore the client APIs</span></span>](/dotnet/api/overview/azure/insights/client)
 
 
 
-## <a name="samples"></a><span data-ttu-id="8b436-115">Exemplos</span><span class="sxs-lookup"><span data-stu-id="8b436-115">Samples</span></span>
+## <a name="samples"></a><span data-ttu-id="50c11-115">Exemplos</span><span class="sxs-lookup"><span data-stu-id="50c11-115">Samples</span></span>
 
-- [<span data-ttu-id="8b436-116">Análise do Application Insights com OpenSchema</span><span class="sxs-lookup"><span data-stu-id="8b436-116">Application Insights Analytics with OpenSchema</span></span>](https://azure.microsoft.com/resources/samples/guidance-appinsights-openschema/)
+- [<span data-ttu-id="50c11-116">Análise do Application Insights com OpenSchema</span><span class="sxs-lookup"><span data-stu-id="50c11-116">Application Insights Analytics with OpenSchema</span></span>](https://azure.microsoft.com/resources/samples/guidance-appinsights-openschema/)
 
-<span data-ttu-id="8b436-117">Veja a [lista completa](https://azure.microsoft.com/resources/samples/?service=application-insights&platform=dotnet) de exemplos do Azure Application Insights.</span><span class="sxs-lookup"><span data-stu-id="8b436-117">View the [complete list](https://azure.microsoft.com/resources/samples/?service=application-insights&platform=dotnet) of Azure Application Insights samples.</span></span>
+<span data-ttu-id="50c11-117">Veja a [lista completa](https://azure.microsoft.com/resources/samples/?service=application-insights&platform=dotnet) de exemplos do Azure Application Insights.</span><span class="sxs-lookup"><span data-stu-id="50c11-117">View the [complete list](https://azure.microsoft.com/resources/samples/?service=application-insights&platform=dotnet) of Azure Application Insights samples.</span></span>
 
 [PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console
 [DotNetCLI]: https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package
