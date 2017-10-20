@@ -17,14 +17,14 @@ ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 08/28/2017
 ---
-# <a name="azure-recovery-services-libraries-for-net"></a><span data-ttu-id="c4ae6-104">Bibliotecas dos Serviços de Recuperação do Azure para .NET</span><span class="sxs-lookup"><span data-stu-id="c4ae6-104">Azure Recovery Services libraries for .NET</span></span>
+# <a name="azure-recovery-services-libraries-for-net"></a><span data-ttu-id="4a007-104">Bibliotecas dos Serviços de Recuperação do Azure para .NET</span><span class="sxs-lookup"><span data-stu-id="4a007-104">Azure Recovery Services libraries for .NET</span></span>
 
 
-## <a name="management-library"></a><span data-ttu-id="c4ae6-105">Biblioteca de gerenciamento</span><span class="sxs-lookup"><span data-stu-id="c4ae6-105">Management library</span></span>
+## <a name="management-library"></a><span data-ttu-id="4a007-105">Biblioteca de gerenciamento</span><span class="sxs-lookup"><span data-stu-id="4a007-105">Management library</span></span>
 
-<span data-ttu-id="c4ae6-106">Instale o [pacote NuGet](https://www.nuget.org/packages/Microsoft.Azure.Management.RecoveryServices) diretamente do [console do Gerenciador de Pacotes] [ PackageManager] do Visual Studio ou com a [CLI do .NET Core] [DotNetCLI].</span><span class="sxs-lookup"><span data-stu-id="c4ae6-106">Install the [NuGet package](https://www.nuget.org/packages/Microsoft.Azure.Management.RecoveryServices) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
+<span data-ttu-id="4a007-106">Instale o [pacote NuGet](https://www.nuget.org/packages/Microsoft.Azure.Management.RecoveryServices) diretamente do [console do Gerenciador de Pacotes][PackageManager] do Visual Studio ou com a [CLI do .NET Core][DotNetCLI].</span><span class="sxs-lookup"><span data-stu-id="4a007-106">Install the [NuGet package](https://www.nuget.org/packages/Microsoft.Azure.Management.RecoveryServices) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
 
-#### <a name="visual-studio-package-manager"></a><span data-ttu-id="c4ae6-107">Gerenciador de Pacotes do Visual Studio</span><span class="sxs-lookup"><span data-stu-id="c4ae6-107">Visual Studio Package Manager</span></span>
+#### <a name="visual-studio-package-manager"></a><span data-ttu-id="4a007-107">Gerenciador de Pacotes do Visual Studio</span><span class="sxs-lookup"><span data-stu-id="4a007-107">Visual Studio Package Manager</span></span>
 
 ```powershell
 Install-Package Microsoft.Azure.Management.RecoveryServices
@@ -35,7 +35,7 @@ dotnet add package Microsoft.Azure.Management.RecoveryServices
 ```
 
 > [!div class="nextstepaction"]
-> [<span data-ttu-id="c4ae6-108">Explorar as APIs de gerenciamento</span><span class="sxs-lookup"><span data-stu-id="c4ae6-108">Explore the management APIs</span></span>](/dotnet/api/overview/azure/recoveryservices/management)
+> [<span data-ttu-id="4a007-108">Explorar as APIs de gerenciamento</span><span class="sxs-lookup"><span data-stu-id="4a007-108">Explore the management APIs</span></span>](/dotnet/api/overview/azure/recoveryservices/management)
 
 
 

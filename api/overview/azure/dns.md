@@ -17,17 +17,17 @@ ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 08/28/2017
 ---
-# <a name="azure-dns-libraries-for-net"></a><span data-ttu-id="26486-104">Bibliotecas do DNS do Azure para .NET</span><span class="sxs-lookup"><span data-stu-id="26486-104">Azure DNS libraries for .NET</span></span>
+# <a name="azure-dns-libraries-for-net"></a><span data-ttu-id="98515-104">Bibliotecas do DNS do Azure para .NET</span><span class="sxs-lookup"><span data-stu-id="98515-104">Azure DNS libraries for .NET</span></span>
 
-<span data-ttu-id="26486-105">Use as bibliotecas do DNS do Microsoft Azure para .NET a fim de criar e modificar zonas DNS e registros hospedados no Azure.</span><span class="sxs-lookup"><span data-stu-id="26486-105">Use the Microsoft Azure DNS libraries for .NET to create and modify DNS zones and records hosted within Azure.</span></span> <span data-ttu-id="26486-106">As zonas e os registros são gerenciados como recursos do Azure.</span><span class="sxs-lookup"><span data-stu-id="26486-106">Zones and records are managed as Azure Resources.</span></span> <span data-ttu-id="26486-107">Saiba mais lendo a [Visão geral do DNS do Azure](/azure/dns/dns-overview).</span><span class="sxs-lookup"><span data-stu-id="26486-107">Learn more by reading the [Azure DNS overview](/azure/dns/dns-overview).</span></span>
+<span data-ttu-id="98515-105">Use as bibliotecas do DNS do Microsoft Azure para .NET a fim de criar e modificar zonas DNS e registros hospedados no Azure.</span><span class="sxs-lookup"><span data-stu-id="98515-105">Use the Microsoft Azure DNS libraries for .NET to create and modify DNS zones and records hosted within Azure.</span></span> <span data-ttu-id="98515-106">As zonas e os registros são gerenciados como recursos do Azure.</span><span class="sxs-lookup"><span data-stu-id="98515-106">Zones and records are managed as Azure Resources.</span></span> <span data-ttu-id="98515-107">Saiba mais lendo a [Visão geral do DNS do Azure](/azure/dns/dns-overview).</span><span class="sxs-lookup"><span data-stu-id="98515-107">Learn more by reading the [Azure DNS overview](/azure/dns/dns-overview).</span></span>
 
-## <a name="management-library"></a><span data-ttu-id="26486-108">Biblioteca de gerenciamento</span><span class="sxs-lookup"><span data-stu-id="26486-108">Management library</span></span>
+## <a name="management-library"></a><span data-ttu-id="98515-108">Biblioteca de gerenciamento</span><span class="sxs-lookup"><span data-stu-id="98515-108">Management library</span></span>
 
-<span data-ttu-id="26486-109">Use a biblioteca de gerenciamento para criar e modificar zonas DNS e registros que estão hospedados no Azure.</span><span class="sxs-lookup"><span data-stu-id="26486-109">Use the management library to create and modify DNS zones and records that are hosted in Azure.</span></span>
+<span data-ttu-id="98515-109">Use a biblioteca de gerenciamento para criar e modificar zonas DNS e registros que estão hospedados no Azure.</span><span class="sxs-lookup"><span data-stu-id="98515-109">Use the management library to create and modify DNS zones and records that are hosted in Azure.</span></span>
 
-<span data-ttu-id="26486-110">Instale o [pacote NuGet](https://www.nuget.org/packages/Microsoft.Azure.Management.Dns) diretamente do [console do Gerenciador de Pacotes] [ PackageManager] do Visual Studio ou com a [CLI do .NET Core] [DotNetCLI].</span><span class="sxs-lookup"><span data-stu-id="26486-110">Install the [NuGet package](https://www.nuget.org/packages/Microsoft.Azure.Management.Dns) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
+<span data-ttu-id="98515-110">Instale o [pacote NuGet](https://www.nuget.org/packages/Microsoft.Azure.Management.Dns) diretamente do [console do Gerenciador de Pacotes][PackageManager] do Visual Studio ou com a [CLI do .NET Core][DotNetCLI].</span><span class="sxs-lookup"><span data-stu-id="98515-110">Install the [NuGet package](https://www.nuget.org/packages/Microsoft.Azure.Management.Dns) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
 
-#### <a name="visual-studio-package-manager"></a><span data-ttu-id="26486-111">Gerenciador de Pacotes do Visual Studio</span><span class="sxs-lookup"><span data-stu-id="26486-111">Visual Studio Package Manager</span></span>
+#### <a name="visual-studio-package-manager"></a><span data-ttu-id="98515-111">Gerenciador de Pacotes do Visual Studio</span><span class="sxs-lookup"><span data-stu-id="98515-111">Visual Studio Package Manager</span></span>
 
 ```powershell
 Install-Package Microsoft.Azure.Management.Dns
@@ -37,9 +37,9 @@ Install-Package Microsoft.Azure.Management.Dns
 dotnet add package Microsoft.Azure.Management.Dns
 ```
 
-### <a name="example"></a><span data-ttu-id="26486-112">Exemplo</span><span class="sxs-lookup"><span data-stu-id="26486-112">Example</span></span>
+### <a name="example"></a><span data-ttu-id="98515-112">Exemplo</span><span class="sxs-lookup"><span data-stu-id="98515-112">Example</span></span>
 
-<span data-ttu-id="26486-113">O exemplo a seguir cria uma nova zona DNS.</span><span class="sxs-lookup"><span data-stu-id="26486-113">The following example creates a new DNS zone.</span></span>
+<span data-ttu-id="98515-113">O exemplo a seguir cria uma nova zona DNS.</span><span class="sxs-lookup"><span data-stu-id="98515-113">The following example creates a new DNS zone.</span></span>
 
 ```csharp
 /*
@@ -57,13 +57,13 @@ Zone dnsZone =
 ```
 
 > [!div class="nextstepaction"]
-> [<span data-ttu-id="26486-114">Explorar as APIs de gerenciamento</span><span class="sxs-lookup"><span data-stu-id="26486-114">Explore the management APIs</span></span>](/dotnet/api/overview/azure/dns/management)
+> [<span data-ttu-id="98515-114">Explorar as APIs de gerenciamento</span><span class="sxs-lookup"><span data-stu-id="98515-114">Explore the management APIs</span></span>](/dotnet/api/overview/azure/dns/management)
 
-## <a name="samples"></a><span data-ttu-id="26486-115">Exemplos</span><span class="sxs-lookup"><span data-stu-id="26486-115">Samples</span></span>
+## <a name="samples"></a><span data-ttu-id="98515-115">Exemplos</span><span class="sxs-lookup"><span data-stu-id="98515-115">Samples</span></span>
 
-* [<span data-ttu-id="26486-116">Projeto de exemplo do SDK do .NET para DNS do Azure</span><span class="sxs-lookup"><span data-stu-id="26486-116">Azure DNS .NET SDK Sample Project</span></span>](https://www.microsoft.com/download/details.aspx?id=47268)
+* [<span data-ttu-id="98515-116">Projeto de exemplo do SDK do .NET para DNS do Azure</span><span class="sxs-lookup"><span data-stu-id="98515-116">Azure DNS .NET SDK Sample Project</span></span>](https://www.microsoft.com/download/details.aspx?id=47268)
 
-<span data-ttu-id="26486-117">Explore mais [códigos .NET de exemplo](https://azure.microsoft.com/resources/samples/?platform=dotnet) que você pode usar em seus aplicativos.</span><span class="sxs-lookup"><span data-stu-id="26486-117">Explore more [sample .NET code](https://azure.microsoft.com/resources/samples/?platform=dotnet) you can use in your apps.</span></span>
+<span data-ttu-id="98515-117">Explore mais [códigos .NET de exemplo](https://azure.microsoft.com/resources/samples/?platform=dotnet) que você pode usar em seus aplicativos.</span><span class="sxs-lookup"><span data-stu-id="98515-117">Explore more [sample .NET code](https://azure.microsoft.com/resources/samples/?platform=dotnet) you can use in your apps.</span></span>
 
 [PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console
 [DotNetCLI]: https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package
