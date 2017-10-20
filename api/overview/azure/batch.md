@@ -29,7 +29,7 @@ Leia mais sobre como [executar cargas de trabalho intrinsecamente paralelas com 
 
 Use a biblioteca de cliente para executar cargas de trabalho paralelas com o Lote.
 
-Instale o [pacote NuGet](https://www.nuget.org/packages/Azure.Batch) diretamente do [console do Gerenciador de Pacotes] [ PackageManager] do Visual Studio ou com a [CLI do .NET Core] [DotNetCLI].
+Instale o [pacote NuGet](https://www.nuget.org/packages/Azure.Batch) diretamente do [console do Gerenciador de Pacotes][PackageManager] do Visual Studio ou com a [CLI do .NET Core][DotNetCLI].
 
 #### <a name="visual-studio-package-manager"></a>Gerenciador de Pacotes do Visual Studio
 
@@ -82,7 +82,7 @@ using (BatchClient batchClient = await BatchClient.OpenAsync(credentials))
 
 Use a biblioteca de gerenciamento para gerenciar programaticamente contas, cotas e pacotes de aplicativos do Lote.
 
-Instale o [pacote NuGet](https://www.nuget.org/packages/Microsoft.Azure.Management.Batch) diretamente do [console do Gerenciador de Pacotes] [ PackageManager] do Visual Studio ou com a [CLI do .NET Core] [DotNetCLI].
+Instale o [pacote NuGet](https://www.nuget.org/packages/Microsoft.Azure.Management.Batch) diretamente do [console do Gerenciador de Pacotes][PackageManager] do Visual Studio ou com a [CLI do .NET Core][DotNetCLI].
 
 #### <a name="visual-studio-package-manager"></a>Gerenciador de Pacotes do Visual Studio
 
