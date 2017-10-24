@@ -52,7 +52,7 @@ await hub.SendWindowsNativeNotificationAsync(toast);
 
 ## <a name="management-library"></a>Biblioteca de gerenciamento
 
-Instale o [pacote NuGet](https://www.nuget.org/packages/Microsoft.Azure.Management.NotificationHubs) diretamente do [console do Gerenciador de Pacotes] [ PackageManager] do Visual Studio ou com a [CLI do .NET Core] [DotNetCLI].
+Instale o [pacote NuGet](https://www.nuget.org/packages/Microsoft.Azure.Management.NotificationHubs) diretamente do [console do Gerenciador de Pacotes][PackageManager] do Visual Studio ou com a [CLI do .NET Core][DotNetCLI].
 
 #### <a name="visual-studio-package-manager"></a>Gerenciador de Pacotes do Visual Studio
 
