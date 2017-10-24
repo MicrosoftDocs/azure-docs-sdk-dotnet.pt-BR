@@ -1,11 +1,11 @@
 ### YamlMime:YamlDocument
 documentType: LandingData
-title: <span data-ttu-id="bb685-101">Azure para desenvolvedores .NET</span><span class="sxs-lookup"><span data-stu-id="bb685-101">Azure for .NET developers</span></span>
+title: Azure para desenvolvedores .NET
 metadata:
   document_id: be4f4c73-c672-4490-8fca-ae087fba8b3b
-  title: '<span data-ttu-id="bb685-102">Azure para desenvolvedores do .NET - tutoriais, referência de API</span><span class="sxs-lookup"><span data-stu-id="bb685-102">Azure for .NET developers - Tutorials, API Reference</span></span>'
-  description: <span data-ttu-id="bb685-103">Comece a desenvolver aplicativos com o Azure usando os recursos a seguir para localizar ótimos tutoriais e ferramentas para desenvolvedores do .NET.</span><span class="sxs-lookup"><span data-stu-id="bb685-103">Get started developing apps with Azure using the resources below to find great tutorials and tools for .NET developers.</span></span>
-  keywords: '<span data-ttu-id="bb685-104">Azure, .NET, SDK, API, NuGet</span><span class="sxs-lookup"><span data-stu-id="bb685-104">Azure, .NET, SDK, API, NuGet</span></span>'
+  title: 'Azure para desenvolvedores do .NET - tutoriais, referência de API'
+  description: Comece a desenvolver aplicativos com o Azure usando os recursos a seguir para localizar ótimos tutoriais e ferramentas para desenvolvedores do .NET.
+  keywords: 'Azure, .NET, SDK, API, NuGet'
   author: camsoper
   ms.author: casoper
   manager: douge
@@ -21,7 +21,7 @@ sections:
   - items:
       - type: markdown
         text: |
-          <span data-ttu-id="bb685-105">Comece a desenvolver aplicativos com o Azure usando os recursos a seguir para localizar ótimos tutoriais e ferramentas para desenvolvedores do .NET.</span><span class="sxs-lookup"><span data-stu-id="bb685-105">Get started developing apps with Azure using the resources below to find great tutorials and tools for .NET developers.</span></span>
+          Comece a desenvolver aplicativos com o Azure usando os recursos a seguir para localizar ótimos tutoriais e ferramentas para desenvolvedores do .NET.
   - items:
       - type: list
         style: cards
@@ -29,29 +29,29 @@ sections:
         columns: 2
         items:
           - href: 'https://docs.microsoft.com/azure/app-service-web/app-service-web-get-started-dotnet'
-            html: <p><span data-ttu-id="bb685-106">Implantar seu primeiro aplicativo .NET no Azure</span><span class="sxs-lookup"><span data-stu-id="bb685-106">Deploy your first .NET app to Azure</span></span></p>
+            html: <p>Implantar seu primeiro aplicativo .NET no Azure</p>
             image:
               src: 'https://docs.microsoft.com/en-us/media/common/i_get-started.svg'
-            title: <span data-ttu-id="bb685-107">Introdução</span><span class="sxs-lookup"><span data-stu-id="bb685-107">Get Started</span></span>
+            title: Introdução
           - href: 'https://azure.microsoft.com/resources/samples/?platform=dotnet&view=azure-dotnet'
-            html: <p><span data-ttu-id="bb685-108">Exemplos de código do Azure usando o .NET</span><span class="sxs-lookup"><span data-stu-id="bb685-108">Azure code samples using .NET</span></span></p>
+            html: <p>Exemplos de código do Azure usando o .NET</p>
             image:
               src: 'https://docs.microsoft.com/en-us/media/common/i_code-samples.svg'
-            title: <span data-ttu-id="bb685-109">Exemplos de código</span><span class="sxs-lookup"><span data-stu-id="bb685-109">Code Samples</span></span>
+            title: Exemplos de código
           - href: 'https://docs.microsoft.com/dotnet/azure/dotnet-tools?view=azure-dotnet'
-            html: <p><span data-ttu-id="bb685-110">Ferramentas de desenvolvedor</span><span class="sxs-lookup"><span data-stu-id="bb685-110">Developer tools</span></span></p>
+            html: <p>Ferramentas de desenvolvedor</p>
             image:
               src: 'https://docs.microsoft.com/en-us/media/common/i_download-install.svg'
-            title: <span data-ttu-id="bb685-111">Ferramentas &amp; do SDK</span><span class="sxs-lookup"><span data-stu-id="bb685-111">SDK &amp; Tools</span></span>
+            title: Ferramentas &amp; do SDK
           - href: 'https://docs.microsoft.com/en-us/dotnet/api/overview/azure/?view=azure-dotnet'
-            html: <p><span data-ttu-id="bb685-112">Pacotes NuGet do .NET</span><span class="sxs-lookup"><span data-stu-id="bb685-112">NuGet packages for .NET</span></span></p>
+            html: <p>Pacotes NuGet do .NET</p>
             image:
               src: 'https://docs.microsoft.com/en-us/media/common/i_api-reference.svg'
-            title: <span data-ttu-id="bb685-113">Referência de API</span><span class="sxs-lookup"><span data-stu-id="bb685-113">API Reference</span></span>
-  - title: <span data-ttu-id="bb685-114">Guia de início rápido de 5 minutos</span><span class="sxs-lookup"><span data-stu-id="bb685-114">5-Minute Quickstarts</span></span>
+            title: Referência de API
+  - title: Guia de início rápido de 5 minutos
     items:
       - type: paragraph
-        text: <span data-ttu-id="bb685-115">Aprenda a criar aplicativos .NET com os serviços do Azure.</span><span class="sxs-lookup"><span data-stu-id="bb685-115">Learn how to build .NET apps with Azure services.</span></span>
+        text: Aprenda a criar aplicativos .NET com os serviços do Azure.
       - type: list
         style: cards
         className: cardsM
@@ -59,29 +59,29 @@ sections:
         items:
           - image:
               src: 'https://docs.microsoft.com/en-us/azure/media/index/app-service-web.svg'
-            title: <span data-ttu-id="bb685-116">Implantar seu primeiro aplicativo .NET no Azure</span><span class="sxs-lookup"><span data-stu-id="bb685-116">Deploy your first .NET app to Azure</span></span>
+            title: Implantar seu primeiro aplicativo .NET no Azure
             href: 'https://docs.microsoft.com/azure/app-service-web/app-service-web-get-started-dotnet'
           - image:
               src: 'https://docs.microsoft.com/en-us/azure/media/index/azurefunctions.svg'
-            title: <span data-ttu-id="bb685-117">Criar uma função .NET sem servidor</span><span class="sxs-lookup"><span data-stu-id="bb685-117">Create a .NET serverless function</span></span>
+            title: Criar uma função .NET sem servidor
             href: 'https://docs.microsoft.com/azure/azure-functions/functions-create-your-first-function-visual-studio'
           - image:
               src: 'https://docs.microsoft.com/en-us/azure/media/index/sqldatabase.svg'
-            title: <span data-ttu-id="bb685-118">Conectar seu aplicativo .NET ao Banco de Dados SQL do Azure</span><span class="sxs-lookup"><span data-stu-id="bb685-118">Connect your .NET app to Azure SQL Database</span></span>
+            title: Conectar seu aplicativo .NET ao Banco de Dados SQL do Azure
             href: 'https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-dotnet'
           - image:
               src: 'https://docs.microsoft.com/en-us/azure/media/index/cosmosdb.svg'
-            title: <span data-ttu-id="bb685-119">Compilar um aplicativo .NET com o Cosmos DB</span><span class="sxs-lookup"><span data-stu-id="bb685-119">Build a .NET app with Cosmos DB</span></span>
+            title: Compilar um aplicativo .NET com o Cosmos DB
             href: 'https://docs.microsoft.com/en-us/azure/cosmos-db/create-documentdb-dotnet'
           - image:
               src: 'https://docs.microsoft.com/en-us/azure/media/index/fabric.svg'
-            title: <span data-ttu-id="bb685-120">Criar um aplicativo de microsserviço .NET com o Service Fabric</span><span class="sxs-lookup"><span data-stu-id="bb685-120">Create a .NET micro-service app with Service Fabric</span></span>
+            title: Criar um aplicativo de microsserviço .NET com o Service Fabric
             href: 'https://docs.microsoft.com/azure/service-fabric/service-fabric-quickstart-dotnet'
-  - title: <span data-ttu-id="bb685-121">Introdução ao .NET no Azure</span><span class="sxs-lookup"><span data-stu-id="bb685-121">Get Started with .NET on Azure</span></span>
+  - title: Introdução ao .NET no Azure
     items:
       - type: markdown
         text: '<iframe src="https://channel9.msdn.com/Shows/Azure-for-NET-Developers/Welcome-to-the-Azure-for-NET-Developer-Center/player" width="640" height="360" allowFullScreen="true" frameBorder="0"></iframe>'
-  - title: <span data-ttu-id="bb685-122">Treinamento em vídeo .NET e Azure gratuito no Pluralsight</span><span class="sxs-lookup"><span data-stu-id="bb685-122">Free .NET and Azure Video Training on Pluralsight</span></span>
+  - title: Treinamento em vídeo .NET e Azure gratuito no Pluralsight
     items:
       - type: list
         style: cards
@@ -91,28 +91,28 @@ sections:
           - href: 'https://www.pluralsight.com/courses/developing-dotnet-microsoft-azure-getting-started?twoid=d6abac77-7dcc-4d33-9e03-f85e78989f02'
             image:
               src: 'https://docs.microsoft.com/en-us/media/logos/logo_pluralsight.svg'
-            title: <span data-ttu-id="bb685-123">Desenvolvendo com .NET no Azure</span><span class="sxs-lookup"><span data-stu-id="bb685-123">Developing with .NET on Azure</span></span>
-  - title: <span data-ttu-id="bb685-124">Exemplos</span><span class="sxs-lookup"><span data-stu-id="bb685-124">Samples</span></span>
+            title: Desenvolvendo com .NET no Azure
+  - title: Exemplos
     items:
       - type: list
         style: unordered
         items:
-          - html: '<span data-ttu-id="bb685-125"><a href="https://azure.microsoft.com/resources/samples/azure-cosmos-db-mongodb-dotnet-getting-started/">Desenvolvendo um aplicativo .NET usando o Cosmos DB e a API do Mongo DB</a></span><span class="sxs-lookup"><span data-stu-id="bb685-125"><a href="https://azure.microsoft.com/resources/samples/azure-cosmos-db-mongodb-dotnet-getting-started/">Developing a .NET app using Cosmos DB and Mongo DB API</a></span></span>'
-          - html: '<span data-ttu-id="bb685-126"><a href="https://azure.microsoft.com/resources/samples/storage-dotnet-client-side-encryption/">Introdução à criptografia no lado do cliente do Azure no .NET</a></span><span class="sxs-lookup"><span data-stu-id="bb685-126"><a href="https://azure.microsoft.com/resources/samples/storage-dotnet-client-side-encryption/">Get started with Azure client-side encryption in .NET</a></span></span>'
-          - html: '<span data-ttu-id="bb685-127"><a href="https://azure.microsoft.com/resources/samples/storage-table-dotnet-getting-started/ ">Introdução ao Armazenamento de Tabelas do Azure no .NET</a></span><span class="sxs-lookup"><span data-stu-id="bb685-127"><a href="https://azure.microsoft.com/resources/samples/storage-table-dotnet-getting-started/ ">Get started with Azure Table Storage in .NET</a></span></span>'
-          - html: '<span data-ttu-id="bb685-128"><a href="https://azure.microsoft.com/resources/samples/storage-blob-dotnet-getting-started/">Armazenamento de Blobs do Azure com .NET</a></span><span class="sxs-lookup"><span data-stu-id="bb685-128"><a href="https://azure.microsoft.com/resources/samples/storage-blob-dotnet-getting-started/">Azure Blob Storage with .NET</a></span></span>'
-          - html: '<span data-ttu-id="bb685-129"><a href="https://azure.microsoft.com/resources/samples/redis-cache-getting-started/">Introdução ao Cache Redis do Azure</a></span><span class="sxs-lookup"><span data-stu-id="bb685-129"><a href="https://azure.microsoft.com/resources/samples/redis-cache-getting-started/">Get started with Azure Redis Cache</a></span></span>'
-  - title: <span data-ttu-id="bb685-130">Tutoriais Passo a Passo</span><span class="sxs-lookup"><span data-stu-id="bb685-130">Step-by-Step Tutorials</span></span>
+          - html: '<a href="https://azure.microsoft.com/resources/samples/azure-cosmos-db-mongodb-dotnet-getting-started/">Desenvolvendo um aplicativo .NET usando o Cosmos DB e a API do Mongo DB</a>'
+          - html: '<a href="https://azure.microsoft.com/resources/samples/storage-dotnet-client-side-encryption/">Introdução à criptografia no lado do cliente do Azure no .NET</a>'
+          - html: '<a href="https://azure.microsoft.com/resources/samples/storage-table-dotnet-getting-started/ ">Introdução ao Armazenamento de Tabelas do Azure no .NET</a>'
+          - html: '<a href="https://azure.microsoft.com/resources/samples/storage-blob-dotnet-getting-started/">Armazenamento de Blobs do Azure com .NET</a>'
+          - html: '<a href="https://azure.microsoft.com/resources/samples/redis-cache-getting-started/">Introdução ao Cache Redis do Azure</a>'
+  - title: Tutoriais Passo a Passo
     items:
       - type: paragraph
-        text: <span data-ttu-id="bb685-131">Saiba como usar os serviços e as ferramentas do Azure em seus aplicativos .NET.</span><span class="sxs-lookup"><span data-stu-id="bb685-131">Learn how to use Azure services and tools in your .NET apps.</span></span>
+        text: Saiba como usar os serviços e as ferramentas do Azure em seus aplicativos .NET.
       - type: list
         style: unordered
         items:
-          - html: '<span data-ttu-id="bb685-132"><a href="https://docs.microsoft.com/azure/app-service-web/app-service-web-tutorial-dotnet-sqldatabase">Criar um aplicativo Web ASP.NET com o Banco de Dados SQL do Azure</a></span><span class="sxs-lookup"><span data-stu-id="bb685-132"><a href="https://docs.microsoft.com/azure/app-service-web/app-service-web-tutorial-dotnet-sqldatabase">Create an ASP.NET web app with Azure SQL Database</a></span></span>'
-          - html: '<span data-ttu-id="bb685-133"><a href="https://docs.microsoft.com/azure/documentdb/documentdb-dotnet-application">Criar um aplicativo Web ASP.NET com o CosmosDB</a></span><span class="sxs-lookup"><span data-stu-id="bb685-133"><a href="https://docs.microsoft.com/azure/documentdb/documentdb-dotnet-application">Create an ASP.NET web app with CosmosDB</a></span></span>'
-          - html: '<span data-ttu-id="bb685-134"><a href="https://docs.microsoft.com/azure/app-service-api/app-service-api-dotnet-get-started">Criar e implantar uma API Web no Azure</a></span><span class="sxs-lookup"><span data-stu-id="bb685-134"><a href="https://docs.microsoft.com/azure/app-service-api/app-service-api-dotnet-get-started">Create and deploy a Web API in Azure</a></span></span>'
-          - html: '<span data-ttu-id="bb685-135"><a href="https://docs.microsoft.com/azure/container-service/container-service-kubernetes-windows-walkthrough">Introdução ao Kubernetes e aos contêineres do Windows</a></span><span class="sxs-lookup"><span data-stu-id="bb685-135"><a href="https://docs.microsoft.com/azure/container-service/container-service-kubernetes-windows-walkthrough">Get started with Kubernetes and Windows containers</a></span></span>'
-          - html: '<span data-ttu-id="bb685-136"><a href="https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-dotnet">Conectar e consultar o Banco de Dados SQL do Azure</a></span><span class="sxs-lookup"><span data-stu-id="bb685-136"><a href="https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-dotnet">Connect and query Azure SQL Database</a></span></span>'
-          - html: '<span data-ttu-id="bb685-137"><a href="https://docs.microsoft.com/azure/postgresql/connect-csharp">Conectar e consultar o Banco de Dados do Azure para PostgreSQL</a></span><span class="sxs-lookup"><span data-stu-id="bb685-137"><a href="https://docs.microsoft.com/azure/postgresql/connect-csharp">Connect and query Azure Database for PostgreSQL</a></span></span>'
-          - html: '<span data-ttu-id="bb685-138"><a href="https://docs.microsoft.com/azure/cosmos-db/documentdb-dotnetcore-get-started">Introdução à API DocumentDB do CosmosDB em .NET Core</a></span><span class="sxs-lookup"><span data-stu-id="bb685-138"><a href="https://docs.microsoft.com/azure/cosmos-db/documentdb-dotnetcore-get-started">Get started with CosmosDB DocumentDB API in .NET Core</a></span></span>'
+          - html: '<a href="https://docs.microsoft.com/azure/app-service-web/app-service-web-tutorial-dotnet-sqldatabase">Criar um aplicativo Web ASP.NET com o Banco de Dados SQL do Azure</a>'
+          - html: '<a href="https://docs.microsoft.com/azure/documentdb/documentdb-dotnet-application">Criar um aplicativo Web ASP.NET com o CosmosDB</a>'
+          - html: '<a href="https://docs.microsoft.com/azure/app-service-api/app-service-api-dotnet-get-started">Criar e implantar uma API Web no Azure</a>'
+          - html: '<a href="https://docs.microsoft.com/azure/container-service/container-service-kubernetes-windows-walkthrough">Introdução ao Kubernetes e aos contêineres do Windows</a>'
+          - html: '<a href="https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-dotnet">Conectar e consultar o Banco de Dados SQL do Azure</a>'
+          - html: '<a href="https://docs.microsoft.com/azure/postgresql/connect-csharp">Conectar e consultar o Banco de Dados do Azure para PostgreSQL</a>'
+          - html: '<a href="https://docs.microsoft.com/azure/cosmos-db/documentdb-dotnetcore-get-started">Introdução à API DocumentDB do CosmosDB em .NET Core</a>'
