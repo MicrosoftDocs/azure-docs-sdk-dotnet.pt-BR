@@ -17,15 +17,15 @@ ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 08/28/2017
 ---
-# <a name="azure-notification-hubs-libraries-for-net"></a><span data-ttu-id="2b1e5-104">Bibliotecas de Hubs de Notificação do Azure para .NET</span><span class="sxs-lookup"><span data-stu-id="2b1e5-104">Azure Notification Hubs libraries for .NET</span></span>
+# <a name="azure-notification-hubs-libraries-for-net"></a><span data-ttu-id="69b22-104">Bibliotecas de Hubs de Notificação do Azure para .NET</span><span class="sxs-lookup"><span data-stu-id="69b22-104">Azure Notification Hubs libraries for .NET</span></span>
 
-<span data-ttu-id="2b1e5-105">Os Hubs de Notificação do Azure fornecem um mecanismo de envio por push fácil de usar, multiplataforma e dimensionável.</span><span class="sxs-lookup"><span data-stu-id="2b1e5-105">Azure Notification Hubs provide an easy-to-use, multi-platform, scaled-out push engine.</span></span> <span data-ttu-id="2b1e5-106">Com uma chamada à API única entre plataformas, você pode enviar notificações por push direcionadas e personalizadas para qualquer plataforma móvel de qualquer back-end local ou em nuvem.</span><span class="sxs-lookup"><span data-stu-id="2b1e5-106">With a single cross-platform API call, you can easily send targeted and personalized push notifications to any mobile platform from any cloud or on-premises backend.</span></span>
+<span data-ttu-id="69b22-105">Os Hubs de Notificação do Azure fornecem um mecanismo de envio por push fácil de usar, multiplataforma e dimensionável.</span><span class="sxs-lookup"><span data-stu-id="69b22-105">Azure Notification Hubs provide an easy-to-use, multi-platform, scaled-out push engine.</span></span> <span data-ttu-id="69b22-106">Com uma chamada à API única entre plataformas, você pode enviar notificações por push direcionadas e personalizadas para qualquer plataforma móvel de qualquer back-end local ou em nuvem.</span><span class="sxs-lookup"><span data-stu-id="69b22-106">With a single cross-platform API call, you can easily send targeted and personalized push notifications to any mobile platform from any cloud or on-premises backend.</span></span>
 
-## <a name="client-library"></a><span data-ttu-id="2b1e5-107">Biblioteca do cliente</span><span class="sxs-lookup"><span data-stu-id="2b1e5-107">Client library</span></span>
+## <a name="client-library"></a><span data-ttu-id="69b22-107">Biblioteca do cliente</span><span class="sxs-lookup"><span data-stu-id="69b22-107">Client library</span></span>
 
-<span data-ttu-id="2b1e5-108">Instale o [pacote NuGet](https://www.nuget.org/packages/Microsoft.Azure.NotificationHubs) diretamente do [console do Gerenciador de Pacotes][PackageManager] do Visual Studio ou com a [CLI do .NET Core][DotNetCLI].</span><span class="sxs-lookup"><span data-stu-id="2b1e5-108">Install the [NuGet package](https://www.nuget.org/packages/Microsoft.Azure.NotificationHubs) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
+<span data-ttu-id="69b22-108">Instale o [pacote NuGet](https://www.nuget.org/packages/Microsoft.Azure.NotificationHubs) diretamente do [console do Gerenciador de Pacotes][PackageManager] do Visual Studio ou com a [CLI do .NET Core][DotNetCLI].</span><span class="sxs-lookup"><span data-stu-id="69b22-108">Install the [NuGet package](https://www.nuget.org/packages/Microsoft.Azure.NotificationHubs) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
 
-#### <a name="visual-studio-package-manager"></a><span data-ttu-id="2b1e5-109">Gerenciador de Pacotes do Visual Studio</span><span class="sxs-lookup"><span data-stu-id="2b1e5-109">Visual Studio Package Manager</span></span>
+#### <a name="visual-studio-package-manager"></a><span data-ttu-id="69b22-109">Gerenciador de Pacotes do Visual Studio</span><span class="sxs-lookup"><span data-stu-id="69b22-109">Visual Studio Package Manager</span></span>
 
 ```powershell
 Install-Package Microsoft.Azure.NotificationHubs
@@ -35,9 +35,9 @@ Install-Package Microsoft.Azure.NotificationHubs
 dotnet add package Microsoft.Azure.NotificationHubs
 ```
 
-### <a name="code-example"></a><span data-ttu-id="2b1e5-110">Exemplo de código</span><span class="sxs-lookup"><span data-stu-id="2b1e5-110">Code Example</span></span>
+### <a name="code-example"></a><span data-ttu-id="69b22-110">Exemplo de código</span><span class="sxs-lookup"><span data-stu-id="69b22-110">Code Example</span></span>
 
-<span data-ttu-id="2b1e5-111">Este exemplo se conecta a um banco de dados e lê as linhas de uma tabela.</span><span class="sxs-lookup"><span data-stu-id="2b1e5-111">This example connects to a database and reads rows from a table.</span></span>
+<span data-ttu-id="69b22-111">Este exemplo se conecta a um banco de dados e lê as linhas de uma tabela.</span><span class="sxs-lookup"><span data-stu-id="69b22-111">This example connects to a database and reads rows from a table.</span></span>
 
 ```csharp
 NotificationHubClient hub = NotificationHubClient
@@ -47,14 +47,14 @@ await hub.SendWindowsNativeNotificationAsync(toast);
 ```
 
 > [!div class="nextstepaction"]
-> [<span data-ttu-id="2b1e5-112">Explorar as APIs de cliente</span><span class="sxs-lookup"><span data-stu-id="2b1e5-112">Explore the client APIs</span></span>](/dotnet/api/overview/azure/notificationhubs/client)
+> [<span data-ttu-id="69b22-112">Explorar as APIs de cliente</span><span class="sxs-lookup"><span data-stu-id="69b22-112">Explore the client APIs</span></span>](/dotnet/api/overview/azure/notificationhubs/client)
 
 
-## <a name="management-library"></a><span data-ttu-id="2b1e5-113">Biblioteca de gerenciamento</span><span class="sxs-lookup"><span data-stu-id="2b1e5-113">Management library</span></span>
+## <a name="management-library"></a><span data-ttu-id="69b22-113">Biblioteca de gerenciamento</span><span class="sxs-lookup"><span data-stu-id="69b22-113">Management library</span></span>
 
-<span data-ttu-id="2b1e5-114">Instale o [pacote NuGet](https://www.nuget.org/packages/Microsoft.Azure.Management.NotificationHubs) diretamente do [console do Gerenciador de Pacotes] [ PackageManager] do Visual Studio ou com a [CLI do .NET Core] [DotNetCLI].</span><span class="sxs-lookup"><span data-stu-id="2b1e5-114">Install the [NuGet package](https://www.nuget.org/packages/Microsoft.Azure.Management.NotificationHubs) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
+<span data-ttu-id="69b22-114">Instale o [pacote NuGet](https://www.nuget.org/packages/Microsoft.Azure.Management.NotificationHubs) diretamente do [console do Gerenciador de Pacotes][PackageManager] do Visual Studio ou com a [CLI do .NET Core][DotNetCLI].</span><span class="sxs-lookup"><span data-stu-id="69b22-114">Install the [NuGet package](https://www.nuget.org/packages/Microsoft.Azure.Management.NotificationHubs) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
 
-#### <a name="visual-studio-package-manager"></a><span data-ttu-id="2b1e5-115">Gerenciador de Pacotes do Visual Studio</span><span class="sxs-lookup"><span data-stu-id="2b1e5-115">Visual Studio Package Manager</span></span>
+#### <a name="visual-studio-package-manager"></a><span data-ttu-id="69b22-115">Gerenciador de Pacotes do Visual Studio</span><span class="sxs-lookup"><span data-stu-id="69b22-115">Visual Studio Package Manager</span></span>
 
 ```powershell
 Install-Package Microsoft.Azure.Management.NotificationHubs
@@ -65,11 +65,11 @@ dotnet add package Microsoft.Azure.Management.NotificationHubs
 ```
 
 > [!div class="nextstepaction"]
-> [<span data-ttu-id="2b1e5-116">Explorar as APIs de gerenciamento</span><span class="sxs-lookup"><span data-stu-id="2b1e5-116">Explore the management APIs</span></span>](/dotnet/api/overview/azure/notificationhubs/management)
+> [<span data-ttu-id="69b22-116">Explorar as APIs de gerenciamento</span><span class="sxs-lookup"><span data-stu-id="69b22-116">Explore the management APIs</span></span>](/dotnet/api/overview/azure/notificationhubs/management)
 
-## <a name="samples"></a><span data-ttu-id="2b1e5-117">Exemplos</span><span class="sxs-lookup"><span data-stu-id="2b1e5-117">Samples</span></span>
+## <a name="samples"></a><span data-ttu-id="69b22-117">Exemplos</span><span class="sxs-lookup"><span data-stu-id="69b22-117">Samples</span></span>
 
-- [<span data-ttu-id="2b1e5-118">Introdução ao Windows Universal</span><span class="sxs-lookup"><span data-stu-id="2b1e5-118">Getting Started with Windows Universal</span></span>](https://github.com/Azure/azure-notificationhubs-samples/tree/master/dotnet/GetStartedWindowsUniversal)
+- [<span data-ttu-id="69b22-118">Introdução ao Windows Universal</span><span class="sxs-lookup"><span data-stu-id="69b22-118">Getting Started with Windows Universal</span></span>](https://github.com/Azure/azure-notificationhubs-samples/tree/master/dotnet/GetStartedWindowsUniversal)
 
 [PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console
 [DotNetCLI]: https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-add-package
