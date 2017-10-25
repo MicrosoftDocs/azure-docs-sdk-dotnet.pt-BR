@@ -86,7 +86,8 @@
         "scripts/": {
           "folder_relative_path_in_docset": "scripts"
         }
-      }
+      },
+      "bilingual_type": "hover over"
     },
     "fileMetadata": {
       "ms.service": {
@@ -147,17 +148,28 @@
         "api/Microsoft.Azure.Management.Compute*.yml": "big-compute",
         "api/Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling*.yml": "Other",
         "api/Microsoft.Azure.Management.Graph.RBAC.Fluent*.yml": "cosmos db"
-        
       },
       "version": {
-        "api/overview/azure/**/*.yml": ["azure-dotnet"],
-        "api/overview/azure/**/*.md": ["azure-dotnet"],
-        "docs-ref-conceptual/*.md": ["azure-dotnet"]
+        "api/overview/azure/**/*.yml": [
+          "azure-dotnet"
+        ],
+        "api/overview/azure/**/*.md": [
+          "azure-dotnet"
+        ],
+        "docs-ref-conceptual/*.md": [
+          "azure-dotnet"
+        ]
       },
       "monikers": {
-        "api/overview/azure/**/*.yml": ["azure-dotnet"],
-        "api/overview/azure/**/*.md": ["azure-dotnet"],
-        "docs-ref-conceptual/*.md": ["azure-dotnet"]
+        "api/overview/azure/**/*.yml": [
+          "azure-dotnet"
+        ],
+        "api/overview/azure/**/*.md": [
+          "azure-dotnet"
+        ],
+        "docs-ref-conceptual/*.md": [
+          "azure-dotnet"
+        ]
       }
     },
     "xref": [
