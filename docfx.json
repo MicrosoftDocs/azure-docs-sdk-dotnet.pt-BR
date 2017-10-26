@@ -86,8 +86,7 @@
         "scripts/": {
           "folder_relative_path_in_docset": "scripts"
         }
-      },
-      "bilingual_type": "hover over"
+      }
     },
     "fileMetadata": {
       "ms.service": {
