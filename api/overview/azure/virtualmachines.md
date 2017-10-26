@@ -4,18 +4,19 @@ description: "Referência para bibliotecas de computação do Azure para .NET"
 keywords: "Azure, .NET, SDK, API, VM, máquinas virtuais, computação"
 author: camsoper
 ms.author: casoper
-manager: douge
-ms.date: 06/20/2017
-ms.topic: article
+manager: wpickett
+ms.date: 10/19/2017
+ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
-ms.service: multiple
-ms.openlocfilehash: b30c1433b8f25941fc1d4ea4718aa07c0a870580
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+ms.service: virtual-machines
+ms.custom: devcenter, svc-overview
+ms.openlocfilehash: b8caa9a46b858c2ea1f14e83880bd69d83f6a5e9
+ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 10/26/2017
 ---
 # <a name="azure-virtual-machine-libraries-for-net"></a>Bibliotecas de máquina virtual do Azure para .NET
 
@@ -78,4 +79,4 @@ IVirtualMachine windowsVM = azure.VirtualMachines.Define("MyVirtualMachine")
 Veja a [lista completa](https://azure.microsoft.com/en-us/resources/samples/?platform=dotnet&term=VM) de exemplos de máquina virtual.
 
 [PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console
-[DotNetCLI]: https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-add-package
+[DotNetCLI]: https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package

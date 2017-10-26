@@ -4,18 +4,19 @@ description: "Referência para bibliotecas do Azure Resource Manager para .NET"
 keywords: Azure, .NET, SDK, API, Gerenciador de Recursos
 author: camsoper
 ms.author: casoper
-manager: douge
-ms.date: 07/31/2017
+manager: wpickett
+ms.date: 10/19/2017
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
-ms.openlocfilehash: 4dcfdb59e3cbe919053937a62602de6b602bbac1
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+ms.custom: devcenter, svc-overview
+ms.openlocfilehash: f9fe96fcdc94d3d27445f462c5220def9f2966da
+ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 10/26/2017
 ---
 # <a name="azure-resource-manager-libraries-for-net"></a>Biblioteca do Azure Resource Manager para .NET
 
@@ -45,7 +46,7 @@ Esse exemplo cria um novo grupo de recursos.
 
 ```csharp
 /* Include these "using" directives.
-using Microsoft.Azure.Management.ResourceManager.Fluent
+using Microsoft.Azure.Management.ResourceManager.Fluent;
 using Microsoft.Azure.Management.ResourceManager.Fluent.Core;
 */
 
@@ -68,4 +69,4 @@ IResourceGroup resourceGroup = azure.ResourceGroups
 
 
 [PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console
-[DotNetCLI]: https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-add-package
+[DotNetCLI]: https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package

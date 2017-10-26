@@ -4,18 +4,19 @@ description: "Referência para bibliotecas do Azure Data Lake Analytics para .NE
 keywords: Azure, .NET, SDK, API, Data Lake Analytics
 author: camsoper
 ms.author: casoper
-manager: douge
-ms.date: 07/18/2017
+manager: wpickett
+ms.date: 10/19/2017
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
-ms.service: multiple
-ms.openlocfilehash: 935afa104b1a47f537ea3bcc981670abd6c56413
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+ms.service: data-lake-analytics
+ms.custom: devcenter, svc-overview
+ms.openlocfilehash: aa99608ec5568450a90cc2b93c3f1c5d0e38bfb1
+ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 10/26/2017
 ---
 # <a name="azure-data-lake-analytics-libraries-for-net"></a>Bibliotecas do Azure Data Lake Analytics para .NET
 
@@ -71,4 +72,4 @@ AnalyticsClient adla = new AnalyticsClient(auth, adla_account);
 Explore mais [códigos .NET de exemplo](https://azure.microsoft.com/resources/samples/?platform=dotnet) que você pode usar em seus aplicativos.
 
 [PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console
-[DotNetCLI]: https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-add-package
+[DotNetCLI]: https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package

@@ -4,18 +4,19 @@ description: "Documentação de referência para as bibliotecas de cliente .NET 
 keywords: Azure, .NET, SDK, API, SQL, banco de dados, MySQL
 author: camsoper
 ms.author: casoper
-manager: douge
-ms.date: 07/17/2017
-ms.topic: article
+manager: wpickett
+ms.date: 10/19/2017
+ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: mysql
-ms.openlocfilehash: 1bc373d63b0172fd554277a6ef30fa09772a395b
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+ms.custom: devcenter, svc-overview
+ms.openlocfilehash: 27c1a2c7d36966d14daff5397b248a24197bec3b
+ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 10/26/2017
 ---
 # <a name="azure-database-for-mysql-libraries-for-net"></a>Bibliotecas do Banco de Dados do Azure para MySQL para .NET
 
@@ -77,4 +78,4 @@ using (MySqlConnection conn = new MySqlConnection(connectionString))
 - [Criar um banco de dados MySQL usando a CLI do Azure](https://docs.microsoft.com/azure/mysql/tutorial-design-database-using-cli) 
 
 [PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console
-[DotNetCLI]: https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-add-package
+[DotNetCLI]: https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package

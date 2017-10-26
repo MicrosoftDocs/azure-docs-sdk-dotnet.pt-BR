@@ -4,18 +4,19 @@ description: "Referência para bibliotecas do Azure Data Lake Store para .NET"
 keywords: Azure, .NET, SDK, API, Data Lake Store
 author: camsoper
 ms.author: casoper
-manager: douge
-ms.date: 07/18/2017
+manager: wpickett
+ms.date: 10/19/2017
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
-ms.service: multiple
-ms.openlocfilehash: 18746d745d64065a3d92215e704bce575130bdb0
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+ms.service: data-lake-store
+ms.custom: devcenter, svc-overview
+ms.openlocfilehash: 2b1c51575872b12a94eb44c7c082996bb879bcc9
+ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 10/26/2017
 ---
 # <a name="azure-data-lake-store-libraries-for-net"></a>Bibliotecas do Azure Data Lake Store para .NET
 
@@ -73,4 +74,4 @@ StoreClient adls = new StoreClient(auth, adls_account);
 Explore mais [códigos .NET de exemplo](https://azure.microsoft.com/resources/samples/?platform=dotnet) que você pode usar em seus aplicativos.
 
 [PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console
-[DotNetCLI]: https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-add-package
+[DotNetCLI]: https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package

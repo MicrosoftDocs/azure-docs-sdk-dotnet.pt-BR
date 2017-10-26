@@ -4,18 +4,19 @@ description: "Referência para bibliotecas da CDN do Azure para .NET"
 keywords: Azure, .NET, SDK, API, CDN
 author: camsoper
 ms.author: casoper
-manager: douge
-ms.date: 07/31/2017
+manager: wpickett
+ms.date: 10/19/2017
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: cdn
-ms.openlocfilehash: 1582f85c6e25a973fdf0294afb4393e6622e92a0
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+ms.custom: devcenter, svc-overview
+ms.openlocfilehash: afc63f943fcac3afd9afb7d85f6e699079829244
+ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 10/26/2017
 ---
 # <a name="azure-cdn-libraries-for-net"></a>Bibliotecas da CDN do Azure para .NET
 
@@ -70,4 +71,4 @@ ICdnProfile profileDefinition = azure.CdnProfiles.Define("CdnProfileName")
 * [Introdução à CDN - Gerenciar CDN - no .NET](https://github.com/Azure-Samples/cdn-dotnet-manage-cdn)
 
 [PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console
-[DotNetCLI]: https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-add-package
+[DotNetCLI]: https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package
