@@ -3,18 +3,20 @@ title: Ferramentas do Azure para Visual Studio 2015
 description: "Obtenha as ferramentas para começar a usar as bibliotecas .NET do Azure no Visual Studio 2015."
 keywords: .NET do Azure, SDK, VS2015, Visual Studio 2015
 author: camsoper
-manager: douge
 ms.author: casoper
-ms.date: 07/25/2017
-ms.topic: article
+manager: wpickett
+ms.date: 10/19/2017
+ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
-ms.openlocfilehash: bee09801efd4f7291981bc85cd9c6a5d0b795b6e
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+ms.service: multiple
+ms.custom: devcenter
+ms.openlocfilehash: 05241c8044e5826675afbd2d6d9bb69d48d15c65
+ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 10/23/2017
 ---
 # <a name="azure-tools-for-visual-studio-2015"></a>Ferramentas do Azure para Visual Studio 2015
 

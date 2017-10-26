@@ -4,18 +4,19 @@ description: "Referência para bibliotecas do Lote do Azure para .NET"
 keywords: Azure, .NET, SDK, API, Lote
 author: camsoper
 ms.author: casoper
-manager: douge
-ms.date: 08/01/2017
+manager: wpickett
+ms.date: 10/19/2017
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
-ms.service: multiple
-ms.openlocfilehash: 753721d430de0577c0bc1dd3774d728783a3bfee
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+ms.service: batch
+ms.custom: devcenter, svc-overview
+ms.openlocfilehash: 79ca70e5d0f3d5555c8a691da6dbcc1e6a55ab0b
+ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 10/23/2017
 ---
 # <a name="azure-batch-libraries-for-net"></a>Bibliotecas do Lote do Azure para .NET
 

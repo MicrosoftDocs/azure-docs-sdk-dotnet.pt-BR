@@ -11,7 +11,7 @@
         - name: Banco de dados SQL
           href: 'https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-dotnet'
         - name: CosmosDB
-          href: 'https://docs.microsoft.com/azure/cosmos-db/documentdb-dotnet-application'
+          href: 'https://docs.microsoft.com/azure/cosmos-db/create-documentdb-dotnet'
         - name: Service Fabric
           href: 'https://docs.microsoft.com/azure/service-fabric/service-fabric-quickstart-dotnet'
     - name: Introdução ao .NET
@@ -35,7 +35,7 @@
           href: /azure/postgresql/connect-csharp
         - name: Introdução à API DocumentDB do CosmosDB
           href: /azure/cosmos-db/documentdb-dotnetcore-get-started
-    - name: Artigos de instruções
+    - name: Artigos de instrução
       items:
         - name: Autenticação
           href: dotnet-sdk-azure-authenticate.md

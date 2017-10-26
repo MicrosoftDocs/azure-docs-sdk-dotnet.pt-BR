@@ -4,18 +4,19 @@ description: "Referência para bibliotecas de Hubs de Notificação do Azure par
 keywords: "Azure, .NET, SDK, API, Hubs de Notificação"
 author: camsoper
 ms.author: casoper
-manager: douge
-ms.date: 08/07/2017
+manager: wpickett
+ms.date: 10/19/2017
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
-ms.service: multiple
-ms.openlocfilehash: 630cdd465fdf6c77ad5d46d9f231c3f331467587
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+ms.service: notification-hubs
+ms.custom: devcenter, svc-overview
+ms.openlocfilehash: 6fe4e3f25aa420322478dc7c10aecd055a70f5c8
+ms.sourcegitcommit: 4114b8821f20e02f4185fcea7549d716f29b9c90
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 10/24/2017
 ---
 # <a name="azure-notification-hubs-libraries-for-net"></a>Bibliotecas de Hubs de Notificação do Azure para .NET
 
@@ -72,4 +73,4 @@ dotnet add package Microsoft.Azure.Management.NotificationHubs
 - [Introdução ao Windows Universal](https://github.com/Azure/azure-notificationhubs-samples/tree/master/dotnet/GetStartedWindowsUniversal)
 
 [PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console
-[DotNetCLI]: https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-add-package
+[DotNetCLI]: https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package

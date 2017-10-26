@@ -4,18 +4,19 @@ description: "Referência para bibliotecas de Hubs de Eventos do Azure para .NET
 keywords: Azure, .NET, SDK, API, Hubs de Eventos
 author: camsoper
 ms.author: casoper
-manager: douge
-ms.date: 07/19/2017
+manager: wpickett
+ms.date: 10/19/2017
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
-ms.service: multiple
-ms.openlocfilehash: 1dca44ed716e387d531661093d4c7cfc7780964b
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+ms.service: event-hubs
+ms.custom: devcenter, svc-overview
+ms.openlocfilehash: 2ec234959ffc46d2399d1c763e05f173a311b0d2
+ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 10/23/2017
 ---
 # <a name="azure-event-hubs-libraries-for-net"></a>Bibliotecas de Hubs de Eventos do Azure para .NET
 

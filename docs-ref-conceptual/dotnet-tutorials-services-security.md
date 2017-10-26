@@ -2,18 +2,20 @@
 title: Tutoriais do .NET para proteger seus aplicativos Azure
 description: "Tutoriais de segurança do aplicativo e gerenciamento de identidades nos aplicativos .NET em execução no Azure."
 author: camsoper
-manager: douge
-ms.devlang: dotnet
-ms.topic: article
-ms.service: Azure
-ms.technology: Azure
-ms.date: 06/09/2017
 ms.author: casoper
-ms.openlocfilehash: 1ac3b8168f8c2b11082536b635fc32b607354711
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+manager: wpickett
+ms.date: 10/19/2017
+ms.topic: reference
+ms.prod: azure
+ms.technology: azure
+ms.devlang: dotnet
+ms.service: multiple
+ms.custom: devcenter
+ms.openlocfilehash: 0cd530ef5f70778571e2f702aebc4a8b43c40e93
+ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 10/23/2017
 ---
 # <a name="tutorials-for-authenticating-users-in-your-net-apps-running-on-azure"></a>Tutoriais para autenticar usuários em seus aplicativos .NET em execução no Azure
 

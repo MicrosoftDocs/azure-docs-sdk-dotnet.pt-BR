@@ -2,18 +2,20 @@
 title: "Tutoriais para a criação de aplicativos Web e móveis .NET no Azure"
 description: "Tutoriais para criar e adicionar recursos a seus aplicativos .NET Web e móveis usando os serviços do Azure."
 author: camsoper
-manager: douge
-ms.devlang: dotnet
-ms.topic: article
-ms.service: Azure
-ms.technology: Azure
-ms.date: 06/09/2017
 ms.author: casoper
-ms.openlocfilehash: fd0744e8cd7a777d39c656e379b53fc2ac0949f8
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+manager: wpickett
+ms.date: 10/19/2017
+ms.topic: reference
+ms.prod: azure
+ms.technology: azure
+ms.devlang: dotnet
+ms.service: multiple
+ms.custom: devcenter
+ms.openlocfilehash: 1995f7a13e941a6178ed209b6c072c6142abba4f
+ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 10/23/2017
 ---
 # <a name="tutorials-for-building-web-and-mobile-apps-with-net-in-azure"></a>Tutoriais para a criação de aplicativos Web e móveis com o .NET no Azure
 
@@ -33,7 +35,7 @@ Para exemplos de código-fonte, confira a lista de [exemplos do serviço do Azur
 | [Conectando-se a uma conta dos Serviços de Mídia][7] | Obtenha uma conexão programática com os Serviços de Mídia do Azure. |
 | [Fornecer vídeo sob demanda][4] | Crie um serviço básico de distribuição de conteúdo de vídeo sob demanda no .NET. | 
 | [Fazer transmissões ao vivo com codificadores locais][8] | Crie um canal que está configurado para uma entrega de passagem. |
-| **Pesquisa do Azure**||
+| **Azure Search**||
 | [Como usar o Azure Search de um aplicativo .NET][5] | Use o SDK do .NET para implementar uma experiência de pesquisa avançada em seu aplicativo usando o Azure Search. | 
 
 

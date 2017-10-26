@@ -4,18 +4,19 @@ description: "Referência para bibliotecas do IoT do Azure para .NET"
 keywords: Azure, .NET, SDK, API, IoT
 author: camsoper
 ms.author: casoper
-manager: douge
-ms.date: 07/21/2017
+manager: wpickett
+ms.date: 10/19/2017
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
-ms.service: multiple
-ms.openlocfilehash: bdbcc37affb55336d1a3fafe24b8e7ffd78ec180
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+ms.service: iot-hub
+ms.custom: devcenter, svc-overview
+ms.openlocfilehash: 0fa4121becd0d5bd646077a9644a651903c43348
+ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 10/23/2017
 ---
 # <a name="azure-iot-libraries-for-net"></a>Bibliotecas do IoT do Azure para .NET
 

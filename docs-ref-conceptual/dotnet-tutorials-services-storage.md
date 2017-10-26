@@ -2,18 +2,20 @@
 title: Tutoriais para usar armazenamento em seus aplicativos .NET no Azure
 description: "Salvar objetos e trabalhar com arquivos em seus aplicativos .NET em execução no Azure"
 author: camsoper
-manager: douge
-ms.devlang: dotnet
-ms.topic: article
-ms.service: Azure
-ms.technology: Azure
-ms.date: 06/09/2017
 ms.author: casoper
-ms.openlocfilehash: f023c7cbd2697c744bb71d936a965ed0eae243d1
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+manager: wpickett
+ms.date: 10/19/2017
+ms.topic: reference
+ms.prod: azure
+ms.technology: azure
+ms.devlang: dotnet
+ms.service: multiple
+ms.custom: devcenter
+ms.openlocfilehash: 972c4ac0987bcd0d2fd132292f6d5fd25f68e378
+ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 10/23/2017
 ---
 # <a name="tutorials-for-working-with-storage-in-your-net-apps-on-azure"></a>Tutoriais para trabalhar com armazenamento em seus aplicativos .NET no Azure.
 

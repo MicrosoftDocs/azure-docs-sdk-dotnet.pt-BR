@@ -4,18 +4,19 @@ description: "Visão geral das APIs do Azure para .NET"
 keywords: Azure, .NET, SDK, API, o NuGet, bibliotecas, pacotes
 author: camsoper
 ms.author: casoper
-manager: douge
-ms.date: 06/20/2017
-ms.topic: article
+manager: wpickett
+ms.date: 10/19/2017
+ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
-ms.openlocfilehash: 27956b5c351314b2302109d81d015cc77effea15
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+ms.custom: devcenter
+ms.openlocfilehash: cd0f8d6e0572fc9211af637e60d1a4f19e1ee1e8
+ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 10/23/2017
 ---
 # <a name="azure-net-apis"></a>APIs do .NET do Azure
 

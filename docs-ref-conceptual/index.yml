@@ -43,7 +43,7 @@ sections:
             image:
               src: 'https://docs.microsoft.com/en-us/media/common/i_download-install.svg'
             title: Ferramentas &amp; do SDK
-          - href: 'https://docs.microsoft.com/en-us/dotnet/api/overview/azure/?view=azure-dotnet'
+          - href: 'https://docs.microsoft.com/dotnet/api/overview/azure/?view=azure-dotnet'
             html: <p>Pacotes NuGet do .NET</p>
             image:
               src: 'https://docs.microsoft.com/en-us/media/common/i_api-reference.svg'
@@ -72,7 +72,7 @@ sections:
           - image:
               src: 'https://docs.microsoft.com/en-us/azure/media/index/cosmosdb.svg'
             title: Compilar um aplicativo .NET com o Cosmos DB
-            href: 'https://docs.microsoft.com/en-us/azure/cosmos-db/create-documentdb-dotnet'
+            href: 'https://docs.microsoft.com/azure/cosmos-db/create-documentdb-dotnet'
           - image:
               src: 'https://docs.microsoft.com/en-us/azure/media/index/fabric.svg'
             title: Criar um aplicativo de microsserviço .NET com o Service Fabric

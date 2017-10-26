@@ -4,18 +4,19 @@ description: "Referência para bibliotecas do Barramento de Serviço do Azure pa
 keywords: "Azure, .NET, SDK, API, Barramento de Serviço"
 author: camsoper
 ms.author: casoper
-manager: douge
-ms.date: 08/01/2017
+manager: wpickett
+ms.date: 10/19/2017
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
-ms.service: multiple
-ms.openlocfilehash: d4d3ac982794fc7533b97fe8c053730b4b39ff58
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+ms.service: service-bus
+ms.custom: devcenter, svc-overview
+ms.openlocfilehash: c2019fd39f42f9bc4a39dd4e642db9f90b7a917c
+ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 10/23/2017
 ---
 # <a name="azure-service-bus-libraries-for-net"></a>Bibliotecas do Barramento de Serviço para .NET
 

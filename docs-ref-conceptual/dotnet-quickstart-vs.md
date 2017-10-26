@@ -11,11 +11,11 @@ ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
 ms.assetid: 
-ms.openlocfilehash: 1defed888972ae2f9d60d57bc34c518df9b5867c
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+ms.openlocfilehash: eb7aa364cae9deea4ed2052eefdbd51c85379afa
+ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 10/26/2017
 ---
 # <a name="get-started-with-net-for-azure-developers"></a>Introdução ao .NET para desenvolvedores do Azure
 
@@ -74,7 +74,7 @@ Vamos obter o código de exemplo para este passo a passo e associá-lo à conta 
 
 4. Pressione **F5** para restaurar os pacotes NuGet do projeto, compilá-lo e executá-lo localmente.
 
-O aplicativo Web deve ser executado localmente em seu navegador.  Você pode adicionar novos itens à lista de tarefas pendentes clicando em **Criar Novo**.  Observe que os dados que você insere no aplicativo estão sendo armazenados em sua conta do CosmosDB.  Você pode [exibir seus dados no portal do Azure](https://docs.microsoft.com/en-us/azure/documentdb/documentdb-view-json-document-explorer).
+O aplicativo Web deve ser executado localmente em seu navegador.  Você pode adicionar novos itens à lista de tarefas pendentes clicando em **Criar Novo**.  Observe que os dados que você insere no aplicativo estão sendo armazenados em sua conta do CosmosDB.  Você pode [exibir seus dados no portal do Azure](/azure/documentdb/documentdb-view-json-document-explorer).
 
 ## <a name="deploying-the-application-as-an-azure-web-app"></a>Implantar o aplicativo como um aplicativo Web do Azure
 

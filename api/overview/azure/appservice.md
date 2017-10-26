@@ -4,18 +4,19 @@ description: "Referência para bibliotecas do Serviço de Aplicativo do Azure pa
 keywords: "Azure, .NET, SDK, API, aplicativos web, serviço de aplicativo, mobile, asp.net"
 author: camsoper
 ms.author: casoper
-manager: douge
-ms.date: 06/20/2017
-ms.topic: article
+manager: wpickett
+ms.date: 10/19/2017
+ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
-ms.service: multiple
-ms.openlocfilehash: e81a296ea5f5dadf7086439c88a347c20ec2abee
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+ms.service: app-service
+ms.custom: devcenter, svc-overview
+ms.openlocfilehash: 9f54fb6aca934f07c6ae23a4ae40dc29fa48ec8b
+ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 10/26/2017
 ---
 # <a name="azure-app-service-libraries-for-net"></a>Bibliotecas de Serviço de Aplicativo do Azure para .NET
 
@@ -71,4 +72,4 @@ IWebApp app1 = azure.WebApps
 Veja a [lista completa](https://azure.microsoft.com/en-us/resources/samples/?platform=dotnet&term=app%20service) de exemplos do Serviço de Aplicativo do Azure.
 
 [PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console
-[DotNetCLI]: https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-add-package
+[DotNetCLI]: https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package

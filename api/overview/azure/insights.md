@@ -4,18 +4,19 @@ description: "Referência para bibliotecas do Azure Application Insights para .N
 keywords: Azure, .NET, SDK, API, AppInsights de aplicativo
 author: camsoper
 ms.author: casoper
-manager: douge
-ms.date: 07/24/2017
+manager: wpickett
+ms.date: 10/19/2017
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
-ms.service: multiple
-ms.openlocfilehash: 2eef8d322d905679e8aceaed77ba44726c14dd94
-ms.sourcegitcommit: fa02d34afbf981f809661ab842b3b93242a38f68
+ms.service: application-insights
+ms.custom: devcenter, svc-overview
+ms.openlocfilehash: 081143eafaeea2954703c337609a67fd5a7941c6
+ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/30/2017
+ms.lasthandoff: 10/23/2017
 ---
 # <a name="azure-application-insights-libraries-for-net"></a>Bibliotecas do Azure Application Insights para .NET
 

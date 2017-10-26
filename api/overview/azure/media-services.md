@@ -4,18 +4,19 @@ description: "Referência para bibliotecas dos Serviços de Mídia do Azure para
 keywords: "Azure, .NET, SDK, API, Serviços de Mídia"
 author: camsoper
 ms.author: casoper
-manager: douge
-ms.date: 07/21/2017
+manager: wpickett
+ms.date: 10/19/2017
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
-ms.service: multiple
-ms.openlocfilehash: ee852258819e75867888f4a5fa1cbd72c7f91685
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+ms.service: media-services
+ms.custom: devcenter, svc-overview
+ms.openlocfilehash: 872ed60363c0c886e9844d0cb0bef07cf41a0242
+ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 10/23/2017
 ---
 # <a name="azure-media-services-libraries-for-net"></a>Bibliotecas dos Serviços de Mídia do Azure para .NET
 
