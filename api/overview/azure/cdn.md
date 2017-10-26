@@ -4,35 +4,36 @@ description: "Referência para bibliotecas da CDN do Azure para .NET"
 keywords: Azure, .NET, SDK, API, CDN
 author: camsoper
 ms.author: casoper
-manager: douge
-ms.date: 07/31/2017
+manager: wpickett
+ms.date: 10/19/2017
 ms.topic: reference
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: cdn
-ms.openlocfilehash: 1582f85c6e25a973fdf0294afb4393e6622e92a0
-ms.sourcegitcommit: d95a6ad3774a49b16f652e40e7860e47636c7ad0
+ms.custom: devcenter, svc-overview
+ms.openlocfilehash: afc63f943fcac3afd9afb7d85f6e699079829244
+ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2017
+ms.lasthandoff: 10/26/2017
 ---
-# <a name="azure-cdn-libraries-for-net"></a><span data-ttu-id="32b77-104">Bibliotecas da CDN do Azure para .NET</span><span class="sxs-lookup"><span data-stu-id="32b77-104">Azure CDN libraries for .NET</span></span>
+# <a name="azure-cdn-libraries-for-net"></a><span data-ttu-id="59530-104">Bibliotecas da CDN do Azure para .NET</span><span class="sxs-lookup"><span data-stu-id="59530-104">Azure CDN libraries for .NET</span></span>
 
-## <a name="overview"></a><span data-ttu-id="32b77-105">Visão geral</span><span class="sxs-lookup"><span data-stu-id="32b77-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="59530-105">Visão geral</span><span class="sxs-lookup"><span data-stu-id="59530-105">Overview</span></span>
 
-<span data-ttu-id="32b77-106">A CDN (Rede de Distribuição de Conteúdo) do Azure armazena em cache conteúdo Web estático em locais estrategicamente posicionados para fornecer taxa de transferência máxima para o fornecimento de conteúdo aos usuários.</span><span class="sxs-lookup"><span data-stu-id="32b77-106">The Azure Content Delivery Network (CDN) caches static web content at strategically placed locations to provide maximum throughput for delivering content to users.</span></span> <span data-ttu-id="32b77-107">A CDN oferece aos desenvolvedores uma solução global de fornecimento de conteúdo de alta largura de banda armazenando em cache o conteúdo em nós físicos em todo o mundo.</span><span class="sxs-lookup"><span data-stu-id="32b77-107">The CDN offers developers a global solution for delivering high-bandwidth content by caching the content at physical nodes across the world.</span></span>
+<span data-ttu-id="59530-106">A CDN (Rede de Distribuição de Conteúdo) do Azure armazena em cache conteúdo Web estático em locais estrategicamente posicionados para fornecer taxa de transferência máxima para o fornecimento de conteúdo aos usuários.</span><span class="sxs-lookup"><span data-stu-id="59530-106">The Azure Content Delivery Network (CDN) caches static web content at strategically placed locations to provide maximum throughput for delivering content to users.</span></span> <span data-ttu-id="59530-107">A CDN oferece aos desenvolvedores uma solução global de fornecimento de conteúdo de alta largura de banda armazenando em cache o conteúdo em nós físicos em todo o mundo.</span><span class="sxs-lookup"><span data-stu-id="59530-107">The CDN offers developers a global solution for delivering high-bandwidth content by caching the content at physical nodes across the world.</span></span>
 
-<span data-ttu-id="32b77-108">Para saber mais sobre a CDN do Azure, confira [Visão geral da Rede de Distribuição de Conteúdo do Azure](https://docs.microsoft.com/azure/cdn/cdn-overview).</span><span class="sxs-lookup"><span data-stu-id="32b77-108">To learn more about Azure CDN, see [Overview of the Azure Content Delivery Network](https://docs.microsoft.com/azure/cdn/cdn-overview).</span></span>
+<span data-ttu-id="59530-108">Para saber mais sobre a CDN do Azure, confira [Visão geral da Rede de Distribuição de Conteúdo do Azure](https://docs.microsoft.com/azure/cdn/cdn-overview).</span><span class="sxs-lookup"><span data-stu-id="59530-108">To learn more about Azure CDN, see [Overview of the Azure Content Delivery Network](https://docs.microsoft.com/azure/cdn/cdn-overview).</span></span>
 
 
-## <a name="management-library"></a><span data-ttu-id="32b77-109">Biblioteca de gerenciamento</span><span class="sxs-lookup"><span data-stu-id="32b77-109">Management library</span></span>
+## <a name="management-library"></a><span data-ttu-id="59530-109">Biblioteca de gerenciamento</span><span class="sxs-lookup"><span data-stu-id="59530-109">Management library</span></span>
 
-<span data-ttu-id="32b77-110">Você pode usar a Biblioteca da CDN do Azure para .NET a fim de automatizar a criação e o gerenciamento de perfis e pontos de extremidade da CDN.</span><span class="sxs-lookup"><span data-stu-id="32b77-110">You can use the Azure CDN Library for .NET to automate creation and management of CDN profiles and endpoints.</span></span> 
+<span data-ttu-id="59530-110">Você pode usar a Biblioteca da CDN do Azure para .NET a fim de automatizar a criação e o gerenciamento de perfis e pontos de extremidade da CDN.</span><span class="sxs-lookup"><span data-stu-id="59530-110">You can use the Azure CDN Library for .NET to automate creation and management of CDN profiles and endpoints.</span></span> 
 
-<span data-ttu-id="32b77-111">Instale o [pacote NuGet](https://www.nuget.org/packages/Microsoft.Azure.Management.Cdn.Fluent) diretamente do [console do Gerenciador de Pacotes][PackageManager] do Visual Studio ou com a [CLI do .NET Core][DotNetCLI].</span><span class="sxs-lookup"><span data-stu-id="32b77-111">Install the [NuGet package](https://www.nuget.org/packages/Microsoft.Azure.Management.Cdn.Fluent) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
+<span data-ttu-id="59530-111">Instale o [pacote NuGet](https://www.nuget.org/packages/Microsoft.Azure.Management.Cdn.Fluent) diretamente do [console do Gerenciador de Pacotes][PackageManager] do Visual Studio ou com a [CLI do .NET Core][DotNetCLI].</span><span class="sxs-lookup"><span data-stu-id="59530-111">Install the [NuGet package](https://www.nuget.org/packages/Microsoft.Azure.Management.Cdn.Fluent) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
 
-#### <a name="visual-studio-package-manager"></a><span data-ttu-id="32b77-112">Gerenciador de Pacotes do Visual Studio</span><span class="sxs-lookup"><span data-stu-id="32b77-112">Visual Studio Package Manager</span></span>
+#### <a name="visual-studio-package-manager"></a><span data-ttu-id="59530-112">Gerenciador de Pacotes do Visual Studio</span><span class="sxs-lookup"><span data-stu-id="59530-112">Visual Studio Package Manager</span></span>
 
 ```powershell
 Install-Package Microsoft.Azure.Management.Cdn.Fluent
@@ -42,9 +43,9 @@ Install-Package Microsoft.Azure.Management.Cdn.Fluent
 dotnet add package Microsoft.Azure.Management.Cdn.Fluent
 ```
 
-### <a name="example"></a><span data-ttu-id="32b77-113">Exemplo</span><span class="sxs-lookup"><span data-stu-id="32b77-113">Example</span></span>
+### <a name="example"></a><span data-ttu-id="59530-113">Exemplo</span><span class="sxs-lookup"><span data-stu-id="59530-113">Example</span></span>
 
-<span data-ttu-id="32b77-114">Este exemplo cria um novo perfil de CDN com um novo ponto de extremidade apontado para `www.contoso.com`.</span><span class="sxs-lookup"><span data-stu-id="32b77-114">This example creates a new CDN profile with a new endpoint pointed to `www.contoso.com`.</span></span>
+<span data-ttu-id="59530-114">Este exemplo cria um novo perfil de CDN com um novo ponto de extremidade apontado para `www.contoso.com`.</span><span class="sxs-lookup"><span data-stu-id="59530-114">This example creates a new CDN profile with a new endpoint pointed to `www.contoso.com`.</span></span>
 
 ```csharp
 /* Include these "using" directives.
@@ -62,12 +63,12 @@ ICdnProfile profileDefinition = azure.CdnProfiles.Define("CdnProfileName")
 ```
 
 > [!div class="nextstepaction"]
-> [<span data-ttu-id="32b77-115">Explorar as APIs de gerenciamento</span><span class="sxs-lookup"><span data-stu-id="32b77-115">Explore the management APIs</span></span>](/dotnet/api/overview/azure/cdn/management)
+> [<span data-ttu-id="59530-115">Explorar as APIs de gerenciamento</span><span class="sxs-lookup"><span data-stu-id="59530-115">Explore the management APIs</span></span>](/dotnet/api/overview/azure/cdn/management)
 
 
-## <a name="samples"></a><span data-ttu-id="32b77-116">Exemplos</span><span class="sxs-lookup"><span data-stu-id="32b77-116">Samples</span></span>
+## <a name="samples"></a><span data-ttu-id="59530-116">Exemplos</span><span class="sxs-lookup"><span data-stu-id="59530-116">Samples</span></span>
 
-* [<span data-ttu-id="32b77-117">Introdução à CDN - Gerenciar CDN - no .NET</span><span class="sxs-lookup"><span data-stu-id="32b77-117">Getting started with CDN - Manage CDN - in .NET</span></span>](https://github.com/Azure-Samples/cdn-dotnet-manage-cdn)
+* [<span data-ttu-id="59530-117">Introdução à CDN - Gerenciar CDN - no .NET</span><span class="sxs-lookup"><span data-stu-id="59530-117">Getting started with CDN - Manage CDN - in .NET</span></span>](https://github.com/Azure-Samples/cdn-dotnet-manage-cdn)
 
 [PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console
-[DotNetCLI]: https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-add-package
+[DotNetCLI]: https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package
