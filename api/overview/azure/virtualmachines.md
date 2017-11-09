@@ -12,41 +12,41 @@ ms.technology: azure
 ms.devlang: dotnet
 ms.service: virtual-machines
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: b8caa9a46b858c2ea1f14e83880bd69d83f6a5e9
-ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
+ms.openlocfilehash: d3bad2e94ec8b08bad2a014fb25d400625a3590d
+ms.sourcegitcommit: 2d08f2815fa7fab55e09d294fc4d74897df7951d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 11/07/2017
 ---
-# <a name="azure-virtual-machine-libraries-for-net"></a><span data-ttu-id="8a7c2-104">Bibliotecas de máquina virtual do Azure para .NET</span><span class="sxs-lookup"><span data-stu-id="8a7c2-104">Azure virtual machine libraries for .NET</span></span>
+# <a name="azure-virtual-machine-libraries-for-net"></a><span data-ttu-id="e09e1-104">Bibliotecas de máquina virtual do Azure para .NET</span><span class="sxs-lookup"><span data-stu-id="e09e1-104">Azure virtual machine libraries for .NET</span></span>
 
-## <a name="overview"></a><span data-ttu-id="8a7c2-105">Visão geral</span><span class="sxs-lookup"><span data-stu-id="8a7c2-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="e09e1-105">Visão geral</span><span class="sxs-lookup"><span data-stu-id="e09e1-105">Overview</span></span>
 
-<span data-ttu-id="8a7c2-106">Recursos de computação escalonáveis, sob demanda que executam Linux ou Windows.</span><span class="sxs-lookup"><span data-stu-id="8a7c2-106">On-demand, scalable computing resources running Linux or Windows.</span></span>
+<span data-ttu-id="e09e1-106">Recursos de computação escalonáveis, sob demanda que executam Linux ou Windows.</span><span class="sxs-lookup"><span data-stu-id="e09e1-106">On-demand, scalable computing resources running Linux or Windows.</span></span>
 
-<span data-ttu-id="8a7c2-107">Para começar a usar máquinas virtuais do Azure, consulte [Criar uma máquina virtual Linux com o portal do Azure](https://review.docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal).</span><span class="sxs-lookup"><span data-stu-id="8a7c2-107">To get started with Azure virtual machines, see [Create a Linux virtual machine with the Azure portal](https://review.docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal).</span></span>
+<span data-ttu-id="e09e1-107">Para começar a usar máquinas virtuais do Azure, consulte [Criar uma máquina virtual Linux com o portal do Azure](https://review.docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal).</span><span class="sxs-lookup"><span data-stu-id="e09e1-107">To get started with Azure virtual machines, see [Create a Linux virtual machine with the Azure portal](https://review.docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal).</span></span>
 
-## <a name="management-apis"></a><span data-ttu-id="8a7c2-108">APIs de gerenciamento</span><span class="sxs-lookup"><span data-stu-id="8a7c2-108">Management APIs</span></span>
+## <a name="management-apis"></a><span data-ttu-id="e09e1-108">APIs de gerenciamento</span><span class="sxs-lookup"><span data-stu-id="e09e1-108">Management APIs</span></span>
 
-<span data-ttu-id="8a7c2-109">Criar, configurar e expandir máquinas virtuais Windows e Linux no Azure a partir do seu código com a API de gerenciamento.</span><span class="sxs-lookup"><span data-stu-id="8a7c2-109">Create, configure, and scale out Windows and Linux virtual machines in Azure from your code with the management API.</span></span>
+<span data-ttu-id="e09e1-109">Criar, configurar e expandir máquinas virtuais Windows e Linux no Azure a partir do seu código com a API de gerenciamento.</span><span class="sxs-lookup"><span data-stu-id="e09e1-109">Create, configure, and scale out Windows and Linux virtual machines in Azure from your code with the management API.</span></span>
 
-<span data-ttu-id="8a7c2-110">Instale o [pacote NuGet](https://www.nuget.org/packages/Microsoft.Azure.Management.Compute.Fluent) diretamente do [console do Gerenciador de Pacotes][PackageManager] do Visual Studio ou com a [CLI do .NET Core][DotNetCLI].</span><span class="sxs-lookup"><span data-stu-id="8a7c2-110">Install the [NuGet package](https://www.nuget.org/packages/Microsoft.Azure.Management.Compute.Fluent) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
+<span data-ttu-id="e09e1-110">Instale o [pacote NuGet](https://www.nuget.org/packages/Microsoft.Azure.Management.Compute.Fluent) diretamente do [console do Gerenciador de Pacotes][PackageManager] do Visual Studio ou com a [CLI do .NET Core][DotNetCLI].</span><span class="sxs-lookup"><span data-stu-id="e09e1-110">Install the [NuGet package](https://www.nuget.org/packages/Microsoft.Azure.Management.Compute.Fluent) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
 
-#### <a name="visual-studio-package-manager"></a><span data-ttu-id="8a7c2-111">Gerenciador de Pacotes do Visual Studio</span><span class="sxs-lookup"><span data-stu-id="8a7c2-111">Visual Studio Package Manager</span></span>
+#### <a name="visual-studio-package-manager"></a><span data-ttu-id="e09e1-111">Gerenciador de Pacotes do Visual Studio</span><span class="sxs-lookup"><span data-stu-id="e09e1-111">Visual Studio Package Manager</span></span>
 
 ```powershell
 Install-Package Microsoft.Azure.Management.Compute.Fluent
 ```
 
-#### <a name="net-core-cli"></a><span data-ttu-id="8a7c2-112">CLI do .NET Core</span><span class="sxs-lookup"><span data-stu-id="8a7c2-112">.NET Core CLI</span></span>
+#### <a name="net-core-cli"></a><span data-ttu-id="e09e1-112">CLI do .NET Core</span><span class="sxs-lookup"><span data-stu-id="e09e1-112">.NET Core CLI</span></span>
 
 ```bash
 dotnet add package Microsoft.Azure.Management.Compute.Fluent
 ```
 
-### <a name="code-example"></a><span data-ttu-id="8a7c2-113">Exemplo de código</span><span class="sxs-lookup"><span data-stu-id="8a7c2-113">Code Example</span></span>
+### <a name="code-example"></a><span data-ttu-id="e09e1-113">Exemplo de código</span><span class="sxs-lookup"><span data-stu-id="e09e1-113">Code Example</span></span>
 
-<span data-ttu-id="8a7c2-114">CriE uma VM Windows.</span><span class="sxs-lookup"><span data-stu-id="8a7c2-114">Create a Windows VM.</span></span>
+<span data-ttu-id="e09e1-114">CriE uma VM Windows.</span><span class="sxs-lookup"><span data-stu-id="e09e1-114">Create a Windows VM.</span></span>
 
 ```csharp
 /* Include these "using" directives...
@@ -69,14 +69,14 @@ IVirtualMachine windowsVM = azure.VirtualMachines.Define("MyVirtualMachine")
 ```
 
 > [!div class="nextstepaction"]
-> [<span data-ttu-id="8a7c2-115">Explorar as APIs de gerenciamento</span><span class="sxs-lookup"><span data-stu-id="8a7c2-115">Explore the management APIs</span></span>](https://review.docs.microsoft.com/en-us/dotnet/api/overview/azure/virtualmachines/management?view=azure-dotnet)
+> [<span data-ttu-id="e09e1-115">Explorar as APIs de gerenciamento</span><span class="sxs-lookup"><span data-stu-id="e09e1-115">Explore the management APIs</span></span>](https://docs.microsoft.com/en-us/dotnet/api/overview/azure/virtualmachines/management?view=azure-dotnet)
 
-### <a name="samples"></a><span data-ttu-id="8a7c2-116">Exemplos</span><span class="sxs-lookup"><span data-stu-id="8a7c2-116">Samples</span></span>
+### <a name="samples"></a><span data-ttu-id="e09e1-116">Exemplos</span><span class="sxs-lookup"><span data-stu-id="e09e1-116">Samples</span></span>
 
-* [<span data-ttu-id="8a7c2-117">Criar e gerenciar máquinas virtuais</span><span class="sxs-lookup"><span data-stu-id="8a7c2-117">Create and manage virtual machines</span></span>](/dotnet/azure/dotnet-sdk-azure-virtual-machine-samples)
-* [<span data-ttu-id="8a7c2-118">Implantar uma VM habilitada para SSH com um modelo com o .NET</span><span class="sxs-lookup"><span data-stu-id="8a7c2-118">Deploy an SSH-enabled VM with a Template with .NET</span></span>](https://azure.microsoft.com/en-us/resources/samples/resource-manager-dotnet-template-deployment/)
+* [<span data-ttu-id="e09e1-117">Criar e gerenciar máquinas virtuais</span><span class="sxs-lookup"><span data-stu-id="e09e1-117">Create and manage virtual machines</span></span>](/dotnet/azure/dotnet-sdk-azure-virtual-machine-samples)
+* [<span data-ttu-id="e09e1-118">Implantar uma VM habilitada para SSH com um modelo com o .NET</span><span class="sxs-lookup"><span data-stu-id="e09e1-118">Deploy an SSH-enabled VM with a Template with .NET</span></span>](https://azure.microsoft.com/en-us/resources/samples/resource-manager-dotnet-template-deployment/)
 
-<span data-ttu-id="8a7c2-119">Veja a [lista completa](https://azure.microsoft.com/en-us/resources/samples/?platform=dotnet&term=VM) de exemplos de máquina virtual.</span><span class="sxs-lookup"><span data-stu-id="8a7c2-119">View the [complete list](https://azure.microsoft.com/en-us/resources/samples/?platform=dotnet&term=VM) of virtual machine samples.</span></span>
+<span data-ttu-id="e09e1-119">Veja a [lista completa](https://azure.microsoft.com/en-us/resources/samples/?platform=dotnet&term=VM) de exemplos de máquina virtual.</span><span class="sxs-lookup"><span data-stu-id="e09e1-119">View the [complete list](https://azure.microsoft.com/en-us/resources/samples/?platform=dotnet&term=VM) of virtual machine samples.</span></span>
 
 [PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console
 [DotNetCLI]: https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package
