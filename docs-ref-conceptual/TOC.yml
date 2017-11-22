@@ -35,16 +35,28 @@
           href: /azure/postgresql/connect-csharp
         - name: Introdução à API DocumentDB do CosmosDB
           href: /azure/cosmos-db/documentdb-dotnetcore-get-started
-    - name: Artigos de instrução
+    - name: Como
       items:
+        - name: Migração
+          items:
+            - name: Escolher a opção de hospedagem certa do Azure
+              href: dotnet-howto-choose-migration.md
+            - name: Migrar um aplicativo ASP.NET para o Serviço de Aplicativo do Azure
+              href: dotnet-howto-migrate-app-service.md
+            - name: Migrar um aplicativo ASP.NET para a VM do Azure
+              href: dotnet-howto-migrate-to-vm.md
+            - name: Migrar um banco de dados do SQL Server para o Azure
+              href: dotnet-howto-migrate-sql.md
         - name: Autenticação
           href: dotnet-sdk-azure-authenticate.md
-        - name: APIs fluentes
+        - name: Usar APIs Fluentes
           href: dotnet-sdk-azure-concepts.md
-        - name: Implantação com o Visual Studio
-          href: dotnet-quickstart-vs.md
-        - name: Implantar com ferramentas de linha de comando
-          href: dotnet-quickstart-xplat.md
+        - name: Implantar
+          items:
+            - name: Implantação com o Visual Studio
+              href: dotnet-quickstart-vs.md
+            - name: Implantar com ferramentas de linha de comando
+              href: dotnet-quickstart-xplat.md
         - name: Bancos de dados
           href: dotnet-tutorials-services-databases.md
         - name: Armazenamento
@@ -53,7 +65,7 @@
           href: dotnet-tutorials-services-containers.md
         - name: Sistema de mensagens + IoT
           href: dotnet-tutorials-services-messaging-iot.md
-        - name: Usar AI + Serviços Cognitivos
+        - name: AI + Serviços Cognitivos
           href: dotnet-tutorials-services-ai-cognitive.md
         - name: Dados e Análises
           href: dotnet-tutorials-services-analytics.md
