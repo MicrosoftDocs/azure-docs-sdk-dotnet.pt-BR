@@ -12,11 +12,11 @@ ms.technology: azure
 ms.devlang: dotnet
 ms.service: data-lake-store
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 2b1c51575872b12a94eb44c7c082996bb879bcc9
-ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
+ms.openlocfilehash: e8380c4a9ebf86f03fe87fc800dffda10e48e60a
+ms.sourcegitcommit: 3e904e6e4f04f1c92d729459434c85faff32e386
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 12/09/2017
 ---
 # <a name="azure-data-lake-store-libraries-for-net"></a>Bibliotecas do Azure Data Lake Store para .NET
 
@@ -25,6 +25,39 @@ ms.lasthandoff: 10/26/2017
 O Repositório Azure Data Lake é um repositório em hiper-escala corporativo para cargas de trabalho de análise de big data. O Azure Data Lake permite que você capture dados de qualquer tamanho, tipo e velocidade de ingestão em um único lugar para análises operacionais e exploratórias.
 
 Para saber mais, confira [Visão geral do Azure Data Lake Store](/azure/data-lake-store/data-lake-store-overview).
+
+## <a name="client-library"></a>Biblioteca do cliente
+
+Use a biblioteca de clientes para executar operações de sistema de arquivos no Data Lake Store, como a criação de pastas em uma conta do Data Lake Store, o carregamento e o download de arquivos.  Para obter um tutorial completo sobre como usar o Data Lake Store com o .NET, confira [Operações de sistema de arquivos no Azure Data Lake Store usando o SDK do .NET](/azure/data-lake-store/data-lake-store-data-operations-net-sdk).
+
+Instale o [pacote NuGet](https://www.nuget.org/packages/Microsoft.Azure.Management.DataLake.Store) diretamente do [console do Gerenciador de Pacotes][PackageManager] do Visual Studio ou com a [CLI do .NET Core][DotNetCLI].
+
+#### <a name="visual-studio-package-manager"></a>Gerenciador de Pacotes do Visual Studio
+
+```powershell
+Install-Package Microsoft.Azure.DataLake.Store
+```
+
+```bash
+dotnet add package Microsoft.Azure.DataLake.Store
+```
+### <a name="authentication"></a>Autenticação
+
+* Para saber sobre autenticação do usuário final em seu aplicativo, consulte [Autenticação do usuário final com Data Lake Store usando SDK do .NET](/azure/data-lake-store/data-lake-store-end-user-authenticate-net-sdk).
+* Para saber sobre autenticação do usuário final em seu aplicativo, consulte [Autenticação de serviço para serviço com Data Lake Store usando o SDK do .NET](/azure/data-lake-store/data-lake-store-service-to-service-authenticate-net-sdk).
+
+### <a name="code-example"></a>Exemplo de código
+
+O trecho de código a seguir cria o objeto de cliente de sistema de arquivos do Data Lake Store, que é usado para emitir solicitações para o serviço.
+
+```csharp
+// Create client objects
+AdlsClient client = AdlsClient.CreateClient(_adlsAccountName, adlCreds);
+```
+
+> [!div class="nextstepaction"]
+> [Explorar as APIs de cliente](/dotnet/api/overview/azure/datalakestore/client)
+
 
 ## <a name="management-library"></a>Biblioteca de gerenciamento
 
@@ -42,30 +75,9 @@ Install-Package Microsoft.Azure.Management.DataLake.Store
 dotnet add package Microsoft.Azure.Management.DataLake.Store
 ```
 
-### <a name="code-example"></a>Exemplo de código
-
-Este exemplo faz a autenticação em uma conta de análise, armazena e cria os clientes necessários para o gerenciamento.
-
-```csharp
-/*
-using AdlClient
-using AdlClient.Models 
-*/
-
-// Setup authentication 
-Authentication auth = new Authentication("microsoft.onmicrosoft.com"); // change this to YOUR tenant
-auth.Authenticate();
-
-// Identify the accounts
-StoreAccountRef adls_account = new StoreAccountRef(subscriptionId, resourceGroup, userName);
-
-// Create the clients
-AzureClient az = new AzureClient(auth);
-StoreClient adls = new StoreClient(auth, adls_account);
-```
-
 > [!div class="nextstepaction"]
-> [Explorar as APIs de gerenciamento](/dotnet/api/overview/azure/datalakestore/management)
+> [Explorar as APIs de cliente](/dotnet/api/overview/azure/datalakestore/management)
+
 
 ## <a name="samples"></a>Exemplos
 
