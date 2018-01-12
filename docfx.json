@@ -104,7 +104,7 @@
         "api/Microsoft.Azure.Management.Datafactories*.yml": "data-factory",
         "api/Microsoft.Azure.Management.DataLake.analytics*.yml": "data-lake-analytics",
         "api/Microsoft.Azure.Management.DataLake.Store*.yml": "data-lake-store",
-        "api/Microsoft.Azure.Devices*.yml": "iot-suite",
+        "api/Microsoft.Azure.Devices*.yml": "iot-hub",
         "api/Microsoft.Azure.Management.Dns*.yml": "dns",
         "api/Microsoft.Azure.Management.EventHub*.yml": "event-hubs",
         "api/Microsoft.Azure.EventHubs*.yml": "event-hubs",
@@ -147,28 +147,20 @@
         "api/Microsoft.Azure.Management.Compute*.yml": "big-compute",
         "api/Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling*.yml": "Other",
         "api/Microsoft.Azure.Management.Graph.RBAC.Fluent*.yml": "cosmos db"
+        
       },
       "version": {
-        "api/overview/azure/**/*.yml": [
-          "azure-dotnet"
-        ],
-        "api/overview/azure/**/*.md": [
-          "azure-dotnet"
-        ],
-        "docs-ref-conceptual/*.md": [
-          "azure-dotnet"
-        ]
+        "api/overview/azure/**/*.yml": ["azure-dotnet"],
+        "api/overview/azure/**/*.md": ["azure-dotnet"],
+        "docs-ref-conceptual/*.md": ["azure-dotnet"]
       },
       "monikers": {
-        "api/overview/azure/**/*.yml": [
-          "azure-dotnet"
-        ],
-        "api/overview/azure/**/*.md": [
-          "azure-dotnet"
-        ],
-        "docs-ref-conceptual/*.md": [
-          "azure-dotnet"
-        ]
+        "api/overview/azure/**/*.yml": ["azure-dotnet"],
+        "api/overview/azure/**/*.md": ["azure-dotnet"],
+        "docs-ref-conceptual/*.md": ["azure-dotnet"]
+      },
+      "langs": {
+        "api/**.yml": ["csharp", "vb", "fsharp"]
       }
     },
     "xref": [
