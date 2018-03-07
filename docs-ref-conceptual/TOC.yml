@@ -10,8 +10,8 @@
           href: 'https://docs.microsoft.com/azure/azure-functions/functions-create-your-first-function-visual-studio'
         - name: Banco de dados SQL
           href: 'https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-dotnet'
-        - name: CosmosDB
-          href: 'https://docs.microsoft.com/azure/cosmos-db/create-documentdb-dotnet'
+        - name: Cosmos DB
+          href: 'https://docs.microsoft.com/azure/cosmos-db/create-sql-api-dotnet'
         - name: Service Fabric
           href: 'https://docs.microsoft.com/azure/service-fabric/service-fabric-quickstart-dotnet'
         - name: Armazenamento de blob
@@ -25,7 +25,7 @@
       items:
         - name: Criar um aplicativo Web ASP.NET com o Banco de Dados SQL do Azure
           href: /azure/app-service-web/app-service-web-tutorial-dotnet-sqldatabase
-        - name: Criar um aplicativo Web ASP.NET com o CosmosDB
+        - name: Criar um aplicativo Web ASP.NET com o Cosmos DB
           href: /azure/documentdb/documentdb-dotnet-application
         - name: Criar e implantar uma API Web
           href: /azure/app-service-api/app-service-api-dotnet-get-started
@@ -35,8 +35,8 @@
           href: /azure/sql-database/sql-database-connect-query-dotnet
         - name: Conectar e consultar PostgreSQL
           href: /azure/postgresql/connect-csharp
-        - name: Introdução à API DocumentDB do CosmosDB
-          href: /azure/cosmos-db/documentdb-dotnetcore-get-started
+        - name: Introdução à API do SQL do Cosmos DB
+          href: /azure/cosmos-db/sql-api-get-started
     - name: Como
       items:
         - name: Migração
