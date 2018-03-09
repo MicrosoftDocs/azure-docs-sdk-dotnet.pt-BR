@@ -7,16 +7,15 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
 ms.custom: devcenter
-ms.openlocfilehash: 9a67edadc6e91d2ead82f41601e561809d6a811c
-ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
+ms.openlocfilehash: b817216e114e5ab3ff22c1c5adb0f892c7874147
+ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2017
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="azure-management-library-for-net-fluent-concepts"></a>Conceitos fluentes da biblioteca de gerenciamento do Azure para .NET
 
@@ -74,14 +73,14 @@ Os métodos de coleção de recursos com verbos em seus nomes executam uma açã
 |--------|---------------|
 | Criar | `azure.VirtualMachines.Create(listOfVMCreatables)` |
 | Aplicar  | `virtualMachineScaleSet.Update().WithCapacity(6).Apply()` |
-| Exclusão | `azure.Disks.DeleteById(id)` | 
+| Excluir | `azure.Disks.DeleteById(id)` | 
 | Listar   | `azure.SqlServers.List()` | 
 | Obter    | `var vm  = azure.VirtualMachines.GetByResourceGroup(group, vmName)` |
 
 >[!NOTE]
 > `Define()` e `Update()` são verbos, mas não bloquearão a menos que seguidos por um `Create()` ou `Apply()`.
  
-Os objetos de recurso específico têm verbos que alteram o estado do recurso no Azure. Por exemplo:
+Os objetos de recurso específico têm verbos que alteram o estado do recurso no Azure. Por exemplo: 
 
 ```csharp
 var vmToRestart = azure.VirtualMachines.GetById(id);

@@ -6,16 +6,15 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
 ms.custom: devcenter
-ms.openlocfilehash: 972c4ac0987bcd0d2fd132292f6d5fd25f68e378
-ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
+ms.openlocfilehash: 0a78559541f1bc4c94f94d991c44aee2cbf56fc3
+ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2017
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="tutorials-for-working-with-storage-in-your-net-apps-on-azure"></a>Tutoriais para trabalhar com armazenamento em seus aplicativos .NET no Azure.
 

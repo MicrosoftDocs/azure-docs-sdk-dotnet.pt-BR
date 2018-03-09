@@ -7,16 +7,15 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
 ms.custom: devcenter
-ms.openlocfilehash: 0a163e63592b5ae9fea3de38e894b5a5ce7aa7bd
-ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
+ms.openlocfilehash: 51fa1ad5831520f5723fd5a0e1014bb43f71b075
+ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2017
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="sample-code-for-building-azure-web-and-mobile-apps-with-net"></a>Código de exemplo criar aplicativos Web e móveis do Azure com o .NET
 
@@ -24,11 +23,11 @@ O código de exemplo a seguir ilustra a criação de aplicativos Web e móveis d
 
 Se você precisa de código para outras tarefas, pode procurar a lista completa de [exemplos do .NET do Azure](https://azure.microsoft.com/resources/samples/?platform=dotnet&view=azure-dotnet).
 
-- [Exemplo ASP.NET para o Serviço de Aplicativo do Azure](https://azure.microsoft.com/en-us/resources/samples/app-service-web-dotnet-get-started/)
-- [Desenvolvimento de aplicativo Web com ASP.NET MVC usando o DocumentDB](https://azure.microsoft.com/en-us/resources/samples/documentdb-dotnet-todo-app/
+- [Exemplo ASP.NET para o Serviço de Aplicativo do Azure](https://azure.microsoft.com/resources/samples/app-service-web-dotnet-get-started/)
+- [Desenvolvimento de aplicativo Web com ASP.NET MVC usando o DocumentDB](https://azure.microsoft.com/resources/samples/documentdb-dotnet-todo-app/
 )
-- [Exemplo de aplicativo de lista de tarefas pendentes da API do Azure](https://azure.microsoft.com/en-us/resources/samples/app-service-api-dotnet-todo-list/?cdn=disable)
-- [Guia de início rápido completo para Aplicativos Móveis do Serviço de Aplicativo em back-end do .NET](https://azure.microsoft.com/en-us/resources/samples/app-service-mobile-dotnet-backend-quickstart/)
+- [Exemplo de aplicativo de lista de tarefas pendentes da API do Azure](https://azure.microsoft.com/resources/samples/app-service-api-dotnet-todo-list/?cdn=disable)
+- [Guia de início rápido completo para Aplicativos Móveis do Serviço de Aplicativo em back-end do .NET](https://azure.microsoft.com/resources/samples/app-service-mobile-dotnet-backend-quickstart/)
 
 
 [!include[More samples](includes/more-samples.md)]

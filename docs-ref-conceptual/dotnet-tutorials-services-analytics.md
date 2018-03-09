@@ -6,16 +6,15 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
 ms.custom: devcenter
-ms.openlocfilehash: 44491f7debdc585a52b7455f4eaecd92d39de232
-ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
+ms.openlocfilehash: d843e605bf64fb475efe8fc1bba6a112ddca4d96
+ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2017
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="data-analytics-tutorials-with-net-on-azure"></a>Tutoriais de análise de dados com o .NET no Azure
 
@@ -29,7 +28,7 @@ Para exemplos de código-fonte, confira a lista de [exemplos do serviço do Azur
 | [Criar uma topologia Apache Storm][1] | Defina uma topologia que implementa uma amostra de aplicativo, compila e executa o projeto. | 
 | [Processar eventos dos Hubs de Evento do Azure com o Storm no HDInsight][2] | Processe dados de sites, aplicativos e dispositivos usando o spout de Hub de Eventos com o Apache Storm no HDInsight.
 | [Desenvolva um aplicativo MapReduce e execute-o em um cluster Hadoop HDInsight][3] | Crie um aplicativo MapReduce simples para contagem de palavras e implante-o em um cluster Hadoop HDInsight em execução no Linux. |
-| **Análises Data Lake** | |
+| **Data Lake Analytics** | |
 | [Introdução ao Data Lake Analytics][4] | Aprenda a usar o SDK do .NET para enviar trabalhos escritos em U-SQL ao Data Lake Analytics.|
 
 

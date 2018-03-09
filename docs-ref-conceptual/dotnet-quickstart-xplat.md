@@ -10,18 +10,17 @@ ms.topic: article
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
-ms.assetid: 
-ms.openlocfilehash: 2ed69bfed7310c9e6b2f3f8fedb906ce33d87c3c
-ms.sourcegitcommit: c630918c9e17f5e3c6d4f28fe740c041f60b1e66
+ms.openlocfilehash: bb5d4958fb4398192d8427391695da1a7b8cc3c8
+ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="deploy-to-azure-from-the-command-line-with-net-core"></a>Implantar no Azure a partir da linha de comando com o .NET Core
 
 Este tutorial orientará você durante a criação e implantação de um aplicativo do Microsoft Azure usando o .NET Core.  Quando terminar, você terá um aplicativo baseado na Web de tarefas pendentes criado em ASP.NET MVC Core, hospedado como aplicativo Web do Azure e que usa o Azure CosmosDB para armazenamento de dados.
 
-## <a name="prerequisites"></a>Pré-requisitos
+## <a name="prerequisites"></a>pré-requisitos
 
 * Uma [assinatura do Microsoft Azure](https://azure.microsoft.com/free/)
 * [.NET Core](https://www.microsoft.com/net/download/core) (opcional)

@@ -10,18 +10,17 @@ ms.topic: article
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
-ms.assetid: 
-ms.openlocfilehash: 0f8e3e5ea1ef5cde239b2d8ebbc9fe75dd978cb1
-ms.sourcegitcommit: c630918c9e17f5e3c6d4f28fe740c041f60b1e66
+ms.openlocfilehash: d5c34dfc7e649e00e8ef458537f3f76410db61d4
+ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="deploy-to-azure-from-visual-studio"></a>Implantar no Azure por meio do Visual Studio
 
 Este tutorial orientará você durante a criação e implantação de um aplicativo do Microsoft Azure usando o Visual Studio e o .NET.  Quando terminar, você terá um aplicativo baseado na Web de tarefas pendentes criado em ASP.NET MVC Core, hospedado como aplicativo Web do Azure e que usa o Azure CosmosDB para armazenamento de dados.
 
-## <a name="prerequisites"></a>Pré-requisitos
+## <a name="prerequisites"></a>pré-requisitos
 
 * [Visual Studio 2017](https://www.visualstudio.com/downloads/)
 * Uma [assinatura do Microsoft Azure](https://azure.microsoft.com/free/)

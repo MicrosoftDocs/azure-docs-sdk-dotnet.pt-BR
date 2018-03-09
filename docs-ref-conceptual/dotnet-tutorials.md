@@ -6,16 +6,15 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
 ms.custom: devcenter
-ms.openlocfilehash: 9d07d84275593e405656471dd4fd7c1234eb6906
-ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
+ms.openlocfilehash: bb2aff01c8c6a07c6a5a05cd07bc3c3f4eb0688b
+ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2017
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="tutorials-for-building-net-apps-in-azure"></a>Tutoriais para criar aplicativos .NET no Azure
 
@@ -35,7 +34,7 @@ Para exemplos de código-fonte, confira a lista de [exemplos do serviço do Azur
 | [Usar o .NET para se conectar e consultar dados][5] | Usar o ADO.NET para conectar um banco de dados SQL do Azure, em seguida, usar instruções Transact-SQL para consultar, inserir, atualizar e excluir os dados no banco de dados | 
 | **Banco de Dados do Azure para PostgreSQL** ||
 | [Usar o .NET para se conectar e consultar dados][6] | Use instruções SQL para consultar, inserir, atualizar e excluir dados no banco de dados. | 
-| **Banco de Dados Cosmos** ||
+| **Cosmos DB** ||
 | [Introdução à API DocumentDB][7] | Crie um aplicativo de console simples com a API DocumentDB. | 
 | [Criar um aplicativo Web ASP.NET com o CosmosDB][8] | Criar um aplicativo Web usando o banco de dados NoSQL DocumentDB do CosmosDB | 
 
