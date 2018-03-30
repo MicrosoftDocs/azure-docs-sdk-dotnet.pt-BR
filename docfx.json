@@ -63,7 +63,9 @@
       }
     ],
     "globalMetadata": {
-      "bilingual_type": "hover over",
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "Azure/azure-docs-sdk-dotnet",
+      "feedback_product_url": "https://feedback.azure.com/forums/170031-sdk-and-tools",
       "author": "erickson-doug",
       "ms.author": "douge",
       "manager": "douge",
@@ -73,6 +75,7 @@
       "breadcrumb_path": "~/breadcrumb/toc.yml",
       "brand": "azure",
       "apiPlatform": "dotnet",
+      "bilingual_type": "hover over",
       "_op_documentIdPathDepotMapping": {
         "./": {
           "folder_relative_path_in_docset": "api-index"
@@ -89,6 +92,10 @@
       }
     },
     "fileMetadata": {
+      "feedback_system": 
+      {
+             "xml/**/*": "None"
+      },
       "ms.service": {
         "api/Microsoft.Identitymodel*.yml": "active-directory",
         "api/Microsoft.Identity*.yml": "active-directory",
