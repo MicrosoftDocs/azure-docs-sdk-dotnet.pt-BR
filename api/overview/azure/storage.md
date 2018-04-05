@@ -1,6 +1,6 @@
 ---
 title: APIs de armazenamento do .NET do Azure
-description: "Referência para bibliotecas do Armazenamento do Azure para .NET"
+description: Referência para bibliotecas do Armazenamento do Azure para .NET
 keywords: Azure, .NET, SDK, API, armazenamento, blob
 author: camsoper
 ms.author: casoper

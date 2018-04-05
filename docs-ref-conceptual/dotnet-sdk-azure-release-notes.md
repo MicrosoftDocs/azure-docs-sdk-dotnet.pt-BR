@@ -1,7 +1,7 @@
 ---
-title: "Notas de versão de bibliotecas de gerenciamento do Azure para .NET | Microsoft Docs"
-description: "Veja o que há de novo e fique de olho em alterações significativas nas bibliotecas de gerenciamento do Azure para .NET."
-keywords: "Azure, .NET, API, referência, anotações, atualizações, substituir, obsoleto"
+title: Notas de versão de bibliotecas de gerenciamento do Azure para .NET | Microsoft Docs
+description: Veja o que há de novo e fique de olho em alterações significativas nas bibliotecas de gerenciamento do Azure para .NET.
+keywords: Azure, .NET, API, referência, anotações, atualizações, substituir, obsoleto
 author: camsoper
 ms.author: casoper
 manager: wpickett

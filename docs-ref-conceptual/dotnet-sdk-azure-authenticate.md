@@ -1,7 +1,7 @@
 ---
 title: Autenticar com as bibliotecas do Azure para .NET
-description: "Fazer autenticação nas bibliotecas do Azure para .NET"
-keywords: "Azure, .NET, SDK, API, autenticação, active directory, entidade de serviço"
+description: Fazer autenticação nas bibliotecas do Azure para .NET
+keywords: Azure, .NET, SDK, API, autenticação, active directory, entidade de serviço
 author: camsoper
 ms.author: casoper
 manager: wpickett

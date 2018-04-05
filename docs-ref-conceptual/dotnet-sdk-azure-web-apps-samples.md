@@ -1,6 +1,6 @@
 ---
-title: "Código de exemplo criar aplicativos Web e móveis do Azure com o .NET"
-description: "Obter o código de exemplo para a criação e atualização do .NET de aplicativos Web do Azure"
+title: Código de exemplo criar aplicativos Web e móveis do Azure com o .NET
+description: Obter o código de exemplo para a criação e atualização do .NET de aplicativos Web do Azure
 keywords: Azure, .NET, SDK, API, SQL, banco de dados
 author: camsoper
 ms.author: casoper

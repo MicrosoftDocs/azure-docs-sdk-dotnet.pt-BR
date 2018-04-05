@@ -1,7 +1,7 @@
 ---
-title: "Padrões e conceitos de uso das bibliotecas de gerenciamento do Azure para .NET"
-description: 
-keywords: "Azure, .NET, SDK, API, padrões, conceitos, fluente, registrar em log"
+title: Padrões e conceitos de uso das bibliotecas de gerenciamento do Azure para .NET
+description: ''
+keywords: Azure, .NET, SDK, API, padrões, conceitos, fluente, registrar em log
 author: camsoper
 ms.author: casoper
 manager: wpickett

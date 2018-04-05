@@ -1,6 +1,6 @@
 ---
-title: "Instruções de exemplo das bibliotecas de gerenciamento do Azure para .NET"
-description: "Obtenha o exemplo de código para criar e atualizar recursos usando as bibliotecas de gerenciamento do Azure para .NET."
+title: Instruções de exemplo das bibliotecas de gerenciamento do Azure para .NET
+description: Obtenha o exemplo de código para criar e atualizar recursos usando as bibliotecas de gerenciamento do Azure para .NET.
 keywords: Azure, .NET, SDK, API, amostra, exemplo
 author: camsoper
 ms.author: casoper

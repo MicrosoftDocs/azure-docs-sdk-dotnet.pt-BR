@@ -1,6 +1,6 @@
 ---
 title: Ferramentas do Azure para Visual Studio 2015
-description: "Obtenha as ferramentas para começar a usar as bibliotecas .NET do Azure no Visual Studio 2015."
+description: Obtenha as ferramentas para começar a usar as bibliotecas .NET do Azure no Visual Studio 2015.
 keywords: .NET do Azure, SDK, VS2015, Visual Studio 2015
 author: camsoper
 ms.author: casoper

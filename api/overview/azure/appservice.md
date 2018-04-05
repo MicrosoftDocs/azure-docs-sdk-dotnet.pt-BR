@@ -1,7 +1,7 @@
 ---
-title: "Bibliotecas de Serviço de Aplicativo do Azure para .NET"
-description: "Referência para bibliotecas do Serviço de Aplicativo do Azure para .NET"
-keywords: "Azure, .NET, SDK, API, aplicativos web, serviço de aplicativo, mobile, asp.net"
+title: Bibliotecas de Serviço de Aplicativo do Azure para .NET
+description: Referência para bibliotecas do Serviço de Aplicativo do Azure para .NET
+keywords: Azure, .NET, SDK, API, aplicativos web, serviço de aplicativo, mobile, asp.net
 author: camsoper
 ms.author: casoper
 manager: wpickett

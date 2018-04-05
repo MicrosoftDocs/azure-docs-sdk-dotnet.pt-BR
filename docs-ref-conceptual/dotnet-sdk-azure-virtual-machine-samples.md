@@ -1,7 +1,7 @@
 ---
-title: "Código de exemplo que ilustra o gerenciamento de máquina virtual do Azure com o .NET"
-description: "Obter o código de exemplo para a criação e atualização de máquinas virtuais do Azure usando o .NET"
-keywords: "Azure, .NET, SDK, API, máquinas virtuais"
+title: Código de exemplo que ilustra o gerenciamento de máquina virtual do Azure com o .NET
+description: Obter o código de exemplo para a criação e atualização de máquinas virtuais do Azure usando o .NET
+keywords: Azure, .NET, SDK, API, máquinas virtuais
 author: camsoper
 ms.author: casoper
 manager: wpickett

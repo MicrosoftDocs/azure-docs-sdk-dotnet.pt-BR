@@ -1,6 +1,6 @@
 ---
 title: Tutoriais para gerenciar e monitorar aplicativos .NET no Azure
-description: "Monitore a integridade e o desempenho do aplicativo .NET em execução no Azure e instrumente a telemetria para salvar informações sobre como as pessoas usam o seu aplicativo."
+description: Monitore a integridade e o desempenho do aplicativo .NET em execução no Azure e instrumente a telemetria para salvar informações sobre como as pessoas usam o seu aplicativo.
 author: camsoper
 ms.author: casoper
 manager: wpickett
