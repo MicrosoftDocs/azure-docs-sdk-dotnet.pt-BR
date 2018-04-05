@@ -1,6 +1,6 @@
 ---
-title: "Tutoriais para a criação de aplicativos Web e móveis .NET no Azure"
-description: "Tutoriais para criar e adicionar recursos a seus aplicativos .NET Web e móveis usando os serviços do Azure."
+title: Tutoriais para a criação de aplicativos Web e móveis .NET no Azure
+description: Tutoriais para criar e adicionar recursos a seus aplicativos .NET Web e móveis usando os serviços do Azure.
 author: camsoper
 ms.author: casoper
 manager: wpickett

@@ -1,7 +1,7 @@
 ---
-title: "Bibliotecas de computação do Azure para .NET"
-description: "Referência para bibliotecas de computação do Azure para .NET"
-keywords: "Azure, .NET, SDK, API, VM, máquinas virtuais, computação"
+title: Bibliotecas de computação do Azure para .NET
+description: Referência para bibliotecas de computação do Azure para .NET
+keywords: Azure, .NET, SDK, API, VM, máquinas virtuais, computação
 author: camsoper
 ms.author: casoper
 manager: wpickett

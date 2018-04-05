@@ -1,7 +1,7 @@
 ---
-title: "Introdução às APIs .NET do Azure"
-description: "Introdução ao uso básico das bibliotecas do Azure para .NET com sua própria assinatura do Azure."
-keywords: "Azure, .NET, SDK, API, autenticar, introdução"
+title: Introdução às APIs .NET do Azure
+description: Introdução ao uso básico das bibliotecas do Azure para .NET com sua própria assinatura do Azure.
+keywords: Azure, .NET, SDK, API, autenticar, introdução
 author: camsoper
 ms.author: casoper
 manager: wpickett

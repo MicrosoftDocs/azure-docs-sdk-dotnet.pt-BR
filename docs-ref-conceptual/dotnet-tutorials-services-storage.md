@@ -1,6 +1,6 @@
 ---
 title: Tutoriais para usar armazenamento em seus aplicativos .NET no Azure
-description: "Salvar objetos e trabalhar com arquivos em seus aplicativos .NET em execução no Azure"
+description: Salvar objetos e trabalhar com arquivos em seus aplicativos .NET em execução no Azure
 author: camsoper
 ms.author: casoper
 manager: wpickett

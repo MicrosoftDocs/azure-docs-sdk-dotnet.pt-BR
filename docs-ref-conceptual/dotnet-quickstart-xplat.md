@@ -1,7 +1,7 @@
 ---
 title: Implantar no Azure a partir da linha de comando com o .NET Core
-description: "Este artigo descreve como implantar um aplicativo ASP.NET Core a um Serviço de Aplicativo do Azure usando as ferramentas de linha de comando."
-keywords: ".NET do Azure, SDK, Referência da API .NET do Azure, Biblioteca de classes .NET do Azure"
+description: Este artigo descreve como implantar um aplicativo ASP.NET Core a um Serviço de Aplicativo do Azure usando as ferramentas de linha de comando.
+keywords: .NET do Azure, SDK, Referência da API .NET do Azure, Biblioteca de classes .NET do Azure
 author: camsoper
 manager: douge
 ms.author: casoper

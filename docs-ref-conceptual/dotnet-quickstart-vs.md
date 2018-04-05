@@ -1,7 +1,7 @@
 ---
 title: Implantar no Azure por meio do Visual Studio
-description: "Este tutorial orientará você durante a criação e implantação de um aplicativo do Microsoft Azure usando o Visual Studio e o .NET."
-keywords: ".NET do Azure, SDK, Referência da API .NET do Azure, Biblioteca de classes .NET do Azure"
+description: Este tutorial orientará você durante a criação e implantação de um aplicativo do Microsoft Azure usando o Visual Studio e o .NET.
+keywords: .NET do Azure, SDK, Referência da API .NET do Azure, Biblioteca de classes .NET do Azure
 author: camsoper
 manager: douge
 ms.author: casoper

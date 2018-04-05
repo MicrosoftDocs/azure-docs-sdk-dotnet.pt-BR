@@ -1,7 +1,7 @@
 ---
-title: "Migrar um aplicativo Web ASP.NET para o Serviço de Aplicativo do Azure"
-description: "Saiba como migrar um aplicativo Web ASP.NET do local para o Serviço de Aplicativo do Azure."
-keywords: ".NET do Azure, ASP.NET, Serviço de Aplicativo, Aplicativo Web, migrar, migração"
+title: Migrar um aplicativo Web ASP.NET para o Serviço de Aplicativo do Azure
+description: Saiba como migrar um aplicativo Web ASP.NET do local para o Serviço de Aplicativo do Azure.
+keywords: .NET do Azure, ASP.NET, Serviço de Aplicativo, Aplicativo Web, migrar, migração
 author: camsoper
 manager: wpickett
 ms.author: casoper

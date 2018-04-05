@@ -1,6 +1,6 @@
 ---
-title: "Código de exemplo para usar bancos de dados do Azure com o .NET"
-description: "Obter o código de exemplo para criar aplicativos que usam bancos de dados do Azure com o .NET"
+title: Código de exemplo para usar bancos de dados do Azure com o .NET
+description: Obter o código de exemplo para criar aplicativos que usam bancos de dados do Azure com o .NET
 keywords: Azure, .NET, SDK, API, SQL, banco de dados
 author: camsoper
 ms.author: casoper

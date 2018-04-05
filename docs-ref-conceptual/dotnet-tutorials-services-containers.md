@@ -1,6 +1,6 @@
 ---
-title: "Tutoriais do .NET para a implantação de contêineres no Azure"
-description: "Implante aplicativos .NET em contêineres do Docker no Azure e dimensione-os com CD/SO, Mesos ou Kubernetes."
+title: Tutoriais do .NET para a implantação de contêineres no Azure
+description: Implante aplicativos .NET em contêineres do Docker no Azure e dimensione-os com CD/SO, Mesos ou Kubernetes.
 author: camsoper
 ms.author: casoper
 manager: wpickett

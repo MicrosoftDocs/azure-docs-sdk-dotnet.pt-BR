@@ -1,6 +1,6 @@
 ---
 title: Tutoriais para sistemas de mensagens e IoT com .NET no Azure | Microsoft Docs
-description: "Envie mensagens entre aplicativos de nuvem e entre dispositivos e a nuvem usando o .NET e serviços do Azure."
+description: Envie mensagens entre aplicativos de nuvem e entre dispositivos e a nuvem usando o .NET e serviços do Azure.
 author: camsoper
 ms.author: casoper
 manager: wpickett

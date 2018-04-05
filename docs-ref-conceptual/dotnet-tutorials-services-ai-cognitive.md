@@ -1,6 +1,6 @@
 ---
-title: "Tutoriais do .NET para AI e serviços cognitivos no Azure | Microsoft Docs"
-description: "Adicione serviços cognitivos e AI a seus aplicativos .NET com os serviços do Microsoft Azure."
+title: Tutoriais do .NET para AI e serviços cognitivos no Azure | Microsoft Docs
+description: Adicione serviços cognitivos e AI a seus aplicativos .NET com os serviços do Microsoft Azure.
 author: camsoper
 ms.author: casoper
 manager: wpickett
