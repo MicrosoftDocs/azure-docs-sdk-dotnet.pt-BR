@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: azure
 ms.technology: azure
 ms.devlang: dotnet
-ms.openlocfilehash: bb5d4958fb4398192d8427391695da1a7b8cc3c8
-ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
+ms.openlocfilehash: 8371c304681ff88cba6f1cc3ba0d1caef836d609
+ms.sourcegitcommit: e1a0e91988bb849c75e9583a80e3e6d712083785
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/14/2018
 ---
 # <a name="deploy-to-azure-from-the-command-line-with-net-core"></a>Implantar no Azure a partir da linha de comando com o .NET Core
 
-Este tutorial orientará você durante a criação e implantação de um aplicativo do Microsoft Azure usando o .NET Core.  Quando terminar, você terá um aplicativo baseado na Web de tarefas pendentes criado em ASP.NET MVC Core, hospedado como aplicativo Web do Azure e que usa o Azure CosmosDB para armazenamento de dados.
+Este tutorial orientará você durante a criação e implantação de um aplicativo do Microsoft Azure usando o .NET Core.  Quando terminar, você terá um aplicativo de tarefas pendentes baseado na Web criado em ASP.NET MVC Core, hospedado como aplicativo Web do Azure e que usa o Azure Cosmos DB para armazenamento de dados.
 
 ## <a name="prerequisites"></a>pré-requisitos
 
@@ -29,9 +29,9 @@ Este tutorial orientará você durante a criação e implantação de um aplicat
 
 O [Azure Cloud Shell](/azure/cloud-shell/) tem todos os pré-requisitos opcionais para este tutorial pré-instalados.  Você só precisa instalar os componentes opcionais acima se deseja executar o tutorial localmente.  Para iniciar rapidamente o Cloud Shell, clique no botão **Experimente** no canto superior direito de um dos blocos de código abaixo.
 
-## <a name="create-a-cosmosdb-account"></a>Criar uma conta do CosmosDB
+## <a name="create-an-azure-cosmos-db-account"></a>Criar uma conta do Azure Cosmos DB
 
-O CosmosDB é usado para armazenamento de dados neste tutorial e, portanto, você precisará criar uma conta.  Execute esse script localmente ou no Cloud Shell para criar uma conta da API DocumentDB do Azure CosmosDB.
+O Azure Cosmos DB é usado para o armazenamento de dados neste tutorial, portanto, você precisará criar uma conta.  Execute esse script localmente ou no Cloud Shell para criar uma conta da API do SQL do Azure Cosmos DB.
 
 ```azurecli-interactive
 # Create the DotNetAzureTutorial resource group
@@ -41,7 +41,7 @@ az group create --name DotNetAzureTutorial --location EastUS
 let randomNum=$RANDOM*$RANDOM
 cosmosdbname=dotnettutorial$randomNum
 
-# Create the CosmosDB account
+# Create the Azure Cosmos DB account
 az cosmosdb create --name $cosmosdbname --resource-group DotNetAzureTutorial
 
 # Retrieve the endpoint and key (you'll need these later)
@@ -52,7 +52,7 @@ cosmosAuthKey=$(az cosmosdb list-keys -n $cosmosdbname -g DotNetAzureTutorial --
 
 ## <a name="download-and-configure-the-application"></a>Baixar e configurar o aplicativo
 
-O aplicativo que você pretende implantar é um [aplicativo de tarefas pendentes simples](https://github.com/Azure-Samples/dotnet-cosmosdb-quickstart/) codificado usando ASP.NET MVC Core e as bibliotecas de cliente CosmosDB.  Agora você obterá o código para este tutorial e configurá-lo com suas informações do CosmosDB.
+O aplicativo que você pretende implantar é um [aplicativo de tarefas pendentes simples](https://github.com/Azure-Samples/dotnet-cosmosdb-quickstart/) codificado usando ASP.NET MVC Core e as bibliotecas de cliente do Azure Cosmos DB.  Agora você vai obter o código para este tutorial e vai configurá-lo com suas informações do Azure Cosmos DB.
 
 ```azurecli-interactive
 # Get the code from GitHub
@@ -131,7 +131,7 @@ Você pode adicionar novos itens à lista de tarefas pendentes clicando em **Cri
 
 ## <a name="clean-up"></a>Limpar
 
-Ao terminar de testar o aplicativo e inspecionar o código e os recursos, você poderá excluir o aplicativo Web e a conta do CosmosDB excluindo o grupo de recursos.
+Ao terminar de testar o aplicativo e inspecionar o código e os recursos, é possível excluir o aplicativo Web e a conta do Azure Cosmos DB por meio da exclusão do grupo de recursos.
 
 ```azurecli-interactive
 az group delete -n DotNetAzureTutorial

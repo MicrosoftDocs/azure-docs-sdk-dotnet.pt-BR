@@ -1,7 +1,7 @@
 ---
-title: "Bibliotecas de Hubs de Notificação do Azure para .NET"
-description: "Referência para bibliotecas de Hubs de Notificação do Azure para .NET"
-keywords: "Azure, .NET, SDK, API, Hubs de Notificação"
+title: Bibliotecas de Hubs de Notificação do Azure para .NET
+description: Referência para bibliotecas de Hubs de Notificação do Azure para .NET
+keywords: Azure, .NET, SDK, API, Hubs de Notificação
 author: camsoper
 ms.author: casoper
 manager: wpickett
@@ -12,11 +12,11 @@ ms.technology: azure
 ms.devlang: dotnet
 ms.service: notification-hubs
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 9fd49ccc8d02eff09a8a53e6f1b9baa6a7a59082
-ms.sourcegitcommit: 33732307162ddf6f272b0e9cc7f74eb8e6fdda1b
+ms.openlocfilehash: f863bf9d5d63129e04dd31ba96b3e803bead87bc
+ms.sourcegitcommit: 4c42de7e066b6aa0a5b5df02cce4d1d245aa558d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="azure-notification-hubs-libraries-for-net"></a>Bibliotecas de Hubs de Notificação do Azure para .NET
 
@@ -41,7 +41,7 @@ dotnet add package Microsoft.Azure.NotificationHubs
 
 ### <a name="code-example"></a>Exemplo de código
 
-Este exemplo se conecta a um banco de dados e lê as linhas de uma tabela.
+Este exemplo se conecta a um Hub de Notificação e envia uma mensagem do Serviço de Notificações por Push do Windows (WNS).
 
 ```csharp
 NotificationHubClient hub = NotificationHubClient

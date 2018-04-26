@@ -10,11 +10,11 @@ ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
 ms.custom: devcenter
-ms.openlocfilehash: 5f06ec0af86cb4d1c8467fd50504d6074e556d6c
-ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
+ms.openlocfilehash: 1700bcf8a05f067e0f174bff87a7aa743cabc524
+ms.sourcegitcommit: e1a0e91988bb849c75e9583a80e3e6d712083785
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/14/2018
 ---
 # <a name="tutorials-for-building-web-and-mobile-apps-with-net-in-azure"></a>Tutoriais para a criação de aplicativos Web e móveis com o .NET no Azure
 
@@ -26,7 +26,7 @@ Para exemplos de código-fonte, confira a lista de [exemplos do serviço do Azur
 |---|---|
 | **Aplicativos Web**||
 | [Criar um aplicativo Web ASP.NET com o Banco de Dados SQL do Azure][1] | Crie um aplicativo Web simples que armazena dados no Banco de Dados SQL do Azure. | 
-| [Criar um aplicativo Web ASP.NET com o CosmosDB][2] | Criar um aplicativo Web usando a API DocumentDB do CosmosDB. | 
+| [Criar um aplicativo Web ASP.NET com o Azure Cosmos DB][2] | Crie um aplicativo Web usando a API do SQL do Azure Cosmos DB. | 
 | **Aplicativos de API**||
 | [Criar e implantar uma API Web][3] | Criar e implantar uma API Web .NET com o Swagger. | 
 | **Serviços de Mídia** | |
@@ -40,7 +40,7 @@ Para exemplos de código-fonte, confira a lista de [exemplos do serviço do Azur
 
 
 [1]: /azure/app-service-web/app-service-web-tutorial-dotnet-sqldatabase
-[2]: /azure/documentdb/documentdb-dotnet-application
+[2]: /azure/cosmos-db/sql-api-dotnet-application
 [3]: /azure/app-service-api/app-service-api-dotnet-get-started
 [4]: /azure/media-services/media-services-dotnet-get-started
 [5]: /azure/search/search-howto-dotnet-sdk

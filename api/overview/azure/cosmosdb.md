@@ -1,7 +1,7 @@
 ---
-title: Bibliotecas do Azure CosmosDB para .NET
-description: Referência para bibliotecas do Azure CosmosDB para .NET
-keywords: Azure, .NET, SDK, API, CosmosDB
+title: Bibliotecas do Azure Cosmos DB para .NET
+description: Referência para bibliotecas do Azure Cosmos DB para .NET
+keywords: Azure, .NET, SDK, API, Cosmos DB
 author: camsoper
 ms.author: casoper
 manager: wpickett
@@ -12,23 +12,23 @@ ms.technology: azure
 ms.devlang: dotnet
 ms.service: cosmos-db
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 4791e00c18d00fbed13bdf2c626a24fed2ff2863
-ms.sourcegitcommit: dbec35008347b581dd238b882354300e427bec70
+ms.openlocfilehash: fa9bc7497ac189f18ee0ba14d72d4cdb23a05f0b
+ms.sourcegitcommit: e1a0e91988bb849c75e9583a80e3e6d712083785
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 04/14/2018
 ---
-# <a name="azure-cosmosdb-libraries-for-net"></a>Bibliotecas do Azure CosmosDB para .NET
+# <a name="azure-cosmos-db-libraries-for-net"></a>Bibliotecas do Azure Cosmos DB para .NET
 
 ## <a name="overview"></a>Visão geral
 
-O [Azure CosmosDB](https://docs.microsoft.com/azure/cosmos-db/introduction) é um armazenamento de dados distribuído e escalonável que dá suporte a vários tipos de bancos de dados diferentes.
+O [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/introduction) é um armazenamento de dados distribuído e escalonável que dá suporte a vários tipos de bancos de dados diferentes.
 
-[Introdução ao CosmosDB](https://docs.microsoft.com/azure/cosmos-db/create-documentdb-dotnet).
+[Introdução ao Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/create-sql-api-dotnet).
 
 ## <a name="client-library"></a>Biblioteca do cliente
 
-Use a biblioteca de cliente .NET do CosmosDB para acessar e armazenar dados em um armazenamento de dados do CosmosDB existente.  Para automatizar a criação de uma nova conta do CosmosDB, use o portal do Azure, a CLI ou o PowerShell.
+Use a biblioteca de clientes .NET do Azure Cosmos DB para acessar e armazenar dados em um armazenamento de dados do Azure Cosmos DB existente.  Para automatizar a criação de uma nova conta do Azure Cosmos DB, use o Portal do Azure, a CLI ou o PowerShell.
 
 Instale o [pacote NuGet](https://www.nuget.org/packages/Microsoft.Azure.DocumentDB.Core) diretamente do [console do Gerenciador de Pacotes][PackageManager] do Visual Studio ou com a [CLI do .NET Core][DotNetCLI].
 
@@ -46,7 +46,7 @@ dotnet add package Microsoft.Azure.DocumentDB.Core
 
 ### <a name="code-example"></a>Exemplo de código
 
-Este exemplo se conecta a um banco de dados da API DocumentDB do CosmosDB existente, lê um documento de uma coleção e desserializa-o como um objeto `Item`.   
+Este exemplo se conecta a um banco de dados da API do SQL do Azure Cosmos DB existente, lê um documento de uma coleção e desserializa-o como um objeto `Item`.   
 
 ```csharp
 /* Include this "using" directive...
