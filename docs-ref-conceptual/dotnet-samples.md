@@ -11,14 +11,14 @@ ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
 ms.custom: devcenter
-ms.openlocfilehash: 57804c34f8ccef022b875821acd63a5ce1ec6d1f
-ms.sourcegitcommit: dfa372c929831a2b6218f9f9393eb0f55efd54a6
+ms.openlocfilehash: 85d792859a345cd4e4101aa88a2dcce68bc791b0
+ms.sourcegitcommit: 7b6128836d7657af2be53dcf40c1841cd8fda957
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="azure-code-samples-for-net"></a>Exemplos de código do Azure para .NET
-Estes são os principais exemplos recomendáveis para a introdução ao Azure usando o .NET. Também é possível procurar [a coleta de amostras completa](https://azure.microsoft.com/resources/samples/?platform=dotnet&sort=2).
+Estes são os principais exemplos, tutoriais e amostras que recomendamos para a introdução ao Azure usando o .NET.
 
 <div id="main" class="v2">
     <div class="container">
@@ -140,3 +140,5 @@ Estes são os principais exemplos recomendáveis para a introdução ao Azure us
         </ul>
     </div>
 </div>
+
+Também é possível procurar [a coleta de amostras completa](https://azure.microsoft.com/resources/samples/?platform=dotnet&sort=2).
