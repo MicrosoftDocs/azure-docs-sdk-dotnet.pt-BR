@@ -39,7 +39,7 @@
         "_dependentPackages/memberpage.plugins/content"
       ], 
       "build_output_subfolder": ".", 
-      "locale": "pt-BR", 
+      "locale": "pt-br", 
       "docset_name": "azuredotnet", 
       "open_to_public_contributors": true, 
       "monikers": [
@@ -60,10 +60,13 @@
     }
   ], 
   "git_repository_branch_open_to_public_contributors": "live",
-  "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/azure-docs-sdk-dotnet.pt-BR",
+  "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/azure-docs-sdk-dotnet.pt-br",
+  "contribution_branch_mappings": {
+    "live-sxs": "live"
+  },
   "dependent_repositories": [
     {
-      "url": "https://github.com/Microsoft/templates.docs.msft.pt-BR", 
+      "url": "https://github.com/Microsoft/templates.docs.msft.pt-br", 
       "branch_mapping": {}, 
       "branch": "master", 
       "path_to_root": "_themes"
@@ -73,7 +76,16 @@
       "url": "https://github.com/Azure/azure-storage-net",
       "branch": "master",
       "branch_mapping": {}
-    }
+    },
+{
+      "path_to_root": "_repo.en-us",
+      "url": "https://github.com/Azure/azure-docs-sdk-dotnet",
+      "branch": "live",
+      "branch_mapping": {
+        "live": "live",
+        "master": "master"
+      }
+    }	  
   ],
   "notification_subscribers": [],
   "need_generate_intellisense": false,
