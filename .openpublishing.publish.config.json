@@ -60,7 +60,7 @@
     }
   ], 
   "git_repository_branch_open_to_public_contributors": "live",
-  "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/azure-docs-sdk-dotnet.pt-BR",
+  "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/azure-docs-sdk-dotnet.pt-br",
   "contribution_branch_mappings": {
     "live-sxs": "live"
   },
@@ -76,7 +76,16 @@
       "url": "https://github.com/Azure/azure-storage-net",
       "branch": "master",
       "branch_mapping": {}
-    }
+    },
+{
+      "path_to_root": "_repo.en-us",
+      "url": "https://github.com/Azure/azure-docs-sdk-dotnet",
+      "branch": "live",
+      "branch_mapping": {
+        "live": "live",
+        "master": "master"
+      }
+    }	  
   ],
   "notification_subscribers": [],
   "need_generate_intellisense": false,
