@@ -1,12 +1,12 @@
-<span data-ttu-id="1237c-101">Seu aplicativo .NET precisa de permissões para ler e criar recursos na sua assinatura do Azure a fim de usar as bibliotecas de gerenciamento do Azure para .NET.</span><span class="sxs-lookup"><span data-stu-id="1237c-101">Your .NET application needs permissions to read and create resources in your Azure subscription in order to use the Azure Management Libraries for .NET.</span></span> <span data-ttu-id="1237c-102">Crie uma entidade de serviço e configure seu aplicativo para ser executado com suas credenciais e obter acesso.</span><span class="sxs-lookup"><span data-stu-id="1237c-102">Create a service principal and configure your app to run with its credentials to grant this access.</span></span> <span data-ttu-id="1237c-103">As entidades de serviço fornecem uma maneira de criar uma conta não interativa associada à sua identidade para a qual você concede apenas os privilégios de que seu aplicativo precisa para ser executado.</span><span class="sxs-lookup"><span data-stu-id="1237c-103">Service principals provide a way to create a non-interactive account associated with your identity to which you grant only the privileges your app needs to run.</span></span>
+Seu aplicativo .NET precisa de permissões para ler e criar recursos na sua assinatura do Azure a fim de usar as bibliotecas de gerenciamento do Azure para .NET. Crie uma entidade de serviço e configure seu aplicativo para ser executado com suas credenciais e obter acesso. As entidades de serviço fornecem uma maneira de criar uma conta não interativa associada à sua identidade para a qual você concede apenas os privilégios de que seu aplicativo precisa para ser executado.
 
-<span data-ttu-id="1237c-104">Primeiro, faça logon no Azure PowerShell:</span><span class="sxs-lookup"><span data-stu-id="1237c-104">First, login to Azure PowerShell:</span></span>
+Primeiro, faça logon no Azure PowerShell:
 
 ```powershell
 Login-AzureRmAccount
 ```
 
-<span data-ttu-id="1237c-105">Observe as informações sobre seu locatário e assinatura:</span><span class="sxs-lookup"><span data-stu-id="1237c-105">Note the information displayed about your tenant and subscription:</span></span>
+Observe as informações sobre seu locatário e assinatura:
 
 ```plaintext
 Environment           : AzureCloud
@@ -17,7 +17,7 @@ SubscriptionName      : my-subscription
 CurrentStorageAccount : 
 ```
 
-<span data-ttu-id="1237c-106">[Criar uma entidade de serviço usando o PowerShell](/powershell/azure/create-azure-service-principal-azureps), da seguinte maneira:</span><span class="sxs-lookup"><span data-stu-id="1237c-106">[Create a service principal using PowerShell](/powershell/azure/create-azure-service-principal-azureps), like this:</span></span>
+[Criar uma entidade de serviço usando o PowerShell](/powershell/azure/create-azure-service-principal-azureps), da seguinte maneira:
 
 ```powershell
 # Create the service principal (use a strong password)
@@ -30,7 +30,7 @@ New-AzureRmRoleAssignment -ServicePrincipalName $sp.ApplicationId -RoleDefinitio
 $sp | Select DisplayName, ApplicationId
 ```
 
-<span data-ttu-id="1237c-107">Anote o ApplicationId:</span><span class="sxs-lookup"><span data-stu-id="1237c-107">Make sure to note the ApplicationId:</span></span>
+Anote o ApplicationId:
 
 ```plaintext
 DisplayName     ApplicationId

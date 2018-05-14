@@ -1,9 +1,9 @@
-## <a name="launch-azure-cloud-shell"></a><span data-ttu-id="08f87-101">Iniciar o Azure Cloud Shell</span><span class="sxs-lookup"><span data-stu-id="08f87-101">Launch Azure Cloud Shell</span></span>
+## <a name="launch-azure-cloud-shell"></a>Iniciar o Azure Cloud Shell
 
-<span data-ttu-id="08f87-102">O Azure Cloud Shell é um shell bash gratuito que podem ser executado diretamente no Portal do Azure.</span><span class="sxs-lookup"><span data-stu-id="08f87-102">The Azure Cloud Shell is a free bash shell that you can run directly within the Azure Portal.</span></span> <span data-ttu-id="08f87-103">Ele tem a CLI do Azure instalada e configurada para usar com sua conta.</span><span class="sxs-lookup"><span data-stu-id="08f87-103">It has the Azure CLI preinstalled and configured to use with your account.</span></span> <span data-ttu-id="08f87-104">Clique no botão **Cloud Shell** no menu no canto superior direito do [portal do Azure](https://portal.azure.com).</span><span class="sxs-lookup"><span data-stu-id="08f87-104">Click the **Cloud Shell** button on the menu in the upper-right of the [Azure portal](https://portal.azure.com).</span></span>
+O Azure Cloud Shell é um shell bash gratuito que podem ser executado diretamente no Portal do Azure. Ele tem a CLI do Azure instalada e configurada para usar com sua conta. Clique no botão **Cloud Shell** no menu no canto superior direito do [portal do Azure](https://portal.azure.com).
 
-<span data-ttu-id="08f87-105">[![Cloud Shell](../media/cloud-shell-try-it/cloud-shell-menu.png)](https://portal.azure.com)</span><span class="sxs-lookup"><span data-stu-id="08f87-105">[![Cloud Shell](../media/cloud-shell-try-it/cloud-shell-menu.png)](https://portal.azure.com)</span></span>
+[![Cloud Shell](../media/cloud-shell-try-it/cloud-shell-menu.png)](https://portal.azure.com)
 
-<span data-ttu-id="08f87-106">O botão inicia um shell interativo que você pode usar para executar todas as etapas neste tópico:</span><span class="sxs-lookup"><span data-stu-id="08f87-106">The button launches an interactive shell that you can use to run all of the steps in this topic:</span></span>
+O botão inicia um shell interativo que você pode usar para executar todas as etapas neste tópico:
 
-<span data-ttu-id="08f87-107">[![Captura de tela mostrando a janela do Cloud Shell no portal](../media/cloud-shell-try-it/cloud-shell-safari.png)](https://portal.azure.com)</span><span class="sxs-lookup"><span data-stu-id="08f87-107">[![Screenshot showing the Cloud Shell window in the portal](../media/cloud-shell-try-it/cloud-shell-safari.png)](https://portal.azure.com)</span></span>
+[![Captura de tela mostrando a janela do Cloud Shell no portal](../media/cloud-shell-try-it/cloud-shell-safari.png)](https://portal.azure.com)

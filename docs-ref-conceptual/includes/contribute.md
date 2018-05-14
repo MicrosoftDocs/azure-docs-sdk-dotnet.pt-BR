@@ -1,3 +1,3 @@
-## <a name="get-help-and-give-feedback"></a><span data-ttu-id="d4885-101">Obter ajuda e fazer comentários</span><span class="sxs-lookup"><span data-stu-id="d4885-101">Get help and give feedback</span></span>
+## <a name="get-help-and-give-feedback"></a>Obter ajuda e fazer comentários
 
-<span data-ttu-id="d4885-102">Poste perguntas para a comunidade no [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-sdk-.net) e divulgue problemas com o SDK no [GitHub do projeto](https://github.com/Azure/azure-sdk-for-net).</span><span class="sxs-lookup"><span data-stu-id="d4885-102">Post questions to the community on [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-sdk-.net) and open issues against the SDK on the [project GitHub](https://github.com/Azure/azure-sdk-for-net).</span></span>
+Poste perguntas para a comunidade no [Stack Overflow](http://stackoverflow.com/questions/tagged/azure-sdk-.net) e divulgue problemas com o SDK no [GitHub do projeto](https://github.com/Azure/azure-sdk-for-net).
