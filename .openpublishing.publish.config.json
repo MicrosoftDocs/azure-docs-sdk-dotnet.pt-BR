@@ -76,7 +76,16 @@
       "url": "https://github.com/Azure/azure-storage-net",
       "branch": "master",
       "branch_mapping": {}
-    }
+    },
+{
+      "path_to_root": "_repo.en-us",
+      "url": "https://github.com/Azure/azure-docs-sdk-dotnet",
+      "branch": "live",
+      "branch_mapping": {
+        "live": "live",
+        "master": "master"
+      }
+    }	  
   ],
   "notification_subscribers": [],
   "need_generate_intellisense": false,
