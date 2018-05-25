@@ -1,6 +1,6 @@
 ---
-title: Exemplos de código do Azure para .NET
-description: Exemplos de código para .NET e Azure.
+title: Exemplos de código do Azure C# para .NET
+description: Exemplos de código C# para .NET e Azure.
 layout: LandingPage
 ms.topic: reference
 author: camsoper
@@ -11,14 +11,15 @@ ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
 ms.custom: devcenter
-ms.openlocfilehash: 85d792859a345cd4e4101aa88a2dcce68bc791b0
-ms.sourcegitcommit: 7b6128836d7657af2be53dcf40c1841cd8fda957
+ms.openlocfilehash: 2952f2999ae53100d35d90f44bfcc6c9df696b00
+ms.sourcegitcommit: 7d88aef45df03d9a2be5b9ac5c9f1f146462427b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/11/2018
 ---
-# <a name="azure-code-samples-for-net"></a>Exemplos de código do Azure para .NET
-Estes são os principais exemplos, tutoriais e amostras que recomendamos para a introdução ao Azure usando o .NET.
+# <a name="azure-c-code-samples-for-net"></a>Exemplos de código do Azure C# para .NET
+
+Estes são os principais exemplos, tutoriais e amostras que recomendamos para a introdução ao Azure usando o C# e o .NET.
 
 <div id="main" class="v2">
     <div class="container">
@@ -35,7 +36,7 @@ Estes são os principais exemplos, tutoriais e amostras que recomendamos para a 
                                 </div>
                                 <div class="cardText">
                                     <h3>Site básico</h3>
-                                    <p>Mostra como criar um site simples que pode armazenar informações em um back-end do SQL.</p>
+                                    <p>Saiba como criar um site ASP.NET Core simples que armazena informações em um back-end do SQL.</p>
                                 </div>
                             </div>
                         </a>
@@ -45,7 +46,7 @@ Estes são os principais exemplos, tutoriais e amostras que recomendamos para a 
             <li>
                 <div class="cardSize">
                     <div class="cardPadding">
-                        <a href="https://docs.microsoft.com/azure/azure-functions/functions-create-github-webhook-triggered-function">
+                        <a href="https://github.com/JeremyLikness/ShortLink">
                             <div class="card">
                                 <div class="cardImageOuter">
                                     <div class="cardImage bgdAccent1">
@@ -53,8 +54,8 @@ Estes são os principais exemplos, tutoriais e amostras que recomendamos para a 
                                     </div>
                                 </div>
                                 <div class="cardText">
-                                    <h3>Disparar eventos a partir do GitHub</h3>
-                                    <p>Mostra como disparar eventos com base em ações do GitHub usando funções do Azure e webhooks.</p>
+                                    <h3>Atalho para URL</h3>
+                                    <p>Saiba como disparar ações usando o Azure Functions sem servidor.</p>
                                 </div>
                             </div>
                         </a>
@@ -73,7 +74,7 @@ Estes são os principais exemplos, tutoriais e amostras que recomendamos para a 
                                 </div>
                                 <div class="cardText">
                                     <h3>Galeria de fotos</h3>
-                                    <p>Mostra como criar uma página da Web na qual os usuários possam carregar imagens para a nuvem com aplicativos Web do Azure e armazenamento de Blobs do Azure.</p>
+                                    <p>Saiba como carregar, baixar e acessar arquivos de imagem na nuvem usando o Armazenamento de Blobs do Azure.</p>
                                 </div>
                             </div>
                         </div>
@@ -83,7 +84,7 @@ Estes são os principais exemplos, tutoriais e amostras que recomendamos para a 
             <li>
                 <div class="cardSize">
                     <div class="cardPadding">
-                        <a href="https://docs.microsoft.com/en-us/azure/aks/tutorial-kubernetes-prepare-app">
+                        <a href="https://github.com/Azure-Samples/service-fabric-dotnet-quickstart">
                             <div class="card">
                                 <div class="cardImageOuter">
                                     <div class="cardImage bgdAccent1">
@@ -92,7 +93,7 @@ Estes são os principais exemplos, tutoriais e amostras que recomendamos para a 
                                 </div>
                                 <div class="cardText">
                                     <h3>Aplicativo de votação</h3>
-                                    <p>Mostra como criar um aplicativo de votação simples usando contêineres Kubernetes e Docker.</p>
+                                    <p>Saiba como criar microsserviços confiáveis em um aplicativo distribuído usando o Azure Service Fabric.</p>
                                 </div>
                             </div>
                         </a>
@@ -129,8 +130,8 @@ Estes são os principais exemplos, tutoriais e amostras que recomendamos para a 
                                     </div>
                                 </div>
                                 <div class="cardText">
-                                    <h3>Explorar o Cosmos DB</h3>
-                                    <p>Mostra os fundamentos do CosmosDB com .NET Core e Mongo.</p>
+                                    <h3>Banco de Dados de Nuvem</h3>
+                                    <p>Saiba como fazer pesquisas básicas, criação e edição em um banco de dados de nuvem moderno usando o Cosmos DB.</p>
                                 </div>
                             </div>
                         </a>
