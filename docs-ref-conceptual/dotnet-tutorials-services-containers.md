@@ -15,6 +15,7 @@ ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/05/2018
+ms.locfileid: "29752828"
 ---
 # <a name="container-deployment-tutorials-with-net-on-azure"></a><span data-ttu-id="9614c-103">Tutoriais de implantação de contêiner com o .NET no Azure</span><span class="sxs-lookup"><span data-stu-id="9614c-103">Container deployment tutorials with .NET on Azure</span></span>
 
