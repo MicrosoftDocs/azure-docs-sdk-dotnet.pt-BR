@@ -15,6 +15,7 @@ ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 03/05/2018
+ms.locfileid: "29752888"
 ---
 # <a name="tutorials-for-monitoring-and-managing-your-net-apps-in-azure"></a>Tutoriais para monitorar e gerenciar seus aplicativos .NET no Azure
 
