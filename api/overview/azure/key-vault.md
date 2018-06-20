@@ -1,6 +1,6 @@
 ---
 title: Bibliotecas do Azure Key Vault para .NET
-description: "Referência para bibliotecas do Azure Key Vault para .NET"
+description: Referência para bibliotecas do Azure Key Vault para .NET
 keywords: Azure, .NET, SDK, API, Key Vault
 author: camsoper
 ms.author: casoper
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 4114b8821f20e02f4185fcea7549d716f29b9c90
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/24/2017
+ms.locfileid: "23489180"
 ---
 # <a name="azure-key-vault-libraries-for-net"></a><span data-ttu-id="56a60-104">Bibliotecas do Azure Key Vault para .NET</span><span class="sxs-lookup"><span data-stu-id="56a60-104">Azure Key Vault libraries for .NET</span></span>
 

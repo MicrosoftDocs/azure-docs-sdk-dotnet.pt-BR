@@ -1,7 +1,7 @@
 ---
-title: "Bibliotecas de Serviços de Recuperação e Backup do Azure para .NET"
-description: "Referência para as bibliotecas de Serviços de Recuperação e Backup do Azure para .NET"
-keywords: "Azure, .NET, SDK, API, Serviços de Recuperação, Backup"
+title: Bibliotecas de Serviços de Recuperação e Backup do Azure para .NET
+description: Referência para as bibliotecas de Serviços de Recuperação e Backup do Azure para .NET
+keywords: Azure, .NET, SDK, API, Serviços de Recuperação, Backup
 author: camsoper
 ms.author: casoper
 manager: wpickett
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/26/2017
+ms.locfileid: "23566101"
 ---
 # <a name="azure-recovery-services-and-backup-libraries-for-net"></a><span data-ttu-id="702b5-104">Bibliotecas de Serviços de Recuperação e Backup do Azure para .NET</span><span class="sxs-lookup"><span data-stu-id="702b5-104">Azure Recovery Services and Backup libraries for .NET</span></span>
 

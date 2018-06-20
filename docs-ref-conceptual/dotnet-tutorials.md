@@ -15,6 +15,7 @@ ms.sourcegitcommit: e1a0e91988bb849c75e9583a80e3e6d712083785
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/14/2018
+ms.locfileid: "31005863"
 ---
 # <a name="tutorials-for-building-net-apps-in-azure"></a><span data-ttu-id="2bb7e-103">Tutoriais para criar aplicativos .NET no Azure</span><span class="sxs-lookup"><span data-stu-id="2bb7e-103">Tutorials for building .NET apps in Azure</span></span>
 

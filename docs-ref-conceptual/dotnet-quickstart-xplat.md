@@ -15,6 +15,7 @@ ms.sourcegitcommit: e1a0e91988bb849c75e9583a80e3e6d712083785
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 04/14/2018
+ms.locfileid: "31005873"
 ---
 # <a name="deploy-to-azure-from-the-command-line-with-net-core"></a><span data-ttu-id="f4627-104">Implantar no Azure a partir da linha de comando com o .NET Core</span><span class="sxs-lookup"><span data-stu-id="f4627-104">Deploy to Azure from the command line with .NET Core</span></span>
 

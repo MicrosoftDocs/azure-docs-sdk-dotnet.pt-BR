@@ -1,7 +1,7 @@
 ---
-title: "Bibliotecas da Automação do Azure para .NET"
-description: "Referência para bibliotecas da Automação do Azure para .NET"
-keywords: "Azure, .NET, SDK, API, Automação"
+title: Bibliotecas da Automação do Azure para .NET
+description: Referência para bibliotecas da Automação do Azure para .NET
+keywords: Azure, .NET, SDK, API, Automação
 author: camsoper
 ms.author: casoper
 manager: wpickett
@@ -17,6 +17,7 @@ ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/23/2017
+ms.locfileid: "23486689"
 ---
 # <a name="azure-automation-libraries-for-net"></a><span data-ttu-id="ab9e2-104">Bibliotecas da Automação do Azure para .NET</span><span class="sxs-lookup"><span data-stu-id="ab9e2-104">Azure Automation libraries for .NET</span></span>
 
