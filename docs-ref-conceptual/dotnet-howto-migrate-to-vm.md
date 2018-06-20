@@ -1,7 +1,7 @@
 ---
-title: "Migrar um aplicativo Web ASP.NET para uma Máquina Virtual do Azure"
-description: "Saiba como migrar um aplicativo Web ASP.NET do local para uma Máquina Virtual do Azure."
-keywords: ".NET do Azure, ASP.NET, VM, máquina virtual, migrar, migração"
+title: Migrar um aplicativo Web ASP.NET para uma Máquina Virtual do Azure
+description: Saiba como migrar um aplicativo Web ASP.NET do local para uma Máquina Virtual do Azure.
+keywords: .NET do Azure, ASP.NET, VM, máquina virtual, migrar, migração
 author: camsoper
 manager: wpickett
 ms.author: casoper
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3e904e6e4f04f1c92d729459434c85faff32e386
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 12/09/2017
+ms.locfileid: "26588479"
 ---
 # <a name="migrate-an-aspnet-web-application-to-an-azure-virtual-machine"></a>Migrar um aplicativo Web ASP.NET para uma Máquina Virtual do Azure
 

@@ -1,6 +1,6 @@
 ---
 title: Bibliotecas do IoT do Azure para .NET
-description: "Referência para bibliotecas do IoT do Azure para .NET"
+description: Referência para bibliotecas do IoT do Azure para .NET
 keywords: Azure, .NET, SDK, API, IoT
 author: camsoper
 ms.author: casoper
@@ -17,6 +17,7 @@ ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/23/2017
+ms.locfileid: "23487479"
 ---
 # <a name="azure-iot-libraries-for-net"></a>Bibliotecas do IoT do Azure para .NET
 

@@ -1,6 +1,6 @@
 ---
 title: APIs do Banco de Dados SQL do Azure para .NET
-description: "Referência para bibliotecas de Banco de Dados SQL do Azure para .NET"
+description: Referência para bibliotecas de Banco de Dados SQL do Azure para .NET
 keywords: Azure, .NET, SDK, API, SQL, Banco de Dados SQL
 author: camsoper
 ms.author: casoper
@@ -17,6 +17,7 @@ ms.sourcegitcommit: c360a22d5bff6eedd714b28b847d2f26b06665f4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 11/15/2017
+ms.locfileid: "24533101"
 ---
 # <a name="azure-sql-database-apis-for-net"></a>APIs do Banco de Dados SQL do Azure para .NET
 

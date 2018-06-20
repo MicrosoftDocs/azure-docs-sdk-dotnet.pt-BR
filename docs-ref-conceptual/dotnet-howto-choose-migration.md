@@ -1,7 +1,7 @@
 ---
-title: "Escolher a opção de hospedagem certa do Azure"
-description: "Saiba qual caminho de migração do Azure é correto para seu aplicativo Web ASP.NET."
-keywords: ".NET do Azure, ASP.NET, Serviço de Aplicativo, VM, máquina virtual, Aplicativo Web, migrar, migração"
+title: Escolher a opção de hospedagem certa do Azure
+description: Saiba qual caminho de migração do Azure é correto para seu aplicativo Web ASP.NET.
+keywords: .NET do Azure, ASP.NET, Serviço de Aplicativo, VM, máquina virtual, Aplicativo Web, migrar, migração
 author: CESARDELATORRE
 manager: wpickett
 ms.author: cesardl
@@ -16,6 +16,7 @@ ms.sourcegitcommit: 3e904e6e4f04f1c92d729459434c85faff32e386
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 12/09/2017
+ms.locfileid: "26588459"
 ---
 # <a name="choose-the-right-azure-hosting-option"></a>Escolher a opção de hospedagem certa do Azure
 

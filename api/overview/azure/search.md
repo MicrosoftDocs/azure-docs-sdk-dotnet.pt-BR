@@ -1,6 +1,6 @@
 ---
 title: Bibliotecas do Azure Search para .NET
-description: "Referência para bibliotecas do Azure Search para .NET"
+description: Referência para bibliotecas do Azure Search para .NET
 keywords: Azure, .NET, SDK, API, Search
 author: camsoper
 ms.author: casoper
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/26/2017
+ms.locfileid: "23566297"
 ---
 # <a name="azure-search-libraries-for-net"></a>Bibliotecas do Azure Search para .NET
 
