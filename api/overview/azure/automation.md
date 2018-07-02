@@ -7,17 +7,15 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: dotnet
 ms.service: automation
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 2055a5e24d445468763c049c34a5055cea108688
-ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
+ms.openlocfilehash: e45db49fa71e5ad16ab1e4f26d76cd9b0146ac5f
+ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2017
-ms.locfileid: "23486689"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37065756"
 ---
 # <a name="azure-automation-libraries-for-net"></a>Bibliotecas da Automação do Azure para .NET
 

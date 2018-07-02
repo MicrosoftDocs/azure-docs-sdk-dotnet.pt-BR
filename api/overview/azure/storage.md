@@ -7,17 +7,15 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: dotnet
 ms.service: storage
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 8f6e0414b54698d0a1dbe3d4c074456a6ad7b7be
-ms.sourcegitcommit: dbec35008347b581dd238b882354300e427bec70
+ms.openlocfilehash: 273e7ffc8794ef531e2bd35858b8ad1299755882
+ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2018
-ms.locfileid: "29728347"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37065526"
 ---
 # <a name="azure-storage-apis-for-net"></a>APIs do Armazenamento do Azure para .NET
 

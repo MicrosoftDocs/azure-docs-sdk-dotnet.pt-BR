@@ -7,17 +7,15 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: dotnet
 ms.service: redis-cache
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 64bb5a43cec8c82412b3dc7b60fea1e8566ab399
-ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
+ms.openlocfilehash: 879f42aa254103239fb0dceeb25cb99a7d5e9814
+ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/26/2017
-ms.locfileid: "23566337"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37065916"
 ---
 # <a name="azure-redis-cache-libraries-for-net"></a>Bibliotecas do Cache Redis do Azure para .NET
 

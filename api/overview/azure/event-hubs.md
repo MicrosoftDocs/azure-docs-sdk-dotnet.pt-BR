@@ -7,17 +7,15 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: dotnet
 ms.service: event-hubs
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 2ec234959ffc46d2399d1c763e05f173a311b0d2
-ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
+ms.openlocfilehash: 5502ae24574c7883c34522ae18ca81bb516a33d2
+ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2017
-ms.locfileid: "23487289"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37065306"
 ---
 # <a name="azure-event-hubs-libraries-for-net"></a>Bibliotecas de Hubs de Eventos do Azure para .NET
 

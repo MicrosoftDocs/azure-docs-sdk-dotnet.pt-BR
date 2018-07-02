@@ -7,17 +7,15 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: dotnet
 ms.service: virtual-machines
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: cac6dde85a7b0db2c98d0888cb0ee5c60ee31836
-ms.sourcegitcommit: dbec35008347b581dd238b882354300e427bec70
+ms.openlocfilehash: 96aabe0953a44b86da9cfd3202c43a4aa0f08a89
+ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2018
-ms.locfileid: "29728527"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37065846"
 ---
 # <a name="azure-virtual-machine-libraries-for-net"></a>Bibliotecas de máquina virtual do Azure para .NET
 

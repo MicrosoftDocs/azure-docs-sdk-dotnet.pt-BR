@@ -7,17 +7,15 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: dotnet
 ms.service: mysql
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 27c1a2c7d36966d14daff5397b248a24197bec3b
-ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
+ms.openlocfilehash: 6cf9d819b437a4524c71cdb2265455ef49efaea5
+ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/26/2017
-ms.locfileid: "23566047"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37065776"
 ---
 # <a name="azure-database-for-mysql-libraries-for-net"></a>Bibliotecas do Banco de Dados do Azure para MySQL para .NET
 

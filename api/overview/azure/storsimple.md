@@ -7,17 +7,15 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/27/2017
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: dotnet
 ms.service: storsimple
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: dcb6732bf1eded6852a3185546a09c96cfe84eca
-ms.sourcegitcommit: 64c9e16e42894e8db8ed088487e55c5e0edd6861
+ms.openlocfilehash: 818c48a0f45812841eb0e8c3928b59f6681892cf
+ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2017
-ms.locfileid: "23639644"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37065896"
 ---
 # <a name="azure-storsimple-libraries-for-net"></a>Bibliotecas do Azure StorSimple para .NET
 

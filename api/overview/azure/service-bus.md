@@ -7,17 +7,15 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: dotnet
 ms.service: service-bus
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: f2795a123a7b92237b0aea672298ce9339fd0830
-ms.sourcegitcommit: e1a0e91988bb849c75e9583a80e3e6d712083785
+ms.openlocfilehash: 5ebd659121019c74ad607dc2a553f7e305a34021
+ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2018
-ms.locfileid: "31005933"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37065466"
 ---
 # <a name="azure-service-bus-libraries-for-net"></a>Bibliotecas do Barramento de Serviço para .NET
 

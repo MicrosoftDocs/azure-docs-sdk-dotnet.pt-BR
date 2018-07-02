@@ -6,17 +6,15 @@ ms.author: routlaw
 manager: angerobe
 ms.date: 04/16/2018
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: dotnet
 ms.service: event-grid
 ms.custom: devcenter
-ms.openlocfilehash: aa25f76f041e890de512c67d9380903f81216f62
-ms.sourcegitcommit: 9f54e3334fc35c1066d0c591ff85b16d46416aa8
+ms.openlocfilehash: 922e1a49a2b864d8cd408a8383d7cda27c7f89c2
+ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33802743"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37065296"
 ---
 # <a name="azure-event-grid-libraries-for-net"></a>Bibliotecas de Grade de Eventos do Azure para .NET
 
@@ -122,7 +120,7 @@ foreach (EventGridEvent eventGridEvent in eventGridEvents)
 > [!div class="nextstepaction"]
 > [Explorar as APIs de cliente](/dotnet/api/overview/azure/eventgrid/client)
 
-## <a name="management-sdk"></a>SDK de gerenciamento
+## <a name="management-sdk"></a>SDK de Gerenciamento
 
 Crie, atualize ou exclua instâncias da Grade de Eventos, tópicos e assinaturas com o SDK de gerenciamento.
 

@@ -7,17 +7,15 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: dotnet
 ms.service: data-lake-analytics
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 063513d8c523330276cdfc222d3ca00a9629f63a
-ms.sourcegitcommit: dbec35008347b581dd238b882354300e427bec70
+ms.openlocfilehash: a4340844906d7ccf2612ce17dae13e1fce257da0
+ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2018
-ms.locfileid: "29728407"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37065676"
 ---
 # <a name="azure-data-lake-analytics-libraries-for-net"></a>Bibliotecas do Azure Data Lake Analytics para .NET
 

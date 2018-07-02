@@ -7,17 +7,15 @@ ms.author: casoper
 manager: wpickett
 ms.date: 11/17/2017
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: dotnet
 ms.service: cosmos-db
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: fa9bc7497ac189f18ee0ba14d72d4cdb23a05f0b
-ms.sourcegitcommit: e1a0e91988bb849c75e9583a80e3e6d712083785
+ms.openlocfilehash: 4407e59cbcc7ceedc0c7964981d29d6e14a4aa95
+ms.sourcegitcommit: 903457bd531e77797a86e6aedcfc94c1fb79fe6d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2018
-ms.locfileid: "31005803"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37132047"
 ---
 # <a name="azure-cosmos-db-libraries-for-net"></a>Bibliotecas do Azure Cosmos DB para .NET
 
@@ -56,7 +54,7 @@ using Microsoft.Azure.Documents.Client;
 
 DocumentClient client = new DocumentClient(endpointUri, authKeyString);
 Uri documentUri = UriFactory.CreateDocumentUri("MyDatabaseName", "MyCollectionName", "DocumentId");
-SomeClass myObject = client.ReadDocumentAsync<SomeClass>(documentUri).ToString()).Result;
+SomeClass myObject = client.ReadDocumentAsync<SomeClass>(documentUri).ToString().Result;
 ```
 
 > [!div class="nextstepaction"]

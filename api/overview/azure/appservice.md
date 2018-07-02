@@ -7,17 +7,15 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: dotnet
 ms.service: app-service
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 356a86e8fa70512b6f31c6e237173a74d1c6f60a
-ms.sourcegitcommit: dbec35008347b581dd238b882354300e427bec70
+ms.openlocfilehash: 0fee28930dff5075cdd84fe3cb88850e07bc6ccb
+ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2018
-ms.locfileid: "29728507"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37065796"
 ---
 # <a name="azure-app-service-libraries-for-net"></a>Bibliotecas de Serviço de Aplicativo do Azure para .NET
 

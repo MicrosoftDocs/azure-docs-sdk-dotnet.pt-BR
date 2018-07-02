@@ -7,17 +7,15 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: dotnet
 ms.service: data-factory
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 20e94fa687a3008ac7112d1a6511f8cec92b544c
-ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
+ms.openlocfilehash: b3c492fbfe4a4afa6f06f8c48a370c554a01719c
+ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2017
-ms.locfileid: "23487139"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37065786"
 ---
 # <a name="azure-data-factory-libraries-for-net"></a>Bibliotecas do Azure Data Factory para .NET
 

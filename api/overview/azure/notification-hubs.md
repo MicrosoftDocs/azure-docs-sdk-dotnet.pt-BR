@@ -7,17 +7,15 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: dotnet
 ms.service: notification-hubs
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: f863bf9d5d63129e04dd31ba96b3e803bead87bc
-ms.sourcegitcommit: 4c42de7e066b6aa0a5b5df02cce4d1d245aa558d
+ms.openlocfilehash: 0cbbfbafd2d1900c00f08fd1ab2e0f1af80ae8ff
+ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
-ms.locfileid: "31447633"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37065496"
 ---
 # <a name="azure-notification-hubs-libraries-for-net"></a>Bibliotecas de Hubs de Notificação do Azure para .NET
 

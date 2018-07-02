@@ -7,17 +7,15 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: dotnet
 ms.service: postgresql
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 7a8c1965432d5cca36665bce3963c30cdaee9205
-ms.sourcegitcommit: 4dba7cd869bddff3dee7315d258522dc4879abce
+ms.openlocfilehash: 40ef1d5ffd41b45523fbeb2c29095fd423b749bd
+ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/23/2017
-ms.locfileid: "25550806"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37065406"
 ---
 # <a name="azure-database-for-postgresql-libraries-for-net"></a>Bibliotecas do Banco de Dados do Azure para PostgreSQL para .NET
 

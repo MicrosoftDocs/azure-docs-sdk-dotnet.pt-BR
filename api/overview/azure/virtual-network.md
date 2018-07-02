@@ -7,17 +7,15 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: dotnet
 ms.service: virtual-network
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: b67415344ef9cbf8af598a1fd43b6b47023bb071
-ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
+ms.openlocfilehash: eb2300522e63339386bf08b5dfac3b803a1e5efd
+ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2017
-ms.locfileid: "23486999"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37065286"
 ---
 # <a name="azure-virtual-network-libraries-for-net"></a>Bibliotecas da Rede Virtual do Azure para .NET
 

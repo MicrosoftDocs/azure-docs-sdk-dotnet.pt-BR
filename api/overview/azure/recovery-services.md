@@ -7,17 +7,15 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: dotnet
 ms.service: recovery-services
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 3b399827f187fc2cb59c8698a555e63d08cee6c7
-ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
+ms.openlocfilehash: 6186411b668d0950328b49bb826e5b05c5ee0304
+ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/26/2017
-ms.locfileid: "23566101"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37065426"
 ---
 # <a name="azure-recovery-services-and-backup-libraries-for-net"></a>Bibliotecas de Serviços de Recuperação e Backup do Azure para .NET
 

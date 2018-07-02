@@ -7,17 +7,15 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: dotnet
 ms.service: application-insights
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 081143eafaeea2954703c337609a67fd5a7941c6
-ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
+ms.openlocfilehash: 3cbd4a874edfa6de26d3edf4d151d2c4006ab9c3
+ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2017
-ms.locfileid: "23487209"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37065836"
 ---
 # <a name="azure-application-insights-libraries-for-net"></a>Bibliotecas do Azure Application Insights para .NET
 

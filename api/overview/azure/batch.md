@@ -7,17 +7,15 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: dotnet
 ms.service: batch
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 79ca70e5d0f3d5555c8a691da6dbcc1e6a55ab0b
-ms.sourcegitcommit: fe3e1475208ba47d4630788bac88b952cc3fe61f
+ms.openlocfilehash: b6053e19d26247dd36ed7e38fc33030f96aecca8
+ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/23/2017
-ms.locfileid: "23487259"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37065550"
 ---
 # <a name="azure-batch-libraries-for-net"></a>Bibliotecas do Lote do Azure para .NET
 

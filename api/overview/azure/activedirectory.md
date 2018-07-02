@@ -7,17 +7,15 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: dotnet
 ms.service: active-directory
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: aa20715fb62b1d4b714245c404f1a7c142caf586
-ms.sourcegitcommit: 2c08a778353ed743b9e437ed85f2e1dfb21b9427
+ms.openlocfilehash: a5a228fcde29dbef6a6e8d0482121ee710b002a4
+ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/26/2017
-ms.locfileid: "23565987"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37065856"
 ---
 # <a name="azure-active-directory-libraries-for-net"></a>Bibliotecas do Azure Active Directory para .NET
 

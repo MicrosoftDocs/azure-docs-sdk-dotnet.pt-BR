@@ -7,17 +7,15 @@ ms.author: casoper
 manager: wpickett
 ms.date: 10/27/2017
 ms.topic: reference
-ms.prod: azure
-ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 8055b8861f6991e021ff1ea3bfa87cf96f554fa2
-ms.sourcegitcommit: 64c9e16e42894e8db8ed088487e55c5e0edd6861
+ms.openlocfilehash: 7b86b752a354b5ab6f8482b81ecba3b08b8a9442
+ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2017
-ms.locfileid: "23639634"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37065876"
 ---
 # <a name="azure-monitor-libraries-for-net"></a>Bibliotecas do Azure Monitor para .NET
 
