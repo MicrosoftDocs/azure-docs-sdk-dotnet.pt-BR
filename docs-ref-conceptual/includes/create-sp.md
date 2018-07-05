@@ -17,11 +17,15 @@ SubscriptionName      : my-subscription
 CurrentStorageAccount : 
 ```
 
-[Criar uma entidade de serviço usando o PowerShell](/powershell/azure/create-azure-service-principal-azureps), da seguinte maneira:
+[Criar uma entidade de serviço usando o PowerShell](/powershell/azure/create-azure-service-principal-azureps), como mostrado abaixo. 
+
+> [!NOTE]
+> Se o cmdlet `New-AzureRmADServicePrincipal` abaixo retornar "Outro objeto com o mesmo valor da propriedade identifierUris já existe", já haverá uma entidade de serviço com esse nome em seu locatário. Use um valor diferente para o parâmetro **DisplayName**. 
 
 ```powershell
 # Create the service principal (use a strong password)
-$sp = New-AzureRmADServicePrincipal -DisplayName "AzureDotNetTest" -Password "password"
+$cred = Get-Credential
+$sp = New-AzureRmADServicePrincipal -DisplayName "AzureDotNetTest" -Password $cred.Password
 
 # Give it the permissions it needs...
 New-AzureRmRoleAssignment -ServicePrincipalName $sp.ApplicationId -RoleDefinitionName Contributor

@@ -6,18 +6,17 @@ author: camsoper
 manager: wpickett
 ms.author: casoper
 ms.date: 11/15/2017
-layout: LandingPage
-ms.topic: landing-page
+ms.topic: article
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: virtual-machines
 ms.custom: devcenter
-ms.openlocfilehash: 98f24553961793623f8a6aba10dcf45b930101fe
-ms.sourcegitcommit: 3e904e6e4f04f1c92d729459434c85faff32e386
+ms.openlocfilehash: 53e899ba3cd2ff265a2068e1b7eee5baa4520879
+ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2017
-ms.locfileid: "26588479"
+ms.lasthandoff: 06/28/2018
+ms.locfileid: "37065336"
 ---
 # <a name="migrate-an-aspnet-web-application-to-an-azure-virtual-machine"></a>Migrar um aplicativo Web ASP.NET para uma Máquina Virtual do Azure
 
@@ -25,16 +24,7 @@ Este documento fornece uma visão geral de como migrar um aplicativo Web ASP.NET
 
 ## <a name="quickstart"></a>Início rápido
 
-Saiba como criar uma máquina virtual e publicar o aplicativo nela:
-
-<div class="ico48Case">
-    <div class="ico48Link">
-        <a href="https://tutorials.visualstudio.com/aspnet-vm/intro">
-            <img width="48" height="48" alt="Publish to an Azure VM" src="https://docs.microsoft.com/azure/media/index/virtualmachine.svg">
-            <span>Publicar em uma VM do Azure</span>
-        </a>
-    </div>
-</div>
+Saiba como criar uma máquina virtual e publicar o aplicativo nela: [Publicar em uma VM do Azure](https://tutorials.visualstudio.com/aspnet-vm/intro)
 
 ## <a name="get-started"></a>Introdução
 
@@ -60,9 +50,9 @@ Escolha o tamanho da máquina virtual e o tipo mais otimizados para sua carga de
 
 ### <a name="maintenance"></a>Manutenção 
 
-Assim como ocorre com uma máquina local, você é responsável por manter e atualizar a máquina virtual<sup>&#42;</sup>.  Se seu aplicativo puder ser executado em um ambiente PaaS (Plataforma como Serviço), como o [Serviço de Aplicativo do Azure](https://docs.microsoft.com/azure/app-service/), ou em um [contêiner](https://docs.microsoft.com/azure/app-service/containers/), isso eliminará a necessidade.
+Assim como uma máquina local, você é responsável por manter e atualizar a máquina virtual<sup>& #42;</sup>.  Se seu aplicativo puder ser executado em um ambiente PaaS (Plataforma como Serviço), como o [Serviço de Aplicativo do Azure](https://docs.microsoft.com/azure/app-service/), ou em um [contêiner](https://docs.microsoft.com/azure/app-service/containers/), isso eliminará a necessidade.
 
-*<sup>&#42;</sup>[As atualizações automáticas do SO para os conjuntos de dimensionamento da máquina virtual](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-automatic-upgrade) estão disponíveis atualmente como um serviço de Versão prévia.*
+*<sup>& #42; </sup>[As atualizações automáticas do SO para os conjuntos de dimensionamento da máquina virtual](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-automatic-upgrade) estão disponíveis atualmente como um serviço de Visualização.*
 
 ### <a name="virtual-networks"></a>Redes Virtuais
 
@@ -88,7 +78,7 @@ Se seu aplicativo estiver usando um banco de dados local, o aplicativo não cons
 
 ### <a name="high-availability-and-scalability"></a>Alta disponibilidade e escalabilidade
 
-#### <a name="virtual-machine-scale-sets"></a>Conjuntos de Escala de Máquina Virtual
+#### <a name="virtual-machine-scale-sets"></a>Conjuntos de Dimensionamento de Máquinas Virtuais
 Se você quiser verificar se seu aplicativo tem alta disponibilidade e pode ser dimensionado, migre sua imagem da VM para um conjunto de dimensionamento da máquina virtual para melhorar a disponibilidade e a escalabilidade do aplicativo.  Os Conjuntos de Dimensionamento de VM fornecem a capacidade de usar uma VM existente que você já configurou ou definem um pipeline de compilação para criar uma imagem com seu aplicativo.  
 
 Para começar, confira [Implantar seu aplicativo nos conjuntos de dimensionamento da máquina virtual](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-deploy-app).
