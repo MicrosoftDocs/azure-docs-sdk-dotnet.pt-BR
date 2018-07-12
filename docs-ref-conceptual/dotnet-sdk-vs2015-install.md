@@ -12,10 +12,10 @@ ms.devlang: dotnet
 ms.service: multiple
 ms.custom: devcenter
 ms.openlocfilehash: 5046781a16b5b330b95c4ad36e8a8187126fef4e
-ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
+ms.sourcegitcommit: 1c2e1fd031ad012d6888fcde3cd325f7e8e49e0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 07/09/2018
 ms.locfileid: "29752808"
 ---
 # <a name="azure-tools-for-visual-studio-2015"></a>Ferramentas do Azure para Visual Studio 2015
