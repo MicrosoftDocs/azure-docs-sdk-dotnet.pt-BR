@@ -10,12 +10,12 @@ ms.topic: reference
 ms.devlang: dotnet
 ms.service: data-lake-store
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: f1b014c4835784ed8ecfa1e3b4bfd62a6ebf9562
-ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
+ms.openlocfilehash: 7bbc8c6c5a71d16372d7ab756a5188d90503f52a
+ms.sourcegitcommit: 512e031ead61a578ac96835c8ea01829842740bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "37065626"
+ms.lasthandoff: 07/18/2018
+ms.locfileid: "39116682"
 ---
 # <a name="azure-data-lake-store-libraries-for-net"></a>Bibliotecas do Azure Data Lake Store para .NET
 
@@ -80,7 +80,7 @@ dotnet add package Microsoft.Azure.Management.DataLake.Store
 
 ## <a name="samples"></a>Exemplos
 
-* [Exemplo de cliente .NET do Azure Data Lake](https://azure.microsoft.com/en-us/resources/samples/data-lake-dotnet-client/)
+* [Exemplo de cliente .NET do Azure Data Lake](https://azure.microsoft.com/resources/samples/data-lake-dotnet-client/)
 
 Explore mais [códigos .NET de exemplo](https://azure.microsoft.com/resources/samples/?platform=dotnet) que você pode usar em seus aplicativos.
 
