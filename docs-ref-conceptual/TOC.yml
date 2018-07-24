@@ -6,16 +6,22 @@
       items:
         - name: Aplicativos Web
           href: 'https://docs.microsoft.com/azure/app-service-web/app-service-web-get-started-dotnet'
+          maintainContext: true
         - name: Funções sem servidor
           href: 'https://docs.microsoft.com/azure/azure-functions/functions-create-your-first-function-visual-studio'
+          maintainContext: true
         - name: Banco de dados SQL
           href: 'https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-dotnet'
+          maintainContext: true
         - name: Cosmos DB
           href: 'https://docs.microsoft.com/azure/cosmos-db/create-sql-api-dotnet'
+          maintainContext: true
         - name: Service Fabric
           href: 'https://docs.microsoft.com/azure/service-fabric/service-fabric-quickstart-dotnet'
+          maintainContext: true
         - name: Armazenamento de blob
           href: 'https://docs.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-dotnet'
+          maintainContext: true
     - name: Introdução ao .NET
       href: dotnet-sdk-azure-get-started.md
     - name: Ferramentas
@@ -25,25 +31,32 @@
       items:
         - name: Criar um aplicativo Web ASP.NET com o Banco de Dados SQL do Azure
           href: /azure/app-service-web/app-service-web-tutorial-dotnet-sqldatabase
+          maintainContext: true
         - name: Criar um aplicativo Web ASP.NET com o Cosmos DB
           href: /azure/documentdb/documentdb-dotnet-application
+          maintainContext: true
         - name: Criar e implantar uma API Web
           href: /azure/app-service-api/app-service-api-dotnet-get-started
+          maintainContext: true
         - name: Introdução ao Kubernetes e aos contêineres do Windows
           href: /azure/container-service/container-service-kubernetes-windows-walkthrough
+          maintainContext: true
         - name: Conectar e consultar o Banco de Dados SQL
           href: /azure/sql-database/sql-database-connect-query-dotnet
+          maintainContext: true
         - name: Conectar e consultar PostgreSQL
           href: /azure/postgresql/connect-csharp
+          maintainContext: true
         - name: Introdução à API do SQL do Cosmos DB
           href: /azure/cosmos-db/sql-api-get-started
+          maintainContext: true
     - name: Como
       items:
         - name: Migração
           items:
             - name: Escolher a opção de hospedagem certa do Azure
               href: dotnet-howto-choose-migration.md
-            - name: Migrar um aplicativo ASP.NET para o Serviço de Aplicativo do Azure
+            - name: Migrar um aplicativo Web .NET ou serviço para o Serviço de Aplicativo do Azure
               href: dotnet-howto-migrate-app-service.md
             - name: Migrar um aplicativo ASP.NET para a VM do Azure
               href: dotnet-howto-migrate-to-vm.md
