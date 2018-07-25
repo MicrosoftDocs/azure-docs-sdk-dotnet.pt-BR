@@ -52,7 +52,7 @@ Escolha o tamanho da máquina virtual e o tipo mais otimizados para sua carga de
 
 Assim como uma máquina local, você é responsável por manter e atualizar a máquina virtual<sup>& #42;</sup>.  Se seu aplicativo puder ser executado em um ambiente PaaS (Plataforma como Serviço), como o [Serviço de Aplicativo do Azure](https://docs.microsoft.com/azure/app-service/), ou em um [contêiner](https://docs.microsoft.com/azure/app-service/containers/), isso eliminará a necessidade.
 
-*<sup>& #42;</sup>[As atualizações automáticas do SO para os conjuntos de dimensionamento da máquina virtual](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-automatic-upgrade) estão disponíveis atualmente como um serviço de Visualização.*
+*<sup>&#42;</sup>[As atualizações automáticas do SO para os conjuntos de dimensionamento da máquina virtual](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-automatic-upgrade) estão disponíveis atualmente como um serviço de Visualização.*
 
 ### <a name="virtual-networks"></a>Redes Virtuais
 
