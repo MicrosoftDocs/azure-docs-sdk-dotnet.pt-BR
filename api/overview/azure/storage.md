@@ -10,18 +10,18 @@ ms.topic: reference
 ms.devlang: dotnet
 ms.service: storage
 ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 273e7ffc8794ef531e2bd35858b8ad1299755882
-ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
+ms.openlocfilehash: e953f38f103631f94b844d803d20a6576e841ed3
+ms.sourcegitcommit: 2a00655810b9b2c78a3edb31c974a9989bff8bc0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "37065526"
+ms.lasthandoff: 08/11/2018
+ms.locfileid: "42623356"
 ---
 # <a name="azure-storage-apis-for-net"></a>APIs do Armazenamento do Azure para .NET
 
 ## <a name="overview"></a>Visão geral
 
-Leia e grave arquivos, dados de blob (objeto), pares chave-valor e mensagens de aplicativos .NET com o [Armazenamento do Azure](https://review.docs.microsoft.com/azure/storage/storage-introduction).
+Leia e grave arquivos, dados de blob (objeto), pares chave-valor e mensagens de aplicativos .NET com o [Armazenamento do Azure](https://docs.microsoft.com/azure/storage/storage-introduction).
 
 Para trabalhar com o Armazenamento do Azure, confira a [Introdução ao Armazenamento de Blobs do Azure usando o .NET](/azure/storage/storage-dotnet-how-to-use-blobs).
 
