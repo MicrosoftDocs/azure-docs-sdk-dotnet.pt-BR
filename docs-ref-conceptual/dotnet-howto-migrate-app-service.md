@@ -11,12 +11,12 @@ ms.technology: azure
 ms.devlang: dotnet
 ms.service: app-service
 ms.custom: devcenter
-ms.openlocfilehash: 643d758af8f90f22791d3b7deb18ae6233067ef0
-ms.sourcegitcommit: 779c1b202d3670cfa0b9428c89f830cad9ec7e9d
+ms.openlocfilehash: af17a7dee8dd93aa50807b0b6b7eebadb673151b
+ms.sourcegitcommit: 6a1974bc7c7511aacac5b69daa296a59ab3f8000
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2018
-ms.locfileid: "39135714"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44700948"
 ---
 # <a name="migrate-your-net-web-app-or-service-to-azure-app-service"></a>Migrar seu aplicativo Web .NET ou serviço para o Serviço de Aplicativo do Azure 
 
@@ -30,10 +30,10 @@ Pronto para começar? [Publique seu aplicativo ASP.NET + SQL para o Serviço de 
 
 Verifique o acesso aos recursos locais, conforme precisem ser migrados ou alterados. Veja a seguir opções para atenuar o acesso a recursos locais:
 
-* Crie uma VPN que conecta o Serviço de Aplicativo aos recursos locais usando as [Redes Virtuais do Azure](https://docs.microsoft.com/en-us/azure/app-service/web-sites-integrate-with-vnet).
-* Exponha com segurança os serviços locais na nuvem sem alterações de firewall usando a [Retransmissão do Azure](https://docs.microsoft.com/en-us/azure/service-bus-relay/relay-what-is-it).
+* Crie uma VPN que conecta o Serviço de Aplicativo aos recursos locais usando as [Redes Virtuais do Azure](https://docs.microsoft.com/azure/app-service/web-sites-integrate-with-vnet).
+* Exponha com segurança os serviços locais na nuvem sem alterações de firewall usando a [Retransmissão do Azure](https://docs.microsoft.com/azure/service-bus-relay/relay-what-is-it).
 * Migre dependências como [banco de dados SQL](https://go.microsoft.com/fwlink/?linkid=863217) para o Azure.
-* Use as ofertas de plataforma como serviço na nuvem para reduzir dependências. Por exemplo, em vez de se conectar a um servidor de email local, considere o uso de [SendGrid](https://docs.microsoft.com/en-us/azure/sendgrid-dotnet-how-to-send-email). 
+* Use as ofertas de plataforma como serviço na nuvem para reduzir dependências. Por exemplo, em vez de se conectar a um servidor de email local, considere o uso de [SendGrid](https://docs.microsoft.com/azure/sendgrid-dotnet-how-to-send-email). 
 
 ### <a name="port-bindings"></a>Associações de Porta
 
@@ -64,7 +64,7 @@ Não há suporte para isso. Considere copiar os assemblies necessários para a p
 Tudo configurado tradicionalmente via applicationHost.config em seu aplicativo, agora pode ser configurado com o portal do Azure. Isso se aplica ao número de bits do AppPool, habilitar/desabilitar websockets, versão do pipeline gerenciada, versão do .NET Framework (2.0/4.0) etc. Para modificar as [configurações do aplicativo](https://docs.microsoft.com/azure/app-service/web-sites-configure), navegue até o [portal do Azure](https://portal.azure.com), abra a folha de seu aplicativo Web, em seguida, selecione a guia **Configurações do Aplicativo**.
 
 #### <a name="iis5-compatibility-mode"></a>Modo de Compatibilidade do IIS5
-Não há suporte para o Modo de Compatibilidade do IIS5. No Serviço de Aplicativo do Azure, cada Aplicativo Web e todos os aplicativos nele executam o mesmo processo de trabalho com um determinado conjunto de [pools de aplicativos](http://technet.microsoft.com/en-us/library/cc735247(v=WS.10).aspx).
+Não há suporte para o Modo de Compatibilidade do IIS5. No Serviço de Aplicativo do Azure, cada Aplicativo Web e todos os aplicativos nele executam o mesmo processo de trabalho com um determinado conjunto de [pools de aplicativos](http://technet.microsoft.com/library/cc735247(v=WS.10).aspx).
 
 #### <a name="iis7-schema-compliance"></a>IIS7+ conformidade de esquema  
 Alguns elementos e atributos não são definidos no esquema do IIS do Serviço de Aplicativo do Azure. Se você encontrar problemas, considere o uso de [transformações XDT](http://azure.microsoft.com/documentation/articles/web-sites-transform-extend/).
