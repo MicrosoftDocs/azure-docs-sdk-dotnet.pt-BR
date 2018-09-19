@@ -1,10 +1,10 @@
 ### YamlMime:YamlDocument
-ms.openlocfilehash: f80b08f77cfb88b2e2148534553cc4c96cac6d76
-ms.sourcegitcommit: 0e64271404ddbb8f84f7e95691b29690de9e41bf
+ms.openlocfilehash: 0f2928212fca7c86defa37068e18e9ff96adb50a
+ms.sourcegitcommit: 319a55d604140fcc0b03a07b634ab9a3b22e657d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39616378"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44703787"
 documentType: LandingData
 title: Azure para desenvolvedores .NET e .NET Core
 metadata:
@@ -72,21 +72,21 @@ sections:
       title: Criar uma função .NET sem servidor
       href: https://docs.microsoft.com/azure/azure-functions/functions-create-your-first-function-visual-studio
     - image:
-        src: https://docs.microsoft.com/en-us/azure/media/index/sqldatabase.svg
-      title: Conectar seu aplicativo .NET ao Banco de Dados SQL do Azure
-      href: https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-dotnet
-    - image:
         src: https://docs.microsoft.com/en-us/azure/media/index/cosmosdb.svg
       title: Compilar um aplicativo Web .NET com o Azure Cosmos DB
       href: https://docs.microsoft.com/azure/cosmos-db/create-sql-api-dotnet
     - image:
-        src: https://docs.microsoft.com/en-us/azure/media/index/fabric.svg
-      title: Criar um aplicativo de microsserviço .NET com o Service Fabric
-      href: https://docs.microsoft.com/azure/service-fabric/service-fabric-quickstart-dotnet
+        src: https://docs.microsoft.com/en-us/azure/media/index/applicationinsights.svg
+      title: Monitorar seu aplicativo ASP.NET com o Application Insights
+      href: https://docs.microsoft.com/azure/application-insights/quick-monitor-portal
     - image:
-        src: https://docs.microsoft.com/azure/media/index/api_textanalytics.svg
-      title: Analisar a linguagem com C# e a API de Análise de Texto
-      href: https://docs.microsoft.com/azure/cognitive-services/text-analytics/quickstarts/csharp
+        src: https://docs.microsoft.com/en-us/azure/media/index/storage.svg
+      title: Armazenar e recuperar objetos usando o Armazenamento do Azure
+      href: https://docs.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-dotnet
+    - image:
+        src: https://docs.microsoft.com/en-us/azure/media/index/sqldatabase.svg
+      title: Conectar seu aplicativo .NET ao Banco de Dados SQL do Azure
+      href: https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-dotnet
 - title: Introdução ao .NET no Azure
   items:
   - type: markdown
@@ -118,9 +118,10 @@ sections:
     style: unordered
     items:
     - html: <a href="https://docs.microsoft.com/azure/app-service-web/app-service-web-tutorial-dotnet-sqldatabase">Criar um aplicativo Web ASP.NET com o Serviço de Aplicativo do Azure e o Banco de Dados SQL do Azure</a>
-    - html: <a href="https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-dotnet-application">Criar um aplicativo Web ASP.NET com o Serviço de Aplicativo do Azure e o Azure Cosmos DB</a>
+    - html: <a href="https://docs.microsoft.com/azure/cosmos-db/sql-api-dotnet-application">Criar um aplicativo Web ASP.NET com o Serviço de Aplicativo do Azure e o Azure Cosmos DB</a>
     - html: <a href="https://docs.microsoft.com/azure/app-service-api/app-service-api-dotnet-get-started">Criar e implantar uma API Web no Serviço de Aplicativo do Azure</a>
     - html: <a href="https://docs.microsoft.com/azure/container-service/container-service-kubernetes-windows-walkthrough">Introdução ao Kubernetes e aos contêineres do Windows</a>
     - html: <a href="https://docs.microsoft.com/azure/sql-database/sql-database-connect-query-dotnet">Conectar e consultar o Banco de Dados SQL do Azure</a>
     - html: <a href="https://docs.microsoft.com/azure/postgresql/connect-csharp">Conectar e consultar o Banco de Dados do Azure para PostgreSQL</a>
     - html: <a href="https://docs.microsoft.com/azure/cosmos-db/sql-api-get-started">Introdução à API do SQL do Azure Cosmos DB no .NET</a>
+    - html: <a href="https://docs.microsoft.com/azure/service-fabric/service-fabric-quickstart-dotnet">Criar um aplicativo de microsserviço .NET com o Service Fabric</a>
