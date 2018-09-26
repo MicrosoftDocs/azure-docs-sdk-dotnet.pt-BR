@@ -5,18 +5,18 @@ keywords: .NET do Azure, ASP.NET, WCF, Serviço de Aplicativo, Aplicativo Web, m
 author: camsoper
 manager: wpickett
 ms.author: casoper
-ms.date: 07/16/2018
+ms.date: 08/11/2018
 ms.topic: article
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: app-service
 ms.custom: devcenter
-ms.openlocfilehash: af17a7dee8dd93aa50807b0b6b7eebadb673151b
-ms.sourcegitcommit: 6a1974bc7c7511aacac5b69daa296a59ab3f8000
+ms.openlocfilehash: 172ceb6956004dd560175d6662debdb4c898743d
+ms.sourcegitcommit: ed841c513dd332b14ca76a0c8a1893be13ec9f2c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44700948"
+ms.lasthandoff: 09/14/2018
+ms.locfileid: "45567318"
 ---
 # <a name="migrate-your-net-web-app-or-service-to-azure-app-service"></a>Migrar seu aplicativo Web .NET ou serviço para o Serviço de Aplicativo do Azure 
 
@@ -99,7 +99,7 @@ O AAD não funciona com aplicativos gratuitos. Para usar o AAD, você deve atual
 ### <a name="monitoring-and-diagnostics"></a>Monitoramento e diagnóstico
 As atuais soluções locais para o monitoramento e diagnóstico provavelmente não funcionarão na nuvem. No entanto, o Azure fornece ferramentas para o registro em log, monitoramento e diagnóstico, para que você possa identificar e depurar os problemas nos aplicativos Web. Você pode habilitar facilmente o diagnóstico para seu aplicativo Web na configuração e pode exibir os logs registrados no Azure Application Insights. [Saiba mais sobre como habilitar o log de diagnóstico para os aplicativos Web](https://docs.microsoft.com/azure/app-service/web-sites-enable-diagnostic-log).
 
-### <a name="connection-strings-and-application-settings"></a>Configurações do aplicativo e Cadeias de Conexão
+### <a name="connection-strings-and-application-settings"></a>Configurações do aplicativo e cadeias de conexão
 Considere usar o [KeyVault do Azure](https://docs.microsoft.com/azure/key-vault/), um serviço que armazena com segurança as informações confidenciais usadas em seu aplicativo. Como alternativa, você pode armazenar esses dados como uma configuração do Serviço de Aplicativo.
 
 ### <a name="dns"></a>DNS
@@ -117,4 +117,4 @@ Se seu aplicativo não pode ser migrado diretamente para o Serviço de Aplicativ
 ## <a name="next-steps"></a>Próximas etapas
 
 > [!div class="nextstepaction"]
-> [Migrar um aplicativo Web ASP.NET para o Serviço de Aplicativo do Azure](https://aka.ms/azure-webapp-migrate)
+> [Implantar o aplicativo do Visual Studio](https://docs.microsoft.com/visualstudio/deployment/quickstart-deploy-to-azure?view=vs-2017)

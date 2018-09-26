@@ -5,18 +5,18 @@ keywords: .NET do Azure, SDK, Referência da API .NET do Azure, Biblioteca de cl
 author: camsoper
 ms.author: casoper
 manager: wpickett
-ms.date: 07/17/2018
+ms.date: 08/11/2018
 ms.topic: reference
 ms.technology: azure
 ms.devlang: dotnet
 ms.service: multiple
-ms.custom: devcenter
-ms.openlocfilehash: 9c9d25e8f065408f81ed8b1fdb25817196f7e053
-ms.sourcegitcommit: 779c1b202d3670cfa0b9428c89f830cad9ec7e9d
+ms.custom: devcenter, vs-azure
+ms.openlocfilehash: e67cd101842b8b9e36bbe1867818dcb5467c35ea
+ms.sourcegitcommit: ed841c513dd332b14ca76a0c8a1893be13ec9f2c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/18/2018
-ms.locfileid: "39135694"
+ms.lasthandoff: 09/14/2018
+ms.locfileid: "45567328"
 ---
 # <a name="tools-for-net-and-net-core-azure-developers"></a>Ferramentas para desenvolvedores .NET e .NET Core do Azure
 
@@ -77,7 +77,16 @@ Durante a instalação, as ferramentas do Azure já ficam habilitadas por padrã
 
 ## <a name="linuxtablinux"></a>[Linux](#tab/linux)
 
-<img src="https://docs.microsoft.com/en-us/visualstudio/products/images/vs-code.svg" width="50" height="50"></img>
+<table>
+  <tr>
+    <td width="50">
+        <img src="https://docs.microsoft.com/en-us/visualstudio/products/images/vs-code.svg" width="50" height="50"></img>
+    </td>
+    <td>
+        O Visual Studio Code tem tudo o que você precisa para desenvolvimento do Azure no Linux.
+    </td>
+  </tr>
+</table>
 
 ### <a name="step-1-download-the-net-core-sdk"></a>Etapa 1: Baixar o SDK do .NET Core
 
