@@ -1,47 +1,41 @@
 ---
 title: Bibliotecas do Banco de Dados do Azure para PostgreSQL para .NET
 description: Documentação de referência para as bibliotecas de cliente .NET para o Banco de Dados do Azure para PostgreSQL
-keywords: Azure, .NET ODBC, SDK, API, SQL, ADO.NET, banco de dados, PostGres, PostgreSQL
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.devlang: dotnet
 ms.service: postgresql
-ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 40ef1d5ffd41b45523fbeb2c29095fd423b749bd
-ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
+ms.openlocfilehash: 4137e024eadba93c9cb3e94c1e7478d0816f8370
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "37065406"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190739"
 ---
-# <a name="azure-database-for-postgresql-libraries-for-net"></a><span data-ttu-id="88fde-104">Bibliotecas do Banco de Dados do Azure para PostgreSQL para .NET</span><span class="sxs-lookup"><span data-stu-id="88fde-104">Azure Database for PostgreSQL libraries for .NET</span></span>
+# <a name="azure-database-for-postgresql-libraries-for-net"></a><span data-ttu-id="7b488-103">Bibliotecas do Banco de Dados do Azure para PostgreSQL para .NET</span><span class="sxs-lookup"><span data-stu-id="7b488-103">Azure Database for PostgreSQL libraries for .NET</span></span>
 
-## <a name="overview"></a><span data-ttu-id="88fde-105">Visão geral</span><span class="sxs-lookup"><span data-stu-id="88fde-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="7b488-104">Visão geral</span><span class="sxs-lookup"><span data-stu-id="7b488-104">Overview</span></span>
 
-<span data-ttu-id="88fde-106">Trabalhar com dados e recursos armazenados no [Banco de Dados do Azure para PostgreSQL](https://docs.microsoft.com/azure/postgresql/).</span><span class="sxs-lookup"><span data-stu-id="88fde-106">Work with data and resources stored in [Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/).</span></span>
+<span data-ttu-id="7b488-105">Trabalhar com dados e recursos armazenados no [Banco de Dados do Azure para PostgreSQL](https://docs.microsoft.com/azure/postgresql/).</span><span class="sxs-lookup"><span data-stu-id="7b488-105">Work with data and resources stored in [Azure Database for PostgreSQL](https://docs.microsoft.com/azure/postgresql/).</span></span>
 
-## <a name="client-api"></a><span data-ttu-id="88fde-107">API do cliente</span><span class="sxs-lookup"><span data-stu-id="88fde-107">Client API</span></span>
+## <a name="client-api"></a><span data-ttu-id="7b488-106">API do cliente</span><span class="sxs-lookup"><span data-stu-id="7b488-106">Client API</span></span>
 
-<span data-ttu-id="88fde-108">A biblioteca de cliente recomendada para acessar o Banco de Dados do Azure para PostgreSQL é o [provedor de dados ADO.NET Npgsql](http://www.npgsql.org/) de software livre.</span><span class="sxs-lookup"><span data-stu-id="88fde-108">The recommended client library for accessing Azure Database for PostgreSQL is the open-source [Npgsql ADO.NET data provider](http://www.npgsql.org/).</span></span> <span data-ttu-id="88fde-109">Use o provedor ADO.NET para se conectar ao banco de dados e executar instruções SQL diretamente ou por meio do Entity Framework com os provedores Npgsql [Entity Framework 6](http://www.npgsql.org/ef6/index.html) ou [Entity Framework Core](http://www.npgsql.org/efcore/index.html).</span><span class="sxs-lookup"><span data-stu-id="88fde-109">Use the ADO.NET provider to connect to the database and execute SQL statements directly or through Entity Framework with the Npgsql's [Entity Framework 6](http://www.npgsql.org/ef6/index.html) or [Entity Framework Core](http://www.npgsql.org/efcore/index.html) providers.</span></span>
+<span data-ttu-id="7b488-107">A biblioteca de cliente recomendada para acessar o Banco de Dados do Azure para PostgreSQL é o [provedor de dados ADO.NET Npgsql](http://www.npgsql.org/) de software livre.</span><span class="sxs-lookup"><span data-stu-id="7b488-107">The recommended client library for accessing Azure Database for PostgreSQL is the open-source [Npgsql ADO.NET data provider](http://www.npgsql.org/).</span></span> <span data-ttu-id="7b488-108">Use o provedor ADO.NET para se conectar ao banco de dados e executar instruções SQL diretamente ou por meio do Entity Framework com os provedores Npgsql [Entity Framework 6](http://www.npgsql.org/ef6/index.html) ou [Entity Framework Core](http://www.npgsql.org/efcore/index.html).</span><span class="sxs-lookup"><span data-stu-id="7b488-108">Use the ADO.NET provider to connect to the database and execute SQL statements directly or through Entity Framework with the Npgsql's [Entity Framework 6](http://www.npgsql.org/ef6/index.html) or [Entity Framework Core](http://www.npgsql.org/efcore/index.html) providers.</span></span>
 
-<span data-ttu-id="88fde-110">Instale o [pacote NuGet](https://www.nuget.org/packages/Npgsql) diretamente do [console do Gerenciador de Pacotes][PackageManager] do Visual Studio ou com a [CLI do .NET Core][DotNetCLI].</span><span class="sxs-lookup"><span data-stu-id="88fde-110">Install the [NuGet package](https://www.nuget.org/packages/Npgsql) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
+<span data-ttu-id="7b488-109">Instale o [pacote NuGet](https://www.nuget.org/packages/Npgsql) diretamente do [console do Gerenciador de Pacotes][PackageManager] do Visual Studio ou com a [CLI do .NET Core][DotNetCLI].</span><span class="sxs-lookup"><span data-stu-id="7b488-109">Install the [NuGet package](https://www.nuget.org/packages/Npgsql) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
 
-#### <a name="visual-studio-package-manager"></a><span data-ttu-id="88fde-111">Gerenciador de Pacotes do Visual Studio</span><span class="sxs-lookup"><span data-stu-id="88fde-111">Visual Studio Package Manager</span></span>
+#### <a name="visual-studio-package-manager"></a><span data-ttu-id="7b488-110">Gerenciador de Pacotes do Visual Studio</span><span class="sxs-lookup"><span data-stu-id="7b488-110">Visual Studio Package Manager</span></span>
 
 ```powershell
 Install-Package Npgsql
 ```
 
-#### <a name="net-core-cli"></a><span data-ttu-id="88fde-112">CLI do .NET Core</span><span class="sxs-lookup"><span data-stu-id="88fde-112">.NET Core CLI</span></span>
+#### <a name="net-core-cli"></a><span data-ttu-id="7b488-111">CLI do .NET Core</span><span class="sxs-lookup"><span data-stu-id="7b488-111">.NET Core CLI</span></span>
 
 ```bash
 dotnet add package Npgsql
 ```
 
-### <a name="code-example"></a><span data-ttu-id="88fde-113">Exemplo de código</span><span class="sxs-lookup"><span data-stu-id="88fde-113">Code Example</span></span>
+### <a name="code-example"></a><span data-ttu-id="7b488-112">Exemplo de código</span><span class="sxs-lookup"><span data-stu-id="7b488-112">Code Example</span></span>
 
 ```csharp
 /* Include this 'using' directive...
@@ -70,10 +64,10 @@ using (NpgsqlConnection conn = new NpgsqlConnection(connectionString))
 }
 ```
 
-### <a name="samples"></a><span data-ttu-id="88fde-114">Exemplos</span><span class="sxs-lookup"><span data-stu-id="88fde-114">Samples</span></span>
+### <a name="samples"></a><span data-ttu-id="7b488-113">Exemplos</span><span class="sxs-lookup"><span data-stu-id="7b488-113">Samples</span></span>
 
-- [<span data-ttu-id="88fde-115">Exemplos de código ADO.NET</span><span class="sxs-lookup"><span data-stu-id="88fde-115">ADO.NET code examples</span></span>](/dotnet/framework/data/adonet/ado-net-code-examples)
-- [<span data-ttu-id="88fde-116">Criar um banco de dados PostgreSQL usando a CLI do Azure</span><span class="sxs-lookup"><span data-stu-id="88fde-116">Design a PostgreSQL database using the Azure CLI</span></span>](https://docs.microsoft.com/azure/postgresql/tutorial-design-database-using-azure-cli)
+- [<span data-ttu-id="7b488-114">Exemplos de código ADO.NET</span><span class="sxs-lookup"><span data-stu-id="7b488-114">ADO.NET code examples</span></span>](/dotnet/framework/data/adonet/ado-net-code-examples)
+- [<span data-ttu-id="7b488-115">Criar um banco de dados PostgreSQL usando a CLI do Azure</span><span class="sxs-lookup"><span data-stu-id="7b488-115">Design a PostgreSQL database using the Azure CLI</span></span>](https://docs.microsoft.com/azure/postgresql/tutorial-design-database-using-azure-cli)
 
 
 [PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console

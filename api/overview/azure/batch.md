@@ -1,51 +1,45 @@
 ---
 title: Bibliotecas do Lote do Azure para .NET
 description: Referência para bibliotecas do Lote do Azure para .NET
-keywords: Azure, .NET, SDK, API, Lote
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.devlang: dotnet
 ms.service: batch
-ms.custom: devcenter, svc-overview
-ms.openlocfilehash: b6053e19d26247dd36ed7e38fc33030f96aecca8
-ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
+ms.openlocfilehash: 4220faacc9b8cbe394f98eaccd1e71aaf4ab8f0d
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "37065550"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190109"
 ---
-# <a name="azure-batch-libraries-for-net"></a><span data-ttu-id="d23c1-104">Bibliotecas do Lote do Azure para .NET</span><span class="sxs-lookup"><span data-stu-id="d23c1-104">Azure Batch libraries for .NET</span></span>
+# <a name="azure-batch-libraries-for-net"></a><span data-ttu-id="ea156-103">Bibliotecas do Lote do Azure para .NET</span><span class="sxs-lookup"><span data-stu-id="ea156-103">Azure Batch libraries for .NET</span></span>
 
-<span data-ttu-id="d23c1-105">O Lote do Azure é um serviço de plataforma para execução de aplicativos paralelos em grande escala e aplicativos HPC (computação de alto desempenho) com eficiência na nuvem.</span><span class="sxs-lookup"><span data-stu-id="d23c1-105">Azure Batch is a platform service for running large-scale parallel and high-performance computing (HPC) applications efficiently in the cloud.</span></span> <span data-ttu-id="d23c1-106">O Lote do Azure agenda o trabalho de computação intensiva para executar em uma coleção gerenciada de máquinas virtuais e que pode dimensionar automaticamente os recursos de computação para atender às necessidades dos trabalhos.</span><span class="sxs-lookup"><span data-stu-id="d23c1-106">Azure Batch schedules compute-intensive work to run on a managed collection of virtual machines, and can automatically scale compute resources to meet the needs of your jobs.</span></span>
+<span data-ttu-id="ea156-104">O Lote do Azure é um serviço de plataforma para execução de aplicativos paralelos em grande escala e aplicativos HPC (computação de alto desempenho) com eficiência na nuvem.</span><span class="sxs-lookup"><span data-stu-id="ea156-104">Azure Batch is a platform service for running large-scale parallel and high-performance computing (HPC) applications efficiently in the cloud.</span></span> <span data-ttu-id="ea156-105">O Lote do Azure agenda o trabalho de computação intensiva para executar em uma coleção gerenciada de máquinas virtuais e que pode dimensionar automaticamente os recursos de computação para atender às necessidades dos trabalhos.</span><span class="sxs-lookup"><span data-stu-id="ea156-105">Azure Batch schedules compute-intensive work to run on a managed collection of virtual machines, and can automatically scale compute resources to meet the needs of your jobs.</span></span>
 
-<span data-ttu-id="d23c1-107">Com o Lote do Azure, você pode definir facilmente os recursos de computação do Azure para executar os aplicativos em paralelo e em escala.</span><span class="sxs-lookup"><span data-stu-id="d23c1-107">With Azure Batch, you can easily define Azure compute resources to execute your applications in parallel, and at scale.</span></span> <span data-ttu-id="d23c1-108">Não é necessário criar, configurar e gerenciar manualmente um cluster HPC, máquinas virtuais, redes virtuais ou um trabalho e infraestrutura de agendamento de tarefas complexos.</span><span class="sxs-lookup"><span data-stu-id="d23c1-108">There's no need to manually create, configure, and manage an HPC cluster, individual virtual machines, virtual networks, or a complex job and task scheduling infrastructure.</span></span> <span data-ttu-id="d23c1-109">O Lote do Azure automatiza ou simplifica essas tarefas para você.</span><span class="sxs-lookup"><span data-stu-id="d23c1-109">Azure Batch automates or simplifies these tasks for you.</span></span>
+<span data-ttu-id="ea156-106">Com o Lote do Azure, você pode definir facilmente os recursos de computação do Azure para executar os aplicativos em paralelo e em escala.</span><span class="sxs-lookup"><span data-stu-id="ea156-106">With Azure Batch, you can easily define Azure compute resources to execute your applications in parallel, and at scale.</span></span> <span data-ttu-id="ea156-107">Não é necessário criar, configurar e gerenciar manualmente um cluster HPC, máquinas virtuais, redes virtuais ou um trabalho e infraestrutura de agendamento de tarefas complexos.</span><span class="sxs-lookup"><span data-stu-id="ea156-107">There's no need to manually create, configure, and manage an HPC cluster, individual virtual machines, virtual networks, or a complex job and task scheduling infrastructure.</span></span> <span data-ttu-id="ea156-108">O Lote do Azure automatiza ou simplifica essas tarefas para você.</span><span class="sxs-lookup"><span data-stu-id="ea156-108">Azure Batch automates or simplifies these tasks for you.</span></span>
 
-<span data-ttu-id="d23c1-110">Leia mais sobre como [executar cargas de trabalho intrinsecamente paralelas com o Lote](/azure/batch/batch-technical-overview).</span><span class="sxs-lookup"><span data-stu-id="d23c1-110">Read more about how to [run intrinsically parallel workloads with Batch](/azure/batch/batch-technical-overview).</span></span> <span data-ttu-id="d23c1-111">Você também pode aprender a [criar soluções com a biblioteca de cliente do Lote para .NET](/azure/batch/batch-dotnet-get-started).</span><span class="sxs-lookup"><span data-stu-id="d23c1-111">You can also learn how to [get started building solutions with the Batch client library for .NET](/azure/batch/batch-dotnet-get-started).</span></span> <span data-ttu-id="d23c1-112">Saiba como [gerenciar contas e cotas do Lote com a biblioteca de gerenciamento do Lote para .NET](/azure/batch/batch-management-dotnet).</span><span class="sxs-lookup"><span data-stu-id="d23c1-112">Discover how to [manage Batch accounts and quotas with the Batch Management library for .NET](/azure/batch/batch-management-dotnet).</span></span>
+<span data-ttu-id="ea156-109">Leia mais sobre como [executar cargas de trabalho intrinsecamente paralelas com o Lote](/azure/batch/batch-technical-overview).</span><span class="sxs-lookup"><span data-stu-id="ea156-109">Read more about how to [run intrinsically parallel workloads with Batch](/azure/batch/batch-technical-overview).</span></span> <span data-ttu-id="ea156-110">Você também pode aprender a [criar soluções com a biblioteca de cliente do Lote para .NET](/azure/batch/batch-dotnet-get-started).</span><span class="sxs-lookup"><span data-stu-id="ea156-110">You can also learn how to [get started building solutions with the Batch client library for .NET](/azure/batch/batch-dotnet-get-started).</span></span> <span data-ttu-id="ea156-111">Saiba como [gerenciar contas e cotas do Lote com a biblioteca de gerenciamento do Lote para .NET](/azure/batch/batch-management-dotnet).</span><span class="sxs-lookup"><span data-stu-id="ea156-111">Discover how to [manage Batch accounts and quotas with the Batch Management library for .NET](/azure/batch/batch-management-dotnet).</span></span>
 
-## <a name="client-library"></a><span data-ttu-id="d23c1-113">Biblioteca do cliente</span><span class="sxs-lookup"><span data-stu-id="d23c1-113">Client library</span></span>
+## <a name="client-library"></a><span data-ttu-id="ea156-112">Biblioteca do cliente</span><span class="sxs-lookup"><span data-stu-id="ea156-112">Client library</span></span>
 
-<span data-ttu-id="d23c1-114">Use a biblioteca de cliente para executar cargas de trabalho paralelas com o Lote.</span><span class="sxs-lookup"><span data-stu-id="d23c1-114">Use the client library to run parallel workloads with Batch.</span></span>
+<span data-ttu-id="ea156-113">Use a biblioteca de cliente para executar cargas de trabalho paralelas com o Lote.</span><span class="sxs-lookup"><span data-stu-id="ea156-113">Use the client library to run parallel workloads with Batch.</span></span>
 
-<span data-ttu-id="d23c1-115">Instale o [pacote NuGet](https://www.nuget.org/packages/Azure.Batch) diretamente do [console do Gerenciador de Pacotes][PackageManager] do Visual Studio ou com a [CLI do .NET Core][DotNetCLI].</span><span class="sxs-lookup"><span data-stu-id="d23c1-115">Install the [NuGet package](https://www.nuget.org/packages/Azure.Batch) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
+<span data-ttu-id="ea156-114">Instale o [pacote NuGet](https://www.nuget.org/packages/Azure.Batch) diretamente do [console do Gerenciador de Pacotes][PackageManager] do Visual Studio ou com a [CLI do .NET Core][DotNetCLI].</span><span class="sxs-lookup"><span data-stu-id="ea156-114">Install the [NuGet package](https://www.nuget.org/packages/Azure.Batch) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
 
-#### <a name="visual-studio-package-manager"></a><span data-ttu-id="d23c1-116">Gerenciador de Pacotes do Visual Studio</span><span class="sxs-lookup"><span data-stu-id="d23c1-116">Visual Studio Package Manager</span></span>
+#### <a name="visual-studio-package-manager"></a><span data-ttu-id="ea156-115">Gerenciador de Pacotes do Visual Studio</span><span class="sxs-lookup"><span data-stu-id="ea156-115">Visual Studio Package Manager</span></span>
 
 ```powershell
 Install-Package Azure.Batch
 ```
 
-#### <a name="net-core-cli"></a><span data-ttu-id="d23c1-117">CLI do .NET Core</span><span class="sxs-lookup"><span data-stu-id="d23c1-117">.NET Core CLI</span></span>
+#### <a name="net-core-cli"></a><span data-ttu-id="ea156-116">CLI do .NET Core</span><span class="sxs-lookup"><span data-stu-id="ea156-116">.NET Core CLI</span></span>
 
 ```bash
 dotnet add package Azure.Batch
 ```
 
-### <a name="example"></a><span data-ttu-id="d23c1-118">Exemplo</span><span class="sxs-lookup"><span data-stu-id="d23c1-118">Example</span></span>
+### <a name="example"></a><span data-ttu-id="ea156-117">Exemplo</span><span class="sxs-lookup"><span data-stu-id="ea156-117">Example</span></span>
 
-<span data-ttu-id="d23c1-119">O exemplo a seguir usa o SDK do cliente a fim de criar um trabalho para execução no Lote do Azure.</span><span class="sxs-lookup"><span data-stu-id="d23c1-119">The following example uses the client SDK to create a job to run in Azure Batch.</span></span>
+<span data-ttu-id="ea156-118">O exemplo a seguir usa o SDK do cliente a fim de criar um trabalho para execução no Lote do Azure.</span><span class="sxs-lookup"><span data-stu-id="ea156-118">The following example uses the client SDK to create a job to run in Azure Batch.</span></span>
 
 ```csharp
 /*
@@ -76,29 +70,29 @@ using (BatchClient batchClient = await BatchClient.OpenAsync(credentials))
 ```
 
 > [!div class="nextstepaction"]
-> [<span data-ttu-id="d23c1-120">Explorar as APIs de cliente</span><span class="sxs-lookup"><span data-stu-id="d23c1-120">Explore the client APIs</span></span>](/dotnet/api/overview/azure/batch/client)
+> [<span data-ttu-id="ea156-119">Explorar as APIs de cliente</span><span class="sxs-lookup"><span data-stu-id="ea156-119">Explore the client APIs</span></span>](/dotnet/api/overview/azure/batch/client)
 
-## <a name="management-library"></a><span data-ttu-id="d23c1-121">Biblioteca de gerenciamento</span><span class="sxs-lookup"><span data-stu-id="d23c1-121">Management library</span></span>
+## <a name="management-library"></a><span data-ttu-id="ea156-120">Biblioteca de gerenciamento</span><span class="sxs-lookup"><span data-stu-id="ea156-120">Management library</span></span>
 
-<span data-ttu-id="d23c1-122">Use a biblioteca de gerenciamento para gerenciar programaticamente contas, cotas e pacotes de aplicativos do Lote.</span><span class="sxs-lookup"><span data-stu-id="d23c1-122">Use the management library to programmatically manage Batch accounts, quotas, and application packages.</span></span>
+<span data-ttu-id="ea156-121">Use a biblioteca de gerenciamento para gerenciar programaticamente contas, cotas e pacotes de aplicativos do Lote.</span><span class="sxs-lookup"><span data-stu-id="ea156-121">Use the management library to programmatically manage Batch accounts, quotas, and application packages.</span></span>
 
-<span data-ttu-id="d23c1-123">Instale o [pacote NuGet](https://www.nuget.org/packages/Microsoft.Azure.Management.Batch) diretamente do [console do Gerenciador de Pacotes][PackageManager] do Visual Studio ou com a [CLI do .NET Core][DotNetCLI].</span><span class="sxs-lookup"><span data-stu-id="d23c1-123">Install the [NuGet package](https://www.nuget.org/packages/Microsoft.Azure.Management.Batch) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
+<span data-ttu-id="ea156-122">Instale o [pacote NuGet](https://www.nuget.org/packages/Microsoft.Azure.Management.Batch) diretamente do [console do Gerenciador de Pacotes][PackageManager] do Visual Studio ou com a [CLI do .NET Core][DotNetCLI].</span><span class="sxs-lookup"><span data-stu-id="ea156-122">Install the [NuGet package](https://www.nuget.org/packages/Microsoft.Azure.Management.Batch) directly from the Visual Studio [Package Manager console][PackageManager] or with the [.NET Core CLI][DotNetCLI].</span></span>
 
-#### <a name="visual-studio-package-manager"></a><span data-ttu-id="d23c1-124">Gerenciador de Pacotes do Visual Studio</span><span class="sxs-lookup"><span data-stu-id="d23c1-124">Visual Studio Package Manager</span></span>
+#### <a name="visual-studio-package-manager"></a><span data-ttu-id="ea156-123">Gerenciador de Pacotes do Visual Studio</span><span class="sxs-lookup"><span data-stu-id="ea156-123">Visual Studio Package Manager</span></span>
 
 ```powershell
 Install-Package Microsoft.Azure.Management.Batch
 ```
 
-#### <a name="net-core-cli"></a><span data-ttu-id="d23c1-125">CLI do .NET Core</span><span class="sxs-lookup"><span data-stu-id="d23c1-125">.NET Core CLI</span></span>
+#### <a name="net-core-cli"></a><span data-ttu-id="ea156-124">CLI do .NET Core</span><span class="sxs-lookup"><span data-stu-id="ea156-124">.NET Core CLI</span></span>
 
 ```bash
 dotnet add package Microsoft.Azure.Management.Batch
 ```
 
-### <a name="example"></a><span data-ttu-id="d23c1-126">Exemplo</span><span class="sxs-lookup"><span data-stu-id="d23c1-126">Example</span></span>
+### <a name="example"></a><span data-ttu-id="ea156-125">Exemplo</span><span class="sxs-lookup"><span data-stu-id="ea156-125">Example</span></span>
 
-<span data-ttu-id="d23c1-127">O exemplo a seguir recupera a cota para a assinatura, cria uma conta e regenera a chave de conta principal.</span><span class="sxs-lookup"><span data-stu-id="d23c1-127">The following example retrieves the quota for the subscription, creates an account, and regenerates the primary account key.</span></span>
+<span data-ttu-id="ea156-126">O exemplo a seguir recupera a cota para a assinatura, cria uma conta e regenera a chave de conta principal.</span><span class="sxs-lookup"><span data-stu-id="ea156-126">The following example retrieves the quota for the subscription, creates an account, and regenerates the primary account key.</span></span>
 
 ```csharp
 /*
@@ -125,13 +119,13 @@ using (BatchManagementClient batchManagementClient = new BatchManagementClient(n
 ```
 
 > [!div class="nextstepaction"]
-> [<span data-ttu-id="d23c1-128">Explorar as APIs de gerenciamento</span><span class="sxs-lookup"><span data-stu-id="d23c1-128">Explore the management APIs</span></span>](/dotnet/api/overview/azure/batch/management)
+> [<span data-ttu-id="ea156-127">Explorar as APIs de gerenciamento</span><span class="sxs-lookup"><span data-stu-id="ea156-127">Explore the management APIs</span></span>](/dotnet/api/overview/azure/batch/management)
 
-## <a name="samples"></a><span data-ttu-id="d23c1-129">Exemplos</span><span class="sxs-lookup"><span data-stu-id="d23c1-129">Samples</span></span>
+## <a name="samples"></a><span data-ttu-id="ea156-128">Exemplos</span><span class="sxs-lookup"><span data-stu-id="ea156-128">Samples</span></span>
 
-* [<span data-ttu-id="d23c1-130">Cliente do Lote do Azure e SDK de gerenciamento para exemplos do .NET</span><span class="sxs-lookup"><span data-stu-id="d23c1-130">Azure Batch Client and Management SDK for .NET Samples</span></span>](https://github.com/Azure/azure-batch-samples/tree/master/CSharp)
+* [<span data-ttu-id="ea156-129">Cliente do Lote do Azure e SDK de gerenciamento para exemplos do .NET</span><span class="sxs-lookup"><span data-stu-id="ea156-129">Azure Batch Client and Management SDK for .NET Samples</span></span>](https://github.com/Azure/azure-batch-samples/tree/master/CSharp)
 
-<span data-ttu-id="d23c1-131">Explore mais [códigos .NET de exemplo](https://azure.microsoft.com/resources/samples/?platform=dotnet) que você pode usar em seus aplicativos.</span><span class="sxs-lookup"><span data-stu-id="d23c1-131">Explore more [sample .NET code](https://azure.microsoft.com/resources/samples/?platform=dotnet) you can use in your apps.</span></span>
+<span data-ttu-id="ea156-130">Explore mais [códigos .NET de exemplo](https://azure.microsoft.com/resources/samples/?platform=dotnet) que você pode usar em seus aplicativos.</span><span class="sxs-lookup"><span data-stu-id="ea156-130">Explore more [sample .NET code](https://azure.microsoft.com/resources/samples/?platform=dotnet) you can use in your apps.</span></span>
 
 [PackageManager]: https://docs.microsoft.com/nuget/tools/package-manager-console
 [DotNetCLI]: https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package
