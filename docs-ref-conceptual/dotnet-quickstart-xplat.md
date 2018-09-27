@@ -1,27 +1,19 @@
 ---
 title: Implantar no Azure a partir da linha de comando com o .NET Core
 description: Este artigo descreve como implantar um aplicativo ASP.NET Core a um Serviço de Aplicativo do Azure usando as ferramentas de linha de comando.
-keywords: .NET do Azure, SDK, Referência da API .NET do Azure, Biblioteca de classes .NET do Azure
-author: camsoper
-manager: douge
-ms.author: casoper
 ms.date: 06/20/2017
-ms.topic: article
-ms.prod: azure
-ms.technology: azure
-ms.devlang: dotnet
-ms.openlocfilehash: 8371c304681ff88cba6f1cc3ba0d1caef836d609
-ms.sourcegitcommit: e1a0e91988bb849c75e9583a80e3e6d712083785
+ms.openlocfilehash: a29f5474dcfedc6f8d044f09ad4d54c5be6a371f
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2018
-ms.locfileid: "31005873"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190489"
 ---
 # <a name="deploy-to-azure-from-the-command-line-with-net-core"></a>Implantar no Azure a partir da linha de comando com o .NET Core
 
 Este tutorial orientará você durante a criação e implantação de um aplicativo do Microsoft Azure usando o .NET Core.  Quando terminar, você terá um aplicativo de tarefas pendentes baseado na Web criado em ASP.NET MVC Core, hospedado como aplicativo Web do Azure e que usa o Azure Cosmos DB para armazenamento de dados.
 
-## <a name="prerequisites"></a>pré-requisitos
+## <a name="prerequisites"></a>Pré-requisitos
 
 * Uma [assinatura do Microsoft Azure](https://azure.microsoft.com/free/)
 * [.NET Core](https://www.microsoft.com/net/download/core) (opcional)

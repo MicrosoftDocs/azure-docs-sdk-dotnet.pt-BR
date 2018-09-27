@@ -1,21 +1,15 @@
 ---
 title: Bibliotecas do Azure Active Directory para .NET
 description: Referência para bibliotecas do Azure Active Directory para .NET
-keywords: Azure, .NET SDK, API, AAD, Active Directory
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.devlang: dotnet
 ms.service: active-directory
-ms.custom: devcenter, svc-overview
-ms.openlocfilehash: a5a228fcde29dbef6a6e8d0482121ee710b002a4
-ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
+ms.openlocfilehash: 0226f06546f7dc14b9ab3392008744754d47a19a
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "37065856"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190219"
 ---
 # <a name="azure-active-directory-libraries-for-net"></a>Bibliotecas do Azure Active Directory para .NET
 

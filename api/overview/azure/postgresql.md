@@ -1,21 +1,15 @@
 ---
 title: Bibliotecas do Banco de Dados do Azure para PostgreSQL para .NET
 description: Documentação de referência para as bibliotecas de cliente .NET para o Banco de Dados do Azure para PostgreSQL
-keywords: Azure, .NET ODBC, SDK, API, SQL, ADO.NET, banco de dados, PostGres, PostgreSQL
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.devlang: dotnet
 ms.service: postgresql
-ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 40ef1d5ffd41b45523fbeb2c29095fd423b749bd
-ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
+ms.openlocfilehash: 4137e024eadba93c9cb3e94c1e7478d0816f8370
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "37065406"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190739"
 ---
 # <a name="azure-database-for-postgresql-libraries-for-net"></a>Bibliotecas do Banco de Dados do Azure para PostgreSQL para .NET
 

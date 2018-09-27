@@ -1,27 +1,19 @@
 ---
 title: Implantar no Azure por meio do Visual Studio
 description: Este tutorial orientará você durante a criação e implantação de um aplicativo do Microsoft Azure usando o Visual Studio e o .NET.
-keywords: .NET do Azure, SDK, Referência da API .NET do Azure, Biblioteca de classes .NET do Azure
-author: camsoper
-manager: douge
-ms.author: casoper
 ms.date: 06/20/2017
-ms.topic: article
-ms.prod: azure
-ms.technology: azure
-ms.devlang: dotnet
-ms.openlocfilehash: 87f65d8b8b1b1a5184b9d71770c08be472c7e498
-ms.sourcegitcommit: e1a0e91988bb849c75e9583a80e3e6d712083785
+ms.openlocfilehash: a4ddaa0dbf1cd71a0de031cc89b299baa381992c
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2018
-ms.locfileid: "31005883"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190419"
 ---
 # <a name="deploy-to-azure-from-visual-studio"></a>Implantar no Azure por meio do Visual Studio
 
 Este tutorial orientará você durante a criação e implantação de um aplicativo do Microsoft Azure usando o Visual Studio e o .NET.  Quando terminar, você terá um aplicativo de tarefas pendentes baseado na Web criado em ASP.NET MVC Core, hospedado como aplicativo Web do Azure e que usa o Azure Cosmos DB para armazenamento de dados.
 
-## <a name="prerequisites"></a>pré-requisitos
+## <a name="prerequisites"></a>Pré-requisitos
 
 * [Visual Studio 2017](https://www.visualstudio.com/downloads/)
 * Uma [assinatura do Microsoft Azure](https://azure.microsoft.com/free/)

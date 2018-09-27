@@ -1,21 +1,15 @@
 ---
 title: Bibliotecas do DNS do Azure para .NET
 description: Referência para bibliotecas do DNS do Azure para .NET
-keywords: Azure, .NET, SDK, API, DNS
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.devlang: dotnet
 ms.service: dns
-ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 0360c4d5a0e276b4adf05d43689896fab6622f51
-ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
+ms.openlocfilehash: b9ab6359aaa1e4e9b6e99e7a7b007928d18f3453
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "37065326"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190189"
 ---
 # <a name="azure-dns-libraries-for-net"></a>Bibliotecas do DNS do Azure para .NET
 

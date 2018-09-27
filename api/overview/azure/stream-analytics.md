@@ -1,21 +1,15 @@
 ---
 title: Bibliotecas do Azure Stream Analytics para .NET
 description: Referência para bibliotecas do Azure Stream Analytics para .NET
-keywords: Azure, .NET, SDK, API, Stream Analytics
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.devlang: dotnet
 ms.service: stream-analytics
-ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 4fc8c5700122a82a5e31df870787a67dad277542
-ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
+ms.openlocfilehash: c04a5c8a7b1d7e0f283d4fb81bd772de24f195eb
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "37065926"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190449"
 ---
 # <a name="azure-stream-analytics-libraries-for-net"></a>Bibliotecas do Azure Stream Analytics para .NET
 

@@ -1,21 +1,15 @@
 ---
 title: Bibliotecas do Gerenciador de Tráfego do Azure para .NET
 description: Referência para bibliotecas do Gerenciador de Tráfego do Azure para .NET
-keywords: Azure, .NET, SDK, API, Gerenciador de Tráfego
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.devlang: dotnet
 ms.service: traffic-manager
-ms.custom: devcenter, svc-overview
-ms.openlocfilehash: 05856cbe48a5cf5f0c9ebf43609a029928f490f9
-ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
+ms.openlocfilehash: a75b5c566496f73475d24d62288a00c7d5775168
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "37065866"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190779"
 ---
 # <a name="azure-traffic-manager-libraries-for-net"></a>Bibliotecas do Gerenciador de Tráfego do Azure para .NET
 

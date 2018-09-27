@@ -1,22 +1,13 @@
 ---
 title: Padrões e conceitos de uso das bibliotecas de gerenciamento do Azure para .NET
 description: ''
-keywords: Azure, .NET, SDK, API, padrões, conceitos, fluente, registrar em log
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 10/19/2017
-ms.topic: reference
-ms.technology: azure
-ms.devlang: dotnet
-ms.service: multiple
-ms.custom: devcenter
-ms.openlocfilehash: b817216e114e5ab3ff22c1c5adb0f892c7874147
-ms.sourcegitcommit: 1c2e1fd031ad012d6888fcde3cd325f7e8e49e0f
+ms.openlocfilehash: 0a6ae94046680b81f1222c3c2acc6df9871bff4a
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2018
-ms.locfileid: "29752858"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190599"
 ---
 # <a name="azure-management-library-for-net-fluent-concepts"></a>Conceitos fluentes da biblioteca de gerenciamento do Azure para .NET
 

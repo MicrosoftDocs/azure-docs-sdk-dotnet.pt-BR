@@ -1,21 +1,13 @@
 ---
 title: Tutoriais para a criação de aplicativos Web e móveis .NET no Azure
 description: Tutoriais para criar e adicionar recursos a seus aplicativos .NET Web e móveis usando os serviços do Azure.
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 10/19/2017
-ms.topic: reference
-ms.technology: azure
-ms.devlang: dotnet
-ms.service: multiple
-ms.custom: devcenter
-ms.openlocfilehash: 1700bcf8a05f067e0f174bff87a7aa743cabc524
-ms.sourcegitcommit: e1a0e91988bb849c75e9583a80e3e6d712083785
+ms.openlocfilehash: f80f21246e2dc6c44c80d6a820720aa73a3ffb4b
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2018
-ms.locfileid: "31005753"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190569"
 ---
 # <a name="tutorials-for-building-web-and-mobile-apps-with-net-in-azure"></a>Tutoriais para a criação de aplicativos Web e móveis com o .NET no Azure
 

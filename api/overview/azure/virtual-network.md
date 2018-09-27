@@ -1,21 +1,15 @@
 ---
 title: Bibliotecas da Rede Virtual do Azure para .NET
 description: Referência para bibliotecas da Rede Virtual do Azure para .NET
-keywords: Azure, .NET, SDK, API, Rede Virtual
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.devlang: dotnet
 ms.service: virtual-network
-ms.custom: devcenter, svc-overview
-ms.openlocfilehash: eb2300522e63339386bf08b5dfac3b803a1e5efd
-ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
+ms.openlocfilehash: 54dd79cf0f5bed1eab7b606b8a6e3b30c797ecd0
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "37065286"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190659"
 ---
 # <a name="azure-virtual-network-libraries-for-net"></a>Bibliotecas da Rede Virtual do Azure para .NET
 

@@ -1,21 +1,13 @@
 ---
 title: Tutoriais para gerenciar e monitorar aplicativos .NET no Azure
 description: Monitore a integridade e o desempenho do aplicativo .NET em execução no Azure e instrumente a telemetria para salvar informações sobre como as pessoas usam o seu aplicativo.
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 10/19/2017
-ms.topic: reference
-ms.technology: azure
-ms.devlang: dotnet
-ms.service: multiple
-ms.custom: devcenter
-ms.openlocfilehash: 46912f3c31a56724de90e90c36370209ed5c7bd8
-ms.sourcegitcommit: 3ba0ff4463338a0ab0f3f15a7601b89417c06970
+ms.openlocfilehash: 289fa4468be6e76f0ca98d844237638a86c4d148
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/05/2018
-ms.locfileid: "29752888"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190649"
 ---
 # <a name="tutorials-for-monitoring-and-managing-your-net-apps-in-azure"></a>Tutoriais para monitorar e gerenciar seus aplicativos .NET no Azure
 

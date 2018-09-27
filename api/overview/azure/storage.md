@@ -1,21 +1,15 @@
 ---
 title: APIs de armazenamento do .NET do Azure
 description: Referência para bibliotecas do Armazenamento do Azure para .NET
-keywords: Azure, .NET, SDK, API, armazenamento, blob
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.devlang: dotnet
 ms.service: storage
-ms.custom: devcenter, svc-overview
-ms.openlocfilehash: e953f38f103631f94b844d803d20a6576e841ed3
-ms.sourcegitcommit: 2a00655810b9b2c78a3edb31c974a9989bff8bc0
+ms.openlocfilehash: 2f278f0e3cb10d11190d529f427fa64040ee8b1d
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2018
-ms.locfileid: "42623356"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47189969"
 ---
 # <a name="azure-storage-apis-for-net"></a>APIs do Armazenamento do Azure para .NET
 

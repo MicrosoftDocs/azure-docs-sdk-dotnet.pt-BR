@@ -1,21 +1,15 @@
 ---
 title: Bibliotecas do Azure Data Lake Analytics para .NET
 description: Referência para bibliotecas do Azure Data Lake Analytics para .NET
-keywords: Azure, .NET, SDK, API, Data Lake Analytics
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 10/19/2017
 ms.topic: reference
-ms.devlang: dotnet
 ms.service: data-lake-analytics
-ms.custom: devcenter, svc-overview
-ms.openlocfilehash: a4340844906d7ccf2612ce17dae13e1fce257da0
-ms.sourcegitcommit: bfa1898c97798991215d08ce89dea87efff44157
+ms.openlocfilehash: 829f9245ae06c64c4ad9a175fd25c742533a284e
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "37065676"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47189789"
 ---
 # <a name="azure-data-lake-analytics-libraries-for-net"></a>Bibliotecas do Azure Data Lake Analytics para .NET
 

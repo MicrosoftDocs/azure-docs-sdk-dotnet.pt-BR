@@ -1,26 +1,20 @@
 ### YamlMime:YamlDocument
-ms.openlocfilehash: 0f2928212fca7c86defa37068e18e9ff96adb50a
-ms.sourcegitcommit: 319a55d604140fcc0b03a07b634ab9a3b22e657d
+ms.openlocfilehash: bc73e901d5be6a4ae90a2f716ebf3ee7bc2be4fa
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44703787"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190785"
 documentType: LandingData
 title: Azure para desenvolvedores .NET e .NET Core
 metadata:
   document_id: be4f4c73-c672-4490-8fca-ae087fba8b3b
   title: Azure para desenvolvedores .NET e .NET Core - Tutoriais e referências de API para C#
   description: Comece a desenvolver aplicativos com o Azure usando os recursos a seguir para localizar ótimos tutoriais e ferramentas para desenvolvedores trabalhando com .NET, .NET Core, ASP.NET e ASP.NET Core.
-  keywords: Azure, .NET, SDK, API, NuGet
-  author: camsoper
-  ms.author: casoper
-  manager: wpickett
-  ms.date: 07/17/2018
+  ms.date: 09/21/2018
   ms.topic: landing-page
   featureFlags:
   - clicktale
-  ms.technology: azure
-  ms.devlang: dotnet
   ms.service: multiple
 sections:
 - items:

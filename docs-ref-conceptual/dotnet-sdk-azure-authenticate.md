@@ -1,22 +1,13 @@
 ---
 title: Autenticar com as bibliotecas do Azure para .NET
 description: Fazer autenticação nas bibliotecas do Azure para .NET
-keywords: Azure, .NET, SDK, API, autenticação, active directory, entidade de serviço
-author: camsoper
-ms.author: casoper
-manager: wpickett
 ms.date: 08/22/2018
-ms.topic: reference
-ms.technology: azure
-ms.devlang: dotnet
-ms.service: multiple
-ms.custom: devcenter
-ms.openlocfilehash: 019f0047fb141842eb1481ad9b835fa865a9a139
-ms.sourcegitcommit: b2a53a3aea9de6720bd975fb7fe4e722e9d182a3
+ms.openlocfilehash: d0d8db89816a887fa23490a213917a3c554ecdb4
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "42703039"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190850"
 ---
 # <a name="authenticate-with-the-azure-libraries-for-net"></a>Autenticar com as Bibliotecas do Azure para .NET
 
@@ -55,7 +46,7 @@ var account = CloudStorageAccount.Parse(storageConnectionString);
 
 As cadeias de conexão de serviço são usadas em outros serviços do Azure, como [CosmosDB](/azure/documentdb/documentdb-dotnet-application#a-nametoc395637769astep-5-wiring-up-azure-cosmos-db), [Cache Redis](/azure/redis-cache/cache-dotnet-how-to-use-azure-redis-cache) e [Barramento de Serviço](/azure/service-bus-messaging/service-bus-dotnet-get-started-with-queues), e você pode obter essas cadeias de caracteres usando o portal do Azure, a CLI ou o PowerShell.  Você também pode usar as bibliotecas de gerenciamento do Azure para .NET a fim de consultar recursos para criar cadeias de conexão no seu código. 
 
-Esse trecho de código usa as bibliotecas de gerenciamento para criar uma cadeia de conexão da conta de armazenamento:
+Esse snippet de código usa as bibliotecas de gerenciamento para criar uma cadeia de conexão da conta de armazenamento:
 
 ```csharp
 // Get a storage account
