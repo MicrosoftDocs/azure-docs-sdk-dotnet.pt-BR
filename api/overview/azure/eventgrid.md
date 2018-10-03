@@ -1,20 +1,15 @@
 ---
 title: Bibliotecas de Grade de Eventos do Azure para .NET
 description: Referência para Bibliotecas de Grade de Eventos do Azure para .NET
-author: rloutlaw
-ms.author: routlaw
-manager: angerobe
 ms.date: 04/16/2018
 ms.topic: reference
-ms.devlang: dotnet
 ms.service: event-grid
-ms.custom: devcenter
-ms.openlocfilehash: 894b8a5beaf0507ab50e8eed6a5ab20d10a71ba6
-ms.sourcegitcommit: 61638b504b6c4d96b357894835c80c2680a99fe6
+ms.openlocfilehash: 5b19f8aa8b28b3e4aef528da051b6e7d177f1a2f
+ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45750594"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47190389"
 ---
 # <a name="azure-event-grid-libraries-for-net"></a>Bibliotecas de Grade de Eventos do Azure para .NET
 
@@ -120,7 +115,7 @@ foreach (EventGridEvent receivedEvent in events)
 ```
 
 > [!div class="nextstepaction"]
-> [Explorar as APIs de cliente](/dotnet/api/overview/azure/eventgrid/client)
+> [Explorar as APIs de publicação](/dotnet/api/overview/azure/eventgrid/publish)
 
 ## <a name="management-sdk"></a>SDK de Gerenciamento
 
