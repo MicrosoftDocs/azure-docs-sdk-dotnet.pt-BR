@@ -3,13 +3,13 @@ title: Bibliotecas da CDN do Azure para .NET
 description: Referência para bibliotecas da CDN do Azure para .NET
 ms.date: 10/19/2017
 ms.topic: reference
-ms.service: cdn
-ms.openlocfilehash: 6475edbe4fa0d01739de5cff76038aa6e7fd2cf9
-ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
+ms.service: azure-cdn
+ms.openlocfilehash: b06b886531510d442c415fdc483d8083b6622c8e
+ms.sourcegitcommit: 1cf4550df8ed3236d838f561f6177d14d89b5e44
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47190119"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "49348058"
 ---
 # <a name="azure-cdn-libraries-for-net"></a>Bibliotecas da CDN do Azure para .NET
 

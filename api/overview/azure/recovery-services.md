@@ -3,13 +3,13 @@ title: Bibliotecas de Serviços de Recuperação e Backup do Azure para .NET
 description: Referência para as bibliotecas de Serviços de Recuperação e Backup do Azure para .NET
 ms.date: 10/19/2017
 ms.topic: reference
-ms.service: recovery-services
-ms.openlocfilehash: c0381ce9a566b5371faca24307edc7b26174e785
-ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
+ms.service: backup
+ms.openlocfilehash: c2faef5c83f28cb35158609b92f0334671161d1d
+ms.sourcegitcommit: 1cf4550df8ed3236d838f561f6177d14d89b5e44
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47190780"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "49348168"
 ---
 # <a name="azure-recovery-services-and-backup-libraries-for-net"></a>Bibliotecas de Serviços de Recuperação e Backup do Azure para .NET
 

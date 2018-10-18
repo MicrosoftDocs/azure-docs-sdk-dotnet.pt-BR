@@ -3,13 +3,13 @@ title: Bibliotecas da Retransmissão do Barramento de Serviço do Azure para .NE
 description: Referência para bibliotecas da Retransmissão do Barramento de Serviço do Azure para .NET
 ms.date: 10/19/2017
 ms.topic: reference
-ms.service: service-bus
-ms.openlocfilehash: 75c481ab23e461c5194a9eeb0ca668af98f4d2d7
-ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
+ms.service: service-bus-relay
+ms.openlocfilehash: 9190e8efdebe1c352b4fb2c98be189089b0975d2
+ms.sourcegitcommit: 1cf4550df8ed3236d838f561f6177d14d89b5e44
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47189979"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "49348118"
 ---
 # <a name="azure-service-bus-relay-libraries-for-net"></a>Bibliotecas da Retransmissão do Barramento de Serviço do Azure para .NET
 
