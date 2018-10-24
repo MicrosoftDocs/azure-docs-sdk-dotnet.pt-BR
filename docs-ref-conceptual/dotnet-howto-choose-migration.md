@@ -4,12 +4,12 @@ description: Saiba qual caminho de migração do Azure é correto para seu aplic
 author: CESARDELATORRE
 ms.author: cesardl
 ms.date: 11/15/2017
-ms.openlocfilehash: 7c0d10436efa86c3d4a60f80e2eebd935ee01cee
-ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
+ms.openlocfilehash: 20bdef0614d8d492c3724f5a0f74f5ec9b2aa032
+ms.sourcegitcommit: 1cf4550df8ed3236d838f561f6177d14d89b5e44
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47190609"
+ms.lasthandoff: 10/16/2018
+ms.locfileid: "49348218"
 ---
 # <a name="choose-the-right-azure-hosting-option"></a>Escolher a opção de hospedagem certa do Azure
 
