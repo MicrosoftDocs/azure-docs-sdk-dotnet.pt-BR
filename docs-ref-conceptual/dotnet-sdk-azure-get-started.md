@@ -2,12 +2,12 @@
 title: Introdução ao Azure e ao .NET
 description: Conheça o básico que você precisa saber sobre o Azure e o .NET.
 ms.date: 09/19/2018
-ms.openlocfilehash: 89586af18b816e24a7df5ce9d96f651995f02f01
-ms.sourcegitcommit: 1cf4550df8ed3236d838f561f6177d14d89b5e44
+ms.openlocfilehash: 63587d7d5ccb79eee47185ff1f3ccb9cbd09c0ea
+ms.sourcegitcommit: 0de939648fa01698016fed633200f8eb07c96eb7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "49348138"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "51276576"
 ---
 # <a name="get-started-with-azure-and-net"></a>Introdução ao Azure e ao .NET
 
@@ -61,6 +61,10 @@ O Azure oferece vários serviços para armazenar os dados, dependendo de suas ne
 
 > [!TIP]
 > Para obter mais informações, consulte [Escolher o armazenamento de dados correto](https://docs.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview).
+
+## <a name="connecting-to-azure-services"></a>Conectando-se aos serviços Azure
+
+Se você usar o Visual Studio, você pode adicionar suporte para determinados serviços do Azure aos seus projetos.  A caixa de diálogo dos **Serviços Conectados** no Visual Studio fornece uma maneira fácil de adicionar todas as referências necessárias, código de conexão e as definições de configuração aos seus projetos.  Alguns serviços do Azure comumente usados têm suporte imediato, como [Armazenamento](/azure/vs-azure-tools-connected-services-storage), autenticação do [Azure Active Directory](/azure/active-directory/develop/vs-active-directory-add-connected-service), [Azure Key Vault](/azure/key-vault/vs-key-vault-add-connected-service) e [Serviços Cognitivos](/azure/cognitive-services/), como [Computer Vision](/azure/cognitive-services/computer-vision/vs-computer-vision-connected-service).  Mais serviços, incluindo os serviços de terceiros, estão disponíveis como extensões na [Visual Studio Marketplace](https://marketplace.visualstudio.com/search?term=connected%20service&target=VS&category=Tools&vsVersion=&subCategory=All&sortBy=Relevance).
 
 ## <a name="diagnosing-problems-in-the-cloud"></a>Diagnosticando problemas na nuvem
 Depois de implantar seu aplicativo no Azure, poderá haver situações em que ele funciona no desenvolvimento, mas não no Azure. Abaixo estão duas opções para começar a diagnosticar problemas:
