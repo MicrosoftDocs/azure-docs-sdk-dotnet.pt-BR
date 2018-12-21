@@ -1,6 +1,5 @@
 {
   "build": {
-    "markdownEngineName": "markdig",
     "content": [
       {
         "files": [
@@ -76,6 +75,7 @@
       "breadcrumb_path": "~/breadcrumb/toc.yml",
       "brand": "azure",
       "apiPlatform": "dotnet",
+      "titleSuffix": "Azure for .NET Developers",
       "_op_documentIdPathDepotMapping": {
         "./": {
           "folder_relative_path_in_docset": "api-index"
@@ -94,7 +94,7 @@
     "fileMetadata": {
       "feedback_system": 
       {
-             "api/**/*": "None"
+        "api/**/*": "None"
       },
       "ms.service": {
         "api/DeviceExplorer*.yml": "iot-hub",
@@ -200,6 +200,7 @@
         "api/**.yml": ["azure-dotnet-devcenter","azure-dotnet-devcenter-generated"]        
       }
     },
+    "markdownEngineName": "markdig",
     "dest": "_site",
     "template": [
       "docs.html"
