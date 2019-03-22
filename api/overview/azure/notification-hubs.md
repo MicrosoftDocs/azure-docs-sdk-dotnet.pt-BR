@@ -4,12 +4,12 @@ description: Referência para bibliotecas de Hubs de Notificação do Azure para
 ms.date: 10/19/2017
 ms.topic: reference
 ms.service: notification-hubs
-ms.openlocfilehash: 197ca22527a475b43b45149a40e96e5a027739ad
-ms.sourcegitcommit: 5d9b713653b3d03e1d0a67f6e126ee399d1c2a60
+ms.openlocfilehash: 750a51e8dfa7323f6afb54735b4bfc517f9ec15f
+ms.sourcegitcommit: 4b68c73652cb7e44cf4db36f70cb33a17dd863ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47190259"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "58085833"
 ---
 # <a name="azure-notification-hubs-libraries-for-net"></a>Bibliotecas de Hubs de Notificação do Azure para .NET
 
@@ -20,7 +20,7 @@ Os Hubs de Notificação do Azure fornecem um mecanismo de envio por push fácil
 Instale o [pacote NuGet](https://www.nuget.org/packages/Microsoft.Azure.NotificationHubs) diretamente do [console do Gerenciador de Pacotes][PackageManager] do Visual Studio ou com a [CLI do .NET Core][DotNetCLI].
 
 > [!NOTE]
-> Uma [nova versão de visualização do pacote NuGet](https://www.nuget.org/packages/Microsoft.Azure.NotificationHubs/2.0.0-preview1) agora oferece suporte ao .NET Standard, que permite aplicar o .NET Core ao uso dos Hubs de Notificação no back-end
+> O [pacote NuGet dos Hubs de Notificação do Azure](https://www.nuget.org/packages/Microsoft.Azure.NotificationHubs) agora dá suporte ao .NET Standard, que permite usar o .NET Core para a utilização em back-end dos Hubs de Notificação
 
 #### <a name="visual-studio-package-manager"></a>Gerenciador de Pacotes do Visual Studio
 
@@ -45,7 +45,6 @@ await hub.SendWindowsNativeNotificationAsync(toast);
 
 > [!div class="nextstepaction"]
 > [Explorar as APIs de cliente](/dotnet/api/overview/azure/notificationhubs/client)
-
 
 ## <a name="management-library"></a>Biblioteca de gerenciamento
 
