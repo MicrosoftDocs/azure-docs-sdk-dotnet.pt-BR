@@ -3,11 +3,11 @@ ms.service: multiple
 ms.date: 9/20/2018
 ms.topic: include
 ms.openlocfilehash: 5c8cb328802cfb94e944e4241852fb9568e8507f
-ms.sourcegitcommit: e25b6ac74033f3b0a7610bf66feb654acb43054c
+ms.sourcegitcommit: e534dad2d96b72ab6a9bc4b5567508962bd7e05c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/15/2018
-ms.locfileid: "53430504"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58343325"
 ---
 Seu aplicativo .NET precisa de permissões para ler e criar recursos na sua assinatura do Azure a fim de usar as bibliotecas de gerenciamento do Azure para .NET. Crie uma entidade de serviço e configure seu aplicativo para ser executado com suas credenciais e obter acesso. As entidades de serviço fornecem uma maneira de criar uma conta não interativa associada à sua identidade para a qual você concede apenas os privilégios de que seu aplicativo precisa para ser executado.
 
