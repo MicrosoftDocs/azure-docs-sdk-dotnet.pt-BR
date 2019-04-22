@@ -74,7 +74,7 @@ using (SqlConnection conn = new SqlConnection(connectionString))
 
 ## <a name="management-library"></a>Biblioteca de gerenciamento
 
-Use a biblioteca de gerenciamento do Banco de Dados SQL para criar, gerenciar e dimensionar as instâncias de servidor do Banco de Dados SQL.
+Use a biblioteca de gerenciamento do Banco de Dados SQL do Azure para criar, gerenciar e dimensionar as instâncias de servidor do Banco de Dados SQL do Azure.
 
 Instale o [pacote NuGet](https://www.nuget.org/packages/Microsoft.Azure.Management.Sql.Fluent/) diretamente do console do [Gerenciador de Pacotes](https://docs.microsoft.com/nuget/tools/package-manager-console) do Visual Studio ou com a [CLI do .NET Core](https://docs.microsoft.com/dotnet/core/tools/dotnet-add-package).
 
@@ -124,5 +124,5 @@ ISqlDatabase sqlDb = sqlServer.Databases.Define("DatabaseName").Create();
 - [Exemplos de código ADO.NET](/dotnet/framework/data/adonet/ado-net-code-examples)
 - [Bibliotecas de gerenciamento do Azure para exemplos de .NET para Banco de Dados SQL](/dotnet/azure/dotnet-sdk-azure-sql-database-samples)
 
-Veja a [lista completa](https://azure.microsoft.com/resources/samples/?platform=dotnet&term=sql+database) de exemplos do Banco de Dados SQL.
+Veja a [lista completa](https://azure.microsoft.com/resources/samples/?platform=dotnet&term=sql+database) de exemplos do Banco de Dados SQL do Azure.
 
