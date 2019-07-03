@@ -89,7 +89,8 @@
         "scripts/": {
           "folder_relative_path_in_docset": "scripts"
         }
-      }
+      },
+      "disable_contribution_on_translation_quality": ["MT"]
     },
     "fileMetadata": {
       "feedback_system": 
