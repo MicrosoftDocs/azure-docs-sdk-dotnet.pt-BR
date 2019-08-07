@@ -1,11 +1,49 @@
 {
-  "need_generate_pdf": false, 
-  "need_preview_pull_request": true, 
+  "docsets_to_publish": [],
+  "notification_subscribers": [],
   "branches_to_filter": [
     "live"
-  ], 
-  "enable_incremental_build": true, 
-  "SplitTOC": "api/toc.yml", 
+  ],
+  "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/azure-docs-sdk-dotnet.pt-br",
+  "git_repository_branch_open_to_public_contributors": "live",
+  "skip_source_output_uploading": false,
+  "need_preview_pull_request": true,
+  "enable_incremental_build": true,
+  "contribution_branch_mappings": {
+    "live-sxs": "live"
+  },
+  "dependent_repositories": [
+    {
+      "path_to_root": "_themes",
+      "url": "https://github.com/Microsoft/templates.docs.msft.pt-br",
+      "branch": "master",
+      "branch_mapping": {}
+    },
+    {
+      "path_to_root": "azure-storage-net",
+      "url": "https://github.com/Azure/azure-storage-net",
+      "branch": "master",
+      "branch_mapping": {}
+    },
+    {
+      "path_to_root": "aci-docs-sample-dotnet",
+      "url": "https://github.com/Azure-Samples/aci-docs-sample-dotnet",
+      "branch": "master",
+      "branch_mapping": {}
+    },
+    {
+      "path_to_root": "_repo.en-us",
+      "url": "https://github.com/Azure/azure-docs-sdk-dotnet",
+      "branch": "live",
+      "branch_mapping": {
+        "live": "live",
+        "master": "master"
+      }
+    }
+  ],
+  "need_generate_pdf_url_template": false,
+  "need_generate_pdf": false,
+  "SplitTOC": "api/toc.yml",
   "JoinTOCPlugin": [
     {
       "ReferenceTOC": "api/toc.yml",
@@ -22,85 +60,12 @@
       "HideEmptyNode": true
     }
   ],
-  "docsets_to_publish": [
-    {
-      "customized_tasks": {
-        "docset_postbuild": [
-          "_dependentPackages/ECMA2Yaml/tools/PostBuild.ps1"
-        ],
-        "docset_prebuild": [
-          "_dependentPackages/ECMA2Yaml/tools/Run.ps1",
-          "_dependentPackages/CommonPlugins/tools/SplitTOC.ps1",
-          "_dependentPackages/CommonPlugins/tools/JoinTOC.ps1",
-          "_dependentPackages/CommonPlugins/tools/DiffFolder.ps1"
-        ]
-      },
-      "customized_template_paths": [
-        "_dependentPackages/memberpage.plugins/content"
-      ], 
-      "build_output_subfolder": ".", 
-      "locale": "pt-br", 
-      "docset_name": "azuredotnet", 
-      "open_to_public_contributors": true, 
-      "monikers": [
-        "azure-dotnet"
-      ],
-      "version": 0,
-      "build_source_folder": ".",
-      "template_folder": "_themes",
-      "build_entry_point": "docs",
-      "type_mapping": {
-        "APIConnector": "Content",
-        "RestApi": "Content",
-        "LandingData": "Content",
-        "UniversalReference": "Content",
-        "ManagedReference": "Content",
-        "Conceptual": "Content"
-      }
-    }
-  ], 
-  "git_repository_branch_open_to_public_contributors": "live",
-  "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/azure-docs-sdk-dotnet.pt-br",
-  "contribution_branch_mappings": {
-    "live-sxs": "live"
-  },
-  "dependent_repositories": [
-    {
-      "url": "https://github.com/Microsoft/templates.docs.msft.pt-br", 
-      "branch_mapping": {}, 
-      "branch": "master", 
-      "path_to_root": "_themes"
-    },
-    {
-      "path_to_root": "azure-storage-net",
-      "url": "https://github.com/Azure/azure-storage-net",
-      "branch": "master",
-      "branch_mapping": {}
-    },
-    {
-      "path_to_root": "aci-docs-sample-dotnet",
-      "url": "https://github.com/Azure-Samples/aci-docs-sample-dotnet",
-      "branch": "master",
-      "branch_mapping": {}
-    },
-{
-      "path_to_root": "_repo.en-us",
-      "url": "https://github.com/Azure/azure-docs-sdk-dotnet",
-      "branch": "live",
-      "branch_mapping": {
-        "live": "live",
-        "master": "master"
-      }
-    }	  
-  ],
-  "notification_subscribers": [],
   "need_generate_intellisense": false,
   "ECMA2Yaml": {
     "OutputYamlFolder": "api",
     "SourceXmlFolder": "xml",
     "Flatten": true
   },
-  "skip_source_output_uploading": false,
   "DiffFolder": [
     "api"
   ],
@@ -126,6 +91,5 @@
       "id": "memberpage.plugins",
       "nuget_feed": "https://www.myget.org/F/docfx/api/v2"
     }
-  ],
-  "need_generate_pdf_url_template": false
+  ]
 }
